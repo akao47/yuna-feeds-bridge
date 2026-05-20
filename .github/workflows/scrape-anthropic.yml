@@ -1,0 +1,39 @@
+name: scrape-anthropic
+
+on:
+  schedule:
+    # 17 minutes past every 4th hour UTC. Offset from Yuna's RSS poll cadence
+    # so the freshest XML is on disk when Yuna's next poll fires.
+    - cron: '17 */4 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install deps
+        run: pip install httpx
+
+      - name: Run scraper
+        run: python scrape_anthropic.py
+
+      - name: Commit if changed
+        run: |
+          git config user.name 'yuna-feeds-bridge[bot]'
+          git config user.email 'noreply@github.com'
+          if [[ -n "$(git status --porcelain anthropic.xml)" ]]; then
+            git add anthropic.xml
+            git commit -m "scrape: refresh anthropic.xml ($(date -u +%Y-%m-%dT%H:%MZ))"
+            git push
+          else
+            echo "no change in anthropic.xml; skipping commit"
+          fi
