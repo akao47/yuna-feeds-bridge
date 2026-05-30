@@ -4,72 +4,72 @@
     <title>Anthropic News (yuna-feeds-bridge)</title>
     <link>https://www.anthropic.com/news</link>
     <description>RSS bridge for anthropic.com/news, scraped 4-hourly by GitHub Actions.</description>
-    <lastBuildDate>Sat, 30 May 2026 04:18:59 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 30 May 2026 10:18:48 +0000</lastBuildDate>
     <item>
       <title>Introducing Claude Opus 4.8 Product May 28, 2026 An upgrade to our Opus class of models, with stronger performance across coding, agentic tasks, and professional work, and the consistency to handle long-running work.</title>
       <link>https://www.anthropic.com/news/claude-opus-4-8</link>
       <guid isPermaLink="false">claude-opus-4-8</guid>
-      <pubDate>Sat, 30 May 2026 04:18:59 +0000</pubDate>
+      <pubDate>Sat, 30 May 2026 10:18:48 +0000</pubDate>
     </item>
     <item>
       <title>Product Apr 17, 2026 Introducing Claude Design by Anthropic Labs Today, we’re launching Claude Design, a new Anthropic Labs product that lets you collaborate with Claude to create polished visual work like designs, prototypes, slides, one-p</title>
       <link>https://www.anthropic.com/news/claude-design-anthropic-labs</link>
       <guid isPermaLink="false">claude-design-anthropic-labs</guid>
-      <pubDate>Sat, 30 May 2026 04:18:59 +0000</pubDate>
+      <pubDate>Sat, 30 May 2026 10:18:48 +0000</pubDate>
     </item>
     <item>
       <title>Announcements Feb 4, 2026 Claude is a space to think We’ve made a choice: Claude will remain ad-free. We explain why advertising incentives are incompatible with a genuinely helpful AI assistant, and how we plan to expand access without com</title>
       <link>https://www.anthropic.com/news/claude-is-a-space-to-think</link>
       <guid isPermaLink="false">claude-is-a-space-to-think</guid>
-      <pubDate>Sat, 30 May 2026 04:18:59 +0000</pubDate>
+      <pubDate>Sat, 30 May 2026 10:18:48 +0000</pubDate>
     </item>
     <item>
       <title>May 28, 2026 Announcements Anthropic raises $65B in Series H funding at $965B post-money valuation</title>
       <link>https://www.anthropic.com/news/series-h</link>
       <guid isPermaLink="false">series-h</guid>
-      <pubDate>Sat, 30 May 2026 04:18:59 +0000</pubDate>
+      <pubDate>Sat, 30 May 2026 10:18:48 +0000</pubDate>
     </item>
     <item>
       <title>May 27, 2026 Announcements Anthropic opens Milan office to support Italian enterprise, research, and developers</title>
       <link>https://www.anthropic.com/news/milan-office-opening</link>
       <guid isPermaLink="false">milan-office-opening</guid>
-      <pubDate>Sat, 30 May 2026 04:18:59 +0000</pubDate>
+      <pubDate>Sat, 30 May 2026 10:18:48 +0000</pubDate>
     </item>
     <item>
       <title>May 26, 2026 Announcements Anthropic appoints KiYoung Choi as Representative Director of Korea ahead of Seoul office opening</title>
       <link>https://www.anthropic.com/news/kiyoung-choi-representative-director-anthropic-korea</link>
       <guid isPermaLink="false">kiyoung-choi-representative-director-anthropic-korea</guid>
-      <pubDate>Sat, 30 May 2026 04:18:59 +0000</pubDate>
+      <pubDate>Sat, 30 May 2026 10:18:48 +0000</pubDate>
     </item>
     <item>
       <title>May 25, 2026 Announcements Anthropic co-founder Chris Olah's remarks on Pope Leo XIV's encyclical "Magnifica humanitas"</title>
       <link>https://www.anthropic.com/news/chris-olah-pope-leo-encyclical</link>
       <guid isPermaLink="false">chris-olah-pope-leo-encyclical</guid>
-      <pubDate>Sat, 30 May 2026 04:18:59 +0000</pubDate>
+      <pubDate>Sat, 30 May 2026 10:18:48 +0000</pubDate>
     </item>
     <item>
       <title>May 19, 2026 Announcements Widening the conversation on frontier AI</title>
       <link>https://www.anthropic.com/news/widening-conversation-ai</link>
       <guid isPermaLink="false">widening-conversation-ai</guid>
-      <pubDate>Sat, 30 May 2026 04:18:59 +0000</pubDate>
+      <pubDate>Sat, 30 May 2026 10:18:48 +0000</pubDate>
     </item>
     <item>
       <title>May 19, 2026 Announcements KPMG integrates Claude across its core business and workforce of more than 276,000 in strategic alliance</title>
       <link>https://www.anthropic.com/news/anthropic-kpmg</link>
       <guid isPermaLink="false">anthropic-kpmg</guid>
-      <pubDate>Sat, 30 May 2026 04:18:59 +0000</pubDate>
+      <pubDate>Sat, 30 May 2026 10:18:48 +0000</pubDate>
     </item>
     <item>
       <title>May 18, 2026 Announcements Anthropic acquires Stainless</title>
       <link>https://www.anthropic.com/news/anthropic-acquires-stainless</link>
       <guid isPermaLink="false">anthropic-acquires-stainless</guid>
-      <pubDate>Sat, 30 May 2026 04:18:59 +0000</pubDate>
+      <pubDate>Sat, 30 May 2026 10:18:48 +0000</pubDate>
     </item>
     <item>
       <title>May 14, 2026 Announcements PwC is deploying Claude to build technology, execute deals, and reinvent enterprise functions for clients</title>
       <link>https://www.anthropic.com/news/pwc-expanded-partnership</link>
       <guid isPermaLink="false">pwc-expanded-partnership</guid>
-      <pubDate>Sat, 30 May 2026 04:18:59 +0000</pubDate>
+      <pubDate>Sat, 30 May 2026 10:18:48 +0000</pubDate>
     </item>
   </channel>
 </rss>
