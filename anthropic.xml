@@ -4,72 +4,72 @@
     <title>Anthropic News (yuna-feeds-bridge)</title>
     <link>https://www.anthropic.com/news</link>
     <description>RSS bridge for anthropic.com/news, scraped 4-hourly by GitHub Actions.</description>
-    <lastBuildDate>Sun, 07 Jun 2026 14:21:09 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 07 Jun 2026 17:41:39 +0000</lastBuildDate>
     <item>
       <title>Introducing Claude Opus 4.8 Product May 28, 2026 An upgrade to our Opus class of models, with stronger performance across coding, agentic tasks, and professional work, and the consistency to handle long-running work.</title>
       <link>https://www.anthropic.com/news/claude-opus-4-8</link>
       <guid isPermaLink="false">claude-opus-4-8</guid>
-      <pubDate>Sun, 07 Jun 2026 14:21:09 +0000</pubDate>
+      <pubDate>Sun, 07 Jun 2026 17:41:39 +0000</pubDate>
     </item>
     <item>
       <title>Announcements Jun 2, 2026 Expanding Project Glasswing We’re extending Project Glasswing to approximately 150 new organizations in more than fifteen countries.</title>
       <link>https://www.anthropic.com/news/expanding-project-glasswing</link>
       <guid isPermaLink="false">expanding-project-glasswing</guid>
-      <pubDate>Sun, 07 Jun 2026 14:21:09 +0000</pubDate>
+      <pubDate>Sun, 07 Jun 2026 17:41:39 +0000</pubDate>
     </item>
     <item>
       <title>Announcements May 25, 2026 Anthropic co-founder Chris Olah's remarks on Pope Leo XIV's encyclical "Magnifica humanitas" The full text of Chris Olah's remarks on the Pope's encyclical on AI.</title>
       <link>https://www.anthropic.com/news/chris-olah-pope-leo-encyclical</link>
       <guid isPermaLink="false">chris-olah-pope-leo-encyclical</guid>
-      <pubDate>Sun, 07 Jun 2026 14:21:09 +0000</pubDate>
+      <pubDate>Sun, 07 Jun 2026 17:41:39 +0000</pubDate>
     </item>
     <item>
       <title>Announcements May 19, 2026 Widening the conversation on frontier AI Over the past several months, we’ve been organizing dialogues with groups whose work and traditions bear on the questions raised by AI.</title>
       <link>https://www.anthropic.com/news/widening-conversation-ai</link>
       <guid isPermaLink="false">widening-conversation-ai</guid>
-      <pubDate>Sun, 07 Jun 2026 14:21:09 +0000</pubDate>
+      <pubDate>Sun, 07 Jun 2026 17:41:39 +0000</pubDate>
     </item>
     <item>
       <title>Announcements Apr 24, 2026 An update on our election safeguards We explain what we’re doing to ensure Claude plays a positive role in the US midterms and other major elections around the world this year.</title>
       <link>https://www.anthropic.com/news/election-safeguards-update</link>
       <guid isPermaLink="false">election-safeguards-update</guid>
-      <pubDate>Sun, 07 Jun 2026 14:21:09 +0000</pubDate>
+      <pubDate>Sun, 07 Jun 2026 17:41:39 +0000</pubDate>
     </item>
     <item>
       <title>Jun 3, 2026 Announcements Introducing the Services Track and Partner Hub of the Claude Partner Network</title>
       <link>https://www.anthropic.com/news/services-track-partner-hub</link>
       <guid isPermaLink="false">services-track-partner-hub</guid>
-      <pubDate>Sun, 07 Jun 2026 14:21:09 +0000</pubDate>
+      <pubDate>Sun, 07 Jun 2026 17:41:39 +0000</pubDate>
     </item>
     <item>
       <title>Jun 3, 2026 Policy What we learned mapping a year’s worth of AI-enabled cyber threats</title>
       <link>https://www.anthropic.com/news/AI-enabled-cyber-threats-mitre-attack</link>
       <guid isPermaLink="false">AI-enabled-cyber-threats-mitre-attack</guid>
-      <pubDate>Sun, 07 Jun 2026 14:21:09 +0000</pubDate>
+      <pubDate>Sun, 07 Jun 2026 17:41:39 +0000</pubDate>
     </item>
     <item>
       <title>Jun 1, 2026 Announcements Anthropic confidentially submits draft S-1 to the SEC</title>
       <link>https://www.anthropic.com/news/confidential-draft-s1-sec</link>
       <guid isPermaLink="false">confidential-draft-s1-sec</guid>
-      <pubDate>Sun, 07 Jun 2026 14:21:09 +0000</pubDate>
+      <pubDate>Sun, 07 Jun 2026 17:41:39 +0000</pubDate>
     </item>
     <item>
       <title>May 28, 2026 Announcements Anthropic raises $65B in Series H funding at $965B post-money valuation</title>
       <link>https://www.anthropic.com/news/series-h</link>
       <guid isPermaLink="false">series-h</guid>
-      <pubDate>Sun, 07 Jun 2026 14:21:09 +0000</pubDate>
+      <pubDate>Sun, 07 Jun 2026 17:41:39 +0000</pubDate>
     </item>
     <item>
       <title>May 27, 2026 Announcements Anthropic opens Milan office to support Italian enterprise, research, and developers</title>
       <link>https://www.anthropic.com/news/milan-office-opening</link>
       <guid isPermaLink="false">milan-office-opening</guid>
-      <pubDate>Sun, 07 Jun 2026 14:21:09 +0000</pubDate>
+      <pubDate>Sun, 07 Jun 2026 17:41:39 +0000</pubDate>
     </item>
     <item>
       <title>May 26, 2026 Announcements Anthropic appoints KiYoung Choi as Representative Director of Korea ahead of Seoul office opening</title>
       <link>https://www.anthropic.com/news/kiyoung-choi-representative-director-anthropic-korea</link>
       <guid isPermaLink="false">kiyoung-choi-representative-director-anthropic-korea</guid>
-      <pubDate>Sun, 07 Jun 2026 14:21:09 +0000</pubDate>
+      <pubDate>Sun, 07 Jun 2026 17:41:39 +0000</pubDate>
     </item>
   </channel>
 </rss>
