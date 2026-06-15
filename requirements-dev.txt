@@ -1,0 +1,2 @@
+# Test deps for the bridge (run: pytest)
+pytest>=8

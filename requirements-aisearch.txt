@@ -1,0 +1,2 @@
+# ai-search.io bridge runtime (GB10). After install, run: playwright install chromium
+playwright>=1.40

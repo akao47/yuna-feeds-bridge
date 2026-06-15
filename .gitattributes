@@ -1,0 +1,4 @@
+# Authored on Windows, run-aisearch.sh executes on GB10 (Linux) — pin LF so CRLF
+# never breaks the bash script (or the Python) on checkout.
+* text=auto eol=lf
+*.sh text eol=lf
