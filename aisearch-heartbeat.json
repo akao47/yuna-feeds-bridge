@@ -1,0 +1,12 @@
+{
+  "source": "rss_aisearch",
+  "status": "ok",
+  "last_run": "2026-06-23T04:51:15Z",
+  "last_success": "2026-06-23T04:51:15Z",
+  "items_total": 40,
+  "items_new": 40,
+  "pages_walked": 4,
+  "stop_reason": "item_cap",
+  "pending_overflow": true,
+  "error": null
+}
