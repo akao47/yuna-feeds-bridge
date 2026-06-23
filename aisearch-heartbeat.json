@@ -1,12 +1,12 @@
 {
   "source": "rss_aisearch",
   "status": "ok",
-  "last_run": "2026-06-23T04:54:12Z",
-  "last_success": "2026-06-23T04:54:12Z",
-  "items_total": 80,
-  "items_new": 40,
-  "pages_walked": 10,
-  "stop_reason": "item_cap",
-  "pending_overflow": true,
+  "last_run": "2026-06-23T05:14:45Z",
+  "last_success": "2026-06-23T05:14:45Z",
+  "items_total": 106,
+  "items_new": 26,
+  "pages_walked": 12,
+  "stop_reason": "walk_cap",
+  "pending_overflow": false,
   "error": null
 }
