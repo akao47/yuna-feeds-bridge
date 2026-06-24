@@ -1,0 +1,7 @@
+# theAIsearch YouTube bridge runtime (GB10). ffmpeg MUST be on PATH (yt-dlp audio
+# extraction + faster-whisper ASR fallback both need it). The Ultra call goes to the
+# local GB10 engine-router (OpenAI-compatible), so no external LLM key is required.
+yt-dlp>=2024.8
+faster-whisper>=1.0
+openai>=1.30
+httpx>=0.27

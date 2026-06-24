@@ -4,6 +4,7 @@ RSS bridge for sources that don't publish a native feed. Currently:
 
 - **Anthropic news** (`anthropic.xml`) — scraped from <https://www.anthropic.com/news> every 4 hours via GitHub Actions.
 - **ai-search.io curated papers** (`aisearch.xml` + `aisearch.json`) — theAIsearch's curated arXiv picks, scraped from <https://ai-search.io/papers> on the GB10 box (see "ai-search.io curated papers" below).
+- **theAIsearch YouTube** (`aisearch_yt.xml` + `aisearch_yt.json`) — theAIsearch's AI-news/tool roundup videos, segmented + subject-routed for Yuna's `rss_aisearch_yt` source on the GB10 box (see "theAIsearch YouTube" below).
 
 Polled by [Yuna](https://github.com/akao47/Yuna) (founder-only, local-only) via the raw GitHub URL:
 
@@ -86,6 +87,59 @@ pip install -r requirements-dev.txt && pytest
 ```
 
 The page-walk takes an injected fetcher, so the watermark/normalize/emit logic is fully tested against a captured fixture (`tests/fixtures/`) with no network.
+
+## theAIsearch YouTube
+
+theAIsearch also publishes AI-news/tool **roundup videos** — one video covers several tools, each in its own chapter. Yuna's 2026-06-24 pivot treats this channel as the `rss_aisearch_yt` source: the bridge segments each video into per-tool knowledge units and **routes each to one of 7 subjects**, so Yuna files subject-organized knowledge (it no longer grades).
+
+The key shape fact (confirmed with the founder): **the description is only a skeleton** — a timestamp TOC of tool names + links, with *no* explanation. The actual content is in the video. So the bridge needs both: the description gives the segment **boundaries**, the **transcript** gives the content.
+
+**Runs on the GB10 box** — for the residential IP *and* because the per-segment routing call goes to the box's local engine-router (Ultra), so no external LLM key is needed.
+
+### Pipeline (per video)
+
+1. `yt-dlp` lists the channel's recent videos + fetches each one's metadata + transcript (manual/auto **captions**; **faster-whisper ASR fallback** when a video has none).
+2. `parse_toc(description)` → segment boundaries (start time + tool name + link). Segment *i* ends where *i+1* starts.
+3. The transcript is **sliced** by those boundaries, so each pre-bounded segment carries the words spoken about it.
+4. **Ultra** (local engine-router) summarizes each segment + routes it to a subject (or `unsorted`) + decides keep/drop (intros, outros, sponsor reads → dropped).
+5. Emit **one RSS item per video** (`<guid>`=video_id) + a sidecar entry keyed by video_id carrying `segments[]`.
+
+### Outputs (committed back, polled by Yuna)
+
+| File | What |
+|---|---|
+| `aisearch_yt.xml` | RSS 2.0, one item per video. `<guid>`=video_id, `<link>`=watch URL, `<pubDate>`=upload date, `<description>`=CDATA digest of the routed segments. |
+| `aisearch_yt.json` | Sidecar keyed by video_id: `{video_id, title, video_url, channel, upload_date, segments[], subjects[], transcript_source, schema_version}`. Each segment = `{start, end, tool_name, tool_url, subject, summary}`. Yuna merges `segments/subjects/transcript_source/schema_version` into the item's `extracted_metadata`. |
+| `aisearch_yt-heartbeat.json` | `{status, last_run, last_success, items_total, items_new, videos_listed, empty_videos, error}` — Yuna surfaces staleness via `/health/sources` (`aisearch_yt-heartbeat.json`). |
+
+The 7 subject slugs (the routing taxonomy SOT) live in `scrape_aisearch_yt.py` (`SUBJECT_SLUGS`): `claude-code`, `ai-dev-tooling`, `llms-foundation-models`, `retrieval-rag-memory`, `ai-content-generation`, `eval-model-quality`, `local-models-infra`, plus `unsorted`.
+
+**Loud-fail:** if the channel listing is empty, or more than `AISEARCH_YT_MAX_EMPTY_FRACTION` of a run's new videos yield no usable segments (TOC/transcript drift), the scraper writes **nothing** and exits non-zero (`status:error` heartbeat still written). A single video failing is swallowed to a warning so it can't sink the run.
+
+**Config** (env): `AISEARCH_YT_CHANNEL` (**confirm the exact handle on first deploy**), `AISEARCH_YT_MAX_NEW` (5, the Ultra-cost cap — new videos per run), `AISEARCH_YT_MAX_LIST` (30), `AISEARCH_YT_RSS_MAX` (100), `AISEARCH_YT_MAX_EMPTY_FRACTION` (0.75), `AISEARCH_YT_LLM_BASE_URL` (`http://localhost:18765/v1`), `AISEARCH_YT_LLM_MODEL` (`ultra/default`), `AISEARCH_YT_WHISPER_MODEL` (`base.en`), `AISEARCH_YT_BRIDGE_DISABLED`.
+
+### Deploy on GB10
+
+```bash
+cd ~/yuna-feeds-bridge
+python3 -m venv .venv-yt && . .venv-yt/bin/activate
+pip install -r requirements-aisearch-yt.txt
+# ffmpeg must be on PATH (audio extract + ASR). On the box: apt-get install ffmpeg
+AISEARCH_YT_CHANNEL="https://www.youtube.com/@theAIsearch/videos" \
+  AISEARCH_YT_PYTHON="$PWD/.venv-yt/bin/python" ./run-aisearch-yt.sh   # one manual run first
+# then crontab -e (offset from the arXiv bridge so the two don't push the same minute):
+#   23 */4 * * * AISEARCH_YT_PYTHON=~/yuna-feeds-bridge/.venv-yt/bin/python ~/yuna-feeds-bridge/run-aisearch-yt.sh >> ~/aisearch-yt-bridge.log 2>&1
+```
+
+> **Unverified until deployed:** the TOC parser, yt-dlp caption shape, and Ultra routing have only been tested against fixtures. The first GB10 run on a real video is the founder's routing-confirmation step (does each tool land in the right subject?) — the loud-fail + heartbeat make a regression visible, not silent. `faster-whisper` on GB10 (ARM64/Blackwell) is the other open risk; captions cover most theAIsearch videos, so ASR is a fallback.
+
+### Tests
+
+```bash
+pip install -r requirements-dev.txt && pytest tests/test_aisearch_yt.py
+```
+
+The impure edge (yt-dlp / faster-whisper / Ultra) is imported inside the functions that use it, so the pure transforms (TOC parse, VTT parse, slice, routing parse/assemble, RSS/sidecar/heartbeat) are fully tested with no network or model deps — including an end-to-end pipeline asserting the sidecar shape matches Yuna's `rss.py` contract.
 
 ## License
 
