@@ -576,12 +576,21 @@ def _make_ultra_router():
 
     def route(video_title: str, segments: list[dict]) -> list[dict]:
         prompt = build_routing_prompt(video_title, segments)
-        resp = client.chat.completions.create(
+        # The engine-router Ultra engine always streams (prefer_stream); a non-stream
+        # create() hands back the raw SSE body as a str. Stream and accumulate content
+        # deltas (skip reasoning_content; Nemotron Ultra is a reasoning model).
+        stream = client.chat.completions.create(
             model=LLM_MODEL,
             messages=[{"role": "user", "content": prompt}],
             temperature=0,
+            stream=True,
         )
-        return parse_routing_response(resp.choices[0].message.content or "", len(segments))
+        content = "".join(
+            chunk.choices[0].delta.content
+            for chunk in stream
+            if chunk.choices and chunk.choices[0].delta.content
+        )
+        return parse_routing_response(content, len(segments))
 
     return route
 
