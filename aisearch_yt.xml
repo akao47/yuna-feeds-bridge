@@ -184,5 +184,206 @@
 
 [llms-foundation-models] Specs and nerfing: The release page highlights Fable 5's 1M context window, code migration feats, and vision prowess, yet the publicly available model is heavily nerfed, refusing biology and security queries.]]></description>
     </item>
+    <item>
+      <title>New BEST local AI image generator is here!</title>
+      <link>https://www.youtube.com/watch?v=OA4gchz1Zcs</link>
+      <guid isPermaLink="false">OA4gchz1Zcs</guid>
+      <pubDate>Tue, 09 Jun 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[New BEST local AI image generator is here! — segmented AI-news roundup (14 segments).
+
+[ai-content-generation] Ideogram 4 intro: The video introduces Ideogram 4 as a powerful open-source image generator with strong prompt adherence and world understanding, and will cover its features and local installation for free offline use.
+
+[ai-content-generation] World knowledge: The presenter demonstrates Ideogram 4's ability to generate accurate video game characters like Mario and Link from text prompts, showing its inherent world knowledge.
+
+[ai-content-generation] Text rendering: Ideogram 4 excels at text rendering, correctly generating text with various typography and font styles as shown in a classic prompt example.
+
+[ai-content-generation] Prompt adherence: The model shows strong prompt adherence by generating complex scenes like a ballerina with a rabbit and elephant, and recursive images, accurately following detailed prompts.
+
+[ai-content-generation] Bounding box feature: A unique bounding box feature allows precise layout control by dragging boxes on a canvas to position elements like text, characters, and backgrounds for a music festival poster.
+
+[ai-content-generation] Incredible control: The bounding box system enables granular control over details such as hand poses, objects, and background elements, demonstrated by generating a detailed living room scene with specific placements.
+
+[ai-content-generation] Comics and manga: Ideogram 4 can create manga pages with panel compositions, sound effects, and speech bubbles, accurately following panel-by-panel instructions for a confrontation scene.
+
+[ai-content-generation] Ideogram with ComfyUI: The tutorial explains using ComfyUI with a custom KJ Prompt Builder workflow to run Ideogram 4 locally, leveraging CPU offloading to run on lower VRAM GPUs.
+
+[ai-content-generation] Installing Comfy manager: Installing ComfyUI Manager via command line to manage missing nodes and models, then enabling it in the run.bat file for the Ideogram workflow.
+
+[ai-content-generation] Installing KJ nodes: Manually installing the KJ Nodes custom node via Git clone into ComfyUI's custom nodes folder to get the Prompt Builder canvas for bounding boxes.
+
+[ai-content-generation] Installing Ideogram models: Downloading Ideogram 4 model files (main and unconditional) in FP8 or NVFP4 quantization, plus the Qwen 3 VLHB text encoder, into ComfyUI's diffusion models folder.
+
+[ai-content-generation] How to use Ideogram workflow: The workflow walkthrough sets aspect ratio, prompt, style, aesthetics, lighting, and medium, but notes that generation fails without bounding boxes due to a safety filter.
+
+[ai-content-generation] Safety filter: Drawing bounding boxes for each object bypasses the safety filter, and UI tips like Alt-click to select overlapping layers are demonstrated.
+
+[ai-content-generation] Adding text and other settings: Creating a matcha drink poster using text boxes for titles, labels, and logos, and duplicating elements for product variations.]]></description>
+    </item>
+    <item>
+      <title>Full body waifus, AI dreams, realtime AI music, open-source Gemini Omni: AI NEWS</title>
+      <link>https://www.youtube.com/watch?v=CzxqQJOswvo</link>
+      <guid isPermaLink="false">CzxqQJOswvo</guid>
+      <pubDate>Sun, 07 Jun 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[Full body waifus, AI dreams, realtime AI music, open-source Gemini Omni: AI NEWS — segmented AI-news roundup (23 segments).
+
+[ai-content-generation] Bernini: ByteDance releases Bernini, a flexible open-source video model that edits videos using text, image, or video references and can insert references into existing videos with consistent character rendering.
+
+[ai-content-generation] Deja View: NVIDIA releases Deja View, a 3D reconstruction model that creates 3D Gaussian splats from multiple images using a reusable transformer block, achieving high performance at 117M parameters with local download available.
+
+[ai-content-generation] PaGeR: Google and Meta release PaGeR, a panoramic geometry reconstruction model that predicts 360-degree scene geometry from a single panoramic image, with released code, models, and datasets for local use.
+
+[ai-content-generation] Magenta Realtime: Google releases Magenta RealTime 2, an open-source real-time music generator with 200ms latency that responds to MIDI, audio, and text input, runnable on a MacBook without GPU.
+
+[retrieval-rag-memory] GPT Dreaming: OpenAI upgrades ChatGPT with a 'dreaming' memory feature that synthesizes past conversations to keep context fresh, improving task accuracy and factual recall for free users.
+
+[ai-content-generation] Mamma: Researchers release MAMA, a markerless motion capture system that reconstructs detailed 3D human movement from multi-view video, trained on a 2.5M synthetic dataset with local inference code.
+
+[ai-content-generation] Reve 2: Reve 2 launches as a top-performing image model with a layout feature that structures images via bounding boxes for precise composition control, ranking second on Arena text-to-image leaderboard.
+
+[ai-content-generation] Ideogram v4: Ideogram 4 releases with improved text rendering and layout control via JSON-formatted prompts, supporting transparent image generation and local model access.
+
+[llms-foundation-models] Gemma4 12B: Google releases Gemma 4 12B, an encoder-free multimodal model supporting text, image, and audio with agentic reasoning, running locally on 16GB VRAM under Apache 2 license.
+
+[llms-foundation-models] Qwen 3.7 Plus: Alibaba releases Qwen 3.7 Plus, a multimodal agent model integrating vision and language for autonomous coding tasks, demonstrating 11-hour app creation and benchmark leadership.
+
+[ai-content-generation] Cosmos 3: NVIDIA releases Cosmos 3, an open-source foundation model for physical AI that generates synthetic training data for robotics and autonomous driving from text, video, and action inputs.
+
+[local-models-infra] RTX Spark: NVIDIA announces RTX Spark, a laptop superchip with 128GB unified memory, Blackwell GPU, and 20-core CPU to run local AI models offline on consumer Windows PCs.
+
+[ai-content-generation] Stable Layers: Stability AI previews Stable Layers, a tool that decomposes images into transparent editable layers using reinforcement learning, outperforming competitors on layer separation.
+
+[unsorted] Humanoid robot news: Deep Robotics demos the DR02 industrial humanoid robot, while UBTech teases a full-body realistic humanoid couple robot debuting later this month.
+
+[llms-foundation-models] Minimax M3: MiniMax announces M3, an open-source model with 1M token context, agentic coding, and multimodal support, leading open-model benchmarks with low API cost.
+
+[unsorted] Majorana 2: Microsoft unveils Majorana 2 quantum chip built with AI-discovery system, achieving 1000x qubit reliability and targeting scalable quantum computing by 2029.
+
+[ai-content-generation] WavTTS: ByteDance releases Wave TTS, a zero-shot text-to-speech model that clones voices from 3-4 seconds of audio with local inference and training scripts provided.
+
+[ai-content-generation] StreamChar: Alibaba demos Stream Character, a real-time streaming avatar system that generates long consistent videos from transcripts with motion control, requiring H100 for real-time.
+
+[ai-content-generation] OmniDreams: NVIDIA releases OmniDreams, a real-time generative world model for autonomous driving simulation that creates photorealistic multi-camera videos from trajectory inputs.
+
+[llms-foundation-models] Nemotron 3 Ultra: NVIDIA releases Nemotron 3 Ultra, a 550B MoE open-source model optimized for agentic workflows with 1M context, hybrid Mamba architecture, and NVFP4 quantization.
+
+[ai-content-generation] Higgs Audio v3: Higgs Audio V3 launches as a controllable TTS model using inline tags for emotion, speed, and sound effects, topping open-source TTS benchmarks at 9.3GB.
+
+[ai-content-generation] NAVA: Baidu releases Neva, a 6.3M parameter video generation framework with native audio-visual alignment, generating 720p videos with synchronized speech and sound.
+
+[llms-foundation-models] MAI Thinking and MAI image: Microsoft releases MAI Thinking One, a 35B active parameter reasoning model, and MAI Image 2.5, an image generator ranking behind GPT Image 2 on Arena leaderboard.]]></description>
+    </item>
+    <item>
+      <title>The BEST AI for 4K images. Free &amp; fast</title>
+      <link>https://www.youtube.com/watch?v=DlvhlQOBHBw</link>
+      <guid isPermaLink="false">DlvhlQOBHBw</guid>
+      <pubDate>Tue, 02 Jun 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[The BEST AI for 4K images. Free & fast — segmented AI-news roundup (10 segments).
+
+[ai-content-generation] PiD intro: Introduces Pixel Diffusion (PID), a new open-source Nvidia model that generates 4K resolution images quickly and with high detail.
+
+[ai-content-generation] Personal demos: Demonstrates PID's upscaling capabilities on various images including a tiger, cityscape, portrait, and night sky, showing significant detail improvement.
+
+[ai-content-generation] More demos and how it works: Explains that PID works in pixel space rather than latent space, allowing it to denoise high-resolution images directly for sharper 4K results with fewer artifacts.
+
+[ai-content-generation] PiD vs SeedVR2: Compares PID against SeedVR2, showing PID produces more consistent, detailed, and sharper results while being 5.9 times faster.
+
+[ai-content-generation] How to install: Walks through installing PID locally using ComfyUI, including updating ComfyUI and downloading workflow files.
+
+[ai-content-generation] Workflows: Describes three available workflows: basic text-to-image at 1K, upscaling existing images to 2K/4K, and generating with models like Flux then upscaling with PID.
+
+[ai-content-generation] PiD upscaler workflow: Details setting up the PID upscaler workflow, including downloading the Gemma 2 2B text encoder and selecting appropriate PID upscaler models for different base generators.
+
+[ai-content-generation] Before after slider: Shows a side-by-side comparison using an image comparer node, highlighting the sharpness and detail PID adds to an upscaled cityscape image.
+
+[ai-content-generation] Zimage to PiD: Demonstrates a workflow that generates an image with Z Image Turbo then upscales it with PID, covering model installation for Z Image and CLIP.
+
+[ai-content-generation] PiD text to image: Tests PID's native text-to-image capability, noting it only generates 1K images but is very fast, though lower quality than models like Flux.]]></description>
+    </item>
+    <item>
+      <title>Self-improving AI, Opus 4.8, Nvidia bangers, game-ready 3D models, juggling robots: AI NEWS</title>
+      <link>https://www.youtube.com/watch?v=RdqYvdT74i0</link>
+      <guid isPermaLink="false">RdqYvdT74i0</guid>
+      <pubDate>Sun, 31 May 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[Self-improving AI, Opus 4.8, Nvidia bangers, game-ready 3D models, juggling robots: AI NEWS — segmented AI-news roundup (23 segments).
+
+[llms-foundation-models] LocateAnything: Nvidia releases LocateAnything, a vision language grounding model for object detection and segmentation in images and videos, with parallel box decoding for speed and geometric consistency. The model is 3B parameters, 7.8GB, and can run on consumer GPUs; code and weights are available for local download and fine-tuning.
+
+[ai-content-generation] ControlLight: ControlLight is an AI image editing tool for relighting photos, allowing users to adjust brightness and lighting angle with a slider while preserving details and avoiding artifacts. It is based on Flux 2, runs locally on consumer devices, and is fully open source with code for inference and training.
+
+[ai-content-generation] TriSplat: TriSplat is a 3D reconstruction model that converts images into simulation-ready 3D scenes using triangle primitives instead of Gaussian splats, enabling faster conversion to usable meshes for robotics and game engines. The model is 4.4GB and runs locally; code and installation instructions are available.
+
+[ai-content-generation] PiD: Nvidia releases PID, a pixel diffusion decoder that upscales images directly in pixel space, achieving 2K resolution in under a second and outperforming other upscalers. It integrates with ComfyUI and supports Flux 2, SD3, and other models; code and local installation instructions are provided.
+
+[ai-content-generation] InstructAV2AV: InstructAV2AV is a system for jointly editing video and audio from a text prompt, capable of changing speech content, voice gender, and lip-sync. The code is released but model weights are not yet available.
+
+[ai-content-generation] GenRecon: GenRecon reconstructs 3D scenes from casual smartphone videos or images, producing PBR-ready meshes that can be relit and edited. It uses Trellis 2 as a generative shape prior for realistic reconstruction; only a technical paper is released so far.
+
+[ai-content-generation] Scope: Scope is a generative world model for first-person shooter games that generates real-time video responding to player actions like movement, shooting, and reloading. Trained on 70k clips, it outperforms other game generators; code, model (30GB), and dataset are released for local use.
+
+[ai-content-generation] PhysX Omni: PhysX Omni generates 3D objects with accurate geometry, materials, and articulation for physics simulations, unifying rigid and articulated objects in one framework. It outperforms competitors on benchmarks; code, training scripts, and dataset are released for local use.
+
+[eval-model-quality] DeepSWE: DeepSWE is a new benchmark for coding agents that tests real-world software engineering tasks across 91 repositories, using short prompts and behavioral verifiers to evaluate multi-step coding ability. Results show GPT 5.5 leading, followed by Claude and Gemini models.
+
+[llms-foundation-models] Opus 4.8: Anthropic releases Opus 4.8, claiming improvements in honesty, reduced hallucinations, and better agentic coding, reasoning, and computer use over Opus 4.7 and GPT 5.5, though independent benchmarks show mixed results. Pricing is slightly cheaper than GPT 5.5.
+
+[unsorted] Astribot T1: Astribot unveils the T1 humanoid robot for home use, priced around $13,000, capable of household chores like laundry, ironing, and bartending, but uses a wheeled base limiting stair navigation.
+
+[unsorted] Rai AthenaZero: Rye Institute's Athena Zero humanoid robot learns to juggle five different patterns in under 10 minutes, demonstrating high-speed adaptive control and real-time spatial computing.
+
+[llms-foundation-models] Step 3.7 Flash: StepFun releases Step 3.7 Flash, an efficient multimodal model for real-world agents that handles images, documents, and browser automation, performing near GPT 5.5 and Opus 4.7 on benchmarks. The 400GB model is open-sourced but requires high-end hardware.
+
+[ai-content-generation] CubePart: CubePart generates 3D objects from text prompts with automatic part decomposition, outputting separate meshes that assemble into articulated objects ready for games or simulation. The model is under 10GB and runs locally; code and instructions are released.
+
+[ai-content-generation] Relightable chars: Google unveils relightable hollowported characters, a method to capture moving humans with multiple cameras and render them in new scenes with adjustable lighting, though code is not yet released.
+
+[ai-dev-tooling] Self Improving AI: BEES (Bidirectional Evolutionary Search) is a self-improvement method for language models that uses forward and backward evolutionary search to find solutions more efficiently, showing gains on post-training tasks and benchmarks. Code is released for local experimentation.
+
+[ai-dev-tooling] AutoScientists: AutoScientist is an agentic framework where AI agents organize into research teams to autonomously explore scientific ideas in parallel, maintaining a shared state with experiment logs and dead-end registries to avoid redundant work. It aims to automate the messy process of scientific discovery.
+
+[ai-content-generation] Gamma World: Nvidia's Gamma World generates real-time multi-agent simulations for up to four players, using simplex rotary agent encoding to maintain consistency. Code, training scripts, and dataset preparation tools are planned for release.
+
+[ai-content-generation] Pantheon 360: Pantheon 360 generates consistent 360° panoramic videos from multiple 360° images and a camera path, using 3D point cloud reconstruction for stable digital twins, robotics, or autonomous driving training. Code release is planned.
+
+[ai-content-generation] Bonsai Image: Bonsai Image is a quantized version of Flux 2 Klein compressed to ~1GB, enabling local image generation on iPhone with 512x512 images in 9.4 seconds. Two variants (1-bit and ternary) are released with GitHub instructions.
+
+[llms-foundation-models] MiniCPM5 1B: MiniCPM5 1B is a 1-billion-parameter model that outperforms similar-sized models on knowledge, coding, math, and agentic benchmarks, while being only 2GB for local deployment on laptops or phones. Setup instructions for various platforms are provided.
+
+[ai-content-generation] Sega: Sega is a high-resolution image generation method that produces detailed 6K+ images with Flux or Quen bases, offering better consistency than other upscalers. Code is released for local use with Flux 1 or Quen image.
+
+[ai-content-generation] PixlRelight: Pixel Relights is an image relighting system that estimates a rough 3D understanding of a scene from a single photo and uses Blender to relight realistically from any angle. Code is released for local download and run.]]></description>
+    </item>
+    <item>
+      <title>The acceleration is here!</title>
+      <link>https://www.youtube.com/watch?v=QvN6Tu6dHYM</link>
+      <guid isPermaLink="false">QvN6Tu6dHYM</guid>
+      <pubDate>Thu, 28 May 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[The acceleration is here! — segmented AI-news roundup (13 segments).
+
+[ai-dev-tooling] Co-scientist by Google: Google's Co-Scientist is described as an ecosystem of specialized AI agents organized like a virtual lab, with a supervisor agent allocating tasks to generation and reflection agents that brainstorm and critically review hypotheses.
+
+[ai-dev-tooling] Self ranking system: Co-Scientist uses a ranking agent that runs automated ELO-rated tournaments where hypotheses debate head-to-head, judged by a separate AI model to surface the most robust ideas.
+
+[ai-dev-tooling] Co-scientist vs human experts: In a blind test on 15 unsolved biomedical goals, Co-Scientist's hypotheses were rated by independent human experts as significantly more novel, plausible, and impactful than those from human experts or other AI models.
+
+[ai-dev-tooling] Leukemia treatments: Applied to acute myeloid leukemia, Co-Scientist analyzed 2,300 FDA-approved drugs to identify repurposing candidates that could target dormant leukemia stem cells responsible for relapse.
+
+[ai-dev-tooling] More unexpected treatments: Co-Scientist proposed the novel hypothesis that KIRA 6, an IRE1 alpha inhibitor with no prior cancer link, could selectively kill leukemia cells by targeting their heightened protein-folding stress response.
+
+[ai-dev-tooling] Drug combo breakthrough: Co-Scientist predicted a synergistic three-drug combination (JQ1, Olaparib, MSA2) for leukemia, which was experimentally validated to be significantly more effective than single agents.
+
+[ai-dev-tooling] Liver fibrosis treatments: Co-Scientist identified new epigenetic targets for liver fibrosis and proposed repurposing the lymphoma drug vorinostat, which was experimentally shown to reduce liver scarring without toxicity.
+
+[ai-dev-tooling] Antibiotic resistance: Co-Scientist hypothesized that CF PICI genetic elements hijack phage tails to spread antibiotic resistance across bacterial species, a mechanism validated by the researchers in two days.
+
+[ai-dev-tooling] Robin agent system: The Robin system, published in Nature the same week, is a closed-loop multi-agent system that manages the entire scientific cycle, using agents like Crow for literature review and Falcon for deep-dive reports.
+
+[ai-dev-tooling] Consensus mechanism: Robin's Finch agent analyzes raw lab data by launching eight parallel instances that clean, code, and reach conclusions independently, accepting only results with majority consensus for reliability.
+
+[ai-dev-tooling] Macular degeneration: Tasked with dry age-related macular degeneration, Robin hypothesized targeting RPE phagocytosis, suggested 30 existing drugs, and after human testing, Finch's consensus identified Y27632 as significantly enhancing the garbage disposal function.
+
+[ai-dev-tooling] Finding genetic connections: Robin iteratively directed RNA sequencing on treated cells, and Finch's volcano plot analysis revealed massive upregulation of ABCA1, a cholesterol pump linked to the major genetic risk factor APOE for macular degeneration.
+
+[ai-dev-tooling] More treatment discoveries: Using the ABCA1 insight, Robin proposed ripasudil (an approved eye drop) and KL001 (a circadian clock modulator), both of which outperformed the initial drug in clearing cellular waste with less toxicity.]]></description>
+    </item>
   </channel>
 </rss>

@@ -237,6 +237,335 @@
   "video_id": "6d__WOpZswY",
   "video_url": "https://www.youtube.com/watch?v=6d__WOpZswY"
  },
+ "CzxqQJOswvo": {
+  "channel": "AI Search",
+  "schema_version": 2,
+  "segments": [
+   {
+    "end": "3:43",
+    "start": "0:55",
+    "sub_subject": "video",
+    "subject": "ai-content-generation",
+    "summary": "ByteDance releases Bernini, a flexible open-source video model that edits videos using text, image, or video references and can insert references into existing videos with consistent character rendering.",
+    "tool_name": "Bernini",
+    "tool_url": null
+   },
+   {
+    "end": "5:24",
+    "start": "3:43",
+    "sub_subject": "3d-world-motion",
+    "subject": "ai-content-generation",
+    "summary": "NVIDIA releases Deja View, a 3D reconstruction model that creates 3D Gaussian splats from multiple images using a reusable transformer block, achieving high performance at 117M parameters with local download available.",
+    "tool_name": "Deja View",
+    "tool_url": null
+   },
+   {
+    "end": "7:07",
+    "start": "5:24",
+    "sub_subject": "3d-world-motion",
+    "subject": "ai-content-generation",
+    "summary": "Google and Meta release PaGeR, a panoramic geometry reconstruction model that predicts 360-degree scene geometry from a single panoramic image, with released code, models, and datasets for local use.",
+    "tool_name": "PaGeR",
+    "tool_url": null
+   },
+   {
+    "end": "9:46",
+    "start": "7:07",
+    "sub_subject": "audio-music-tts",
+    "subject": "ai-content-generation",
+    "summary": "Google releases Magenta RealTime 2, an open-source real-time music generator with 200ms latency that responds to MIDI, audio, and text input, runnable on a MacBook without GPU.",
+    "tool_name": "Magenta Realtime",
+    "tool_url": null
+   },
+   {
+    "end": "11:30",
+    "start": "9:46",
+    "sub_subject": "memory",
+    "subject": "retrieval-rag-memory",
+    "summary": "OpenAI upgrades ChatGPT with a 'dreaming' memory feature that synthesizes past conversations to keep context fresh, improving task accuracy and factual recall for free users.",
+    "tool_name": "GPT Dreaming",
+    "tool_url": null
+   },
+   {
+    "end": "13:04",
+    "start": "11:30",
+    "sub_subject": "3d-world-motion",
+    "subject": "ai-content-generation",
+    "summary": "Researchers release MAMA, a markerless motion capture system that reconstructs detailed 3D human movement from multi-view video, trained on a 2.5M synthetic dataset with local inference code.",
+    "tool_name": "Mamma",
+    "tool_url": null
+   },
+   {
+    "end": "14:48",
+    "start": "13:04",
+    "sub_subject": "image",
+    "subject": "ai-content-generation",
+    "summary": "Reve 2 launches as a top-performing image model with a layout feature that structures images via bounding boxes for precise composition control, ranking second on Arena text-to-image leaderboard.",
+    "tool_name": "Reve 2",
+    "tool_url": null
+   },
+   {
+    "end": "20:24",
+    "start": "16:00",
+    "sub_subject": "image",
+    "subject": "ai-content-generation",
+    "summary": "Ideogram 4 releases with improved text rendering and layout control via JSON-formatted prompts, supporting transparent image generation and local model access.",
+    "tool_name": "Ideogram v4",
+    "tool_url": null
+   },
+   {
+    "end": "22:43",
+    "start": "20:24",
+    "sub_subject": "model-release",
+    "subject": "llms-foundation-models",
+    "summary": "Google releases Gemma 4 12B, an encoder-free multimodal model supporting text, image, and audio with agentic reasoning, running locally on 16GB VRAM under Apache 2 license.",
+    "tool_name": "Gemma4 12B",
+    "tool_url": null
+   },
+   {
+    "end": "24:50",
+    "start": "22:43",
+    "sub_subject": "model-release",
+    "subject": "llms-foundation-models",
+    "summary": "Alibaba releases Qwen 3.7 Plus, a multimodal agent model integrating vision and language for autonomous coding tasks, demonstrating 11-hour app creation and benchmark leadership.",
+    "tool_name": "Qwen 3.7 Plus",
+    "tool_url": null
+   },
+   {
+    "end": "26:37",
+    "start": "24:50",
+    "sub_subject": "3d-world-motion",
+    "subject": "ai-content-generation",
+    "summary": "NVIDIA releases Cosmos 3, an open-source foundation model for physical AI that generates synthetic training data for robotics and autonomous driving from text, video, and action inputs.",
+    "tool_name": "Cosmos 3",
+    "tool_url": null
+   },
+   {
+    "end": "28:14",
+    "start": "26:37",
+    "sub_subject": "hardware",
+    "subject": "local-models-infra",
+    "summary": "NVIDIA announces RTX Spark, a laptop superchip with 128GB unified memory, Blackwell GPU, and 20-core CPU to run local AI models offline on consumer Windows PCs.",
+    "tool_name": "RTX Spark",
+    "tool_url": null
+   },
+   {
+    "end": "29:44",
+    "start": "28:14",
+    "sub_subject": "image",
+    "subject": "ai-content-generation",
+    "summary": "Stability AI previews Stable Layers, a tool that decomposes images into transparent editable layers using reinforcement learning, outperforming competitors on layer separation.",
+    "tool_name": "Stable Layers",
+    "tool_url": null
+   },
+   {
+    "end": "31:19",
+    "start": "29:44",
+    "sub_subject": null,
+    "subject": "unsorted",
+    "summary": "Deep Robotics demos the DR02 industrial humanoid robot, while UBTech teases a full-body realistic humanoid couple robot debuting later this month.",
+    "tool_name": "Humanoid robot news",
+    "tool_url": null
+   },
+   {
+    "end": "34:17",
+    "start": "31:19",
+    "sub_subject": "model-release",
+    "subject": "llms-foundation-models",
+    "summary": "MiniMax announces M3, an open-source model with 1M token context, agentic coding, and multimodal support, leading open-model benchmarks with low API cost.",
+    "tool_name": "Minimax M3",
+    "tool_url": null
+   },
+   {
+    "end": "36:08",
+    "start": "34:17",
+    "sub_subject": null,
+    "subject": "unsorted",
+    "summary": "Microsoft unveils Majorana 2 quantum chip built with AI-discovery system, achieving 1000x qubit reliability and targeting scalable quantum computing by 2029.",
+    "tool_name": "Majorana 2",
+    "tool_url": null
+   },
+   {
+    "end": "37:44",
+    "start": "36:08",
+    "sub_subject": "audio-music-tts",
+    "subject": "ai-content-generation",
+    "summary": "ByteDance releases Wave TTS, a zero-shot text-to-speech model that clones voices from 3-4 seconds of audio with local inference and training scripts provided.",
+    "tool_name": "WavTTS",
+    "tool_url": null
+   },
+   {
+    "end": "39:55",
+    "start": "37:44",
+    "sub_subject": "video",
+    "subject": "ai-content-generation",
+    "summary": "Alibaba demos Stream Character, a real-time streaming avatar system that generates long consistent videos from transcripts with motion control, requiring H100 for real-time.",
+    "tool_name": "StreamChar",
+    "tool_url": null
+   },
+   {
+    "end": "41:29",
+    "start": "39:55",
+    "sub_subject": "3d-world-motion",
+    "subject": "ai-content-generation",
+    "summary": "NVIDIA releases OmniDreams, a real-time generative world model for autonomous driving simulation that creates photorealistic multi-camera videos from trajectory inputs.",
+    "tool_name": "OmniDreams",
+    "tool_url": null
+   },
+   {
+    "end": "43:07",
+    "start": "41:29",
+    "sub_subject": "model-release",
+    "subject": "llms-foundation-models",
+    "summary": "NVIDIA releases Nemotron 3 Ultra, a 550B MoE open-source model optimized for agentic workflows with 1M context, hybrid Mamba architecture, and NVFP4 quantization.",
+    "tool_name": "Nemotron 3 Ultra",
+    "tool_url": null
+   },
+   {
+    "end": "44:50",
+    "start": "43:07",
+    "sub_subject": "audio-music-tts",
+    "subject": "ai-content-generation",
+    "summary": "Higgs Audio V3 launches as a controllable TTS model using inline tags for emotion, speed, and sound effects, topping open-source TTS benchmarks at 9.3GB.",
+    "tool_name": "Higgs Audio v3",
+    "tool_url": null
+   },
+   {
+    "end": "46:43",
+    "start": "44:50",
+    "sub_subject": "video",
+    "subject": "ai-content-generation",
+    "summary": "Baidu releases Neva, a 6.3M parameter video generation framework with native audio-visual alignment, generating 720p videos with synchronized speech and sound.",
+    "tool_name": "NAVA",
+    "tool_url": null
+   },
+   {
+    "end": "49:09",
+    "start": "46:43",
+    "sub_subject": "model-release",
+    "subject": "llms-foundation-models",
+    "summary": "Microsoft releases MAI Thinking One, a 35B active parameter reasoning model, and MAI Image 2.5, an image generator ranking behind GPT Image 2 on Arena leaderboard.",
+    "tool_name": "MAI Thinking and MAI image",
+    "tool_url": null
+   }
+  ],
+  "subjects": [
+   "ai-content-generation",
+   "llms-foundation-models",
+   "local-models-infra",
+   "retrieval-rag-memory",
+   "unsorted"
+  ],
+  "title": "Full body waifus, AI dreams, realtime AI music, open-source Gemini Omni: AI NEWS",
+  "transcript_source": "auto-captions",
+  "upload_date": "20260607",
+  "video_id": "CzxqQJOswvo",
+  "video_url": "https://www.youtube.com/watch?v=CzxqQJOswvo"
+ },
+ "DlvhlQOBHBw": {
+  "channel": "AI Search",
+  "schema_version": 2,
+  "segments": [
+   {
+    "end": "0:19",
+    "start": "0:00",
+    "sub_subject": "image",
+    "subject": "ai-content-generation",
+    "summary": "Introduces Pixel Diffusion (PID), a new open-source Nvidia model that generates 4K resolution images quickly and with high detail.",
+    "tool_name": "PiD intro",
+    "tool_url": null
+   },
+   {
+    "end": "2:00",
+    "start": "0:19",
+    "sub_subject": "image",
+    "subject": "ai-content-generation",
+    "summary": "Demonstrates PID's upscaling capabilities on various images including a tiger, cityscape, portrait, and night sky, showing significant detail improvement.",
+    "tool_name": "Personal demos",
+    "tool_url": null
+   },
+   {
+    "end": "2:52",
+    "start": "2:00",
+    "sub_subject": "image",
+    "subject": "ai-content-generation",
+    "summary": "Explains that PID works in pixel space rather than latent space, allowing it to denoise high-resolution images directly for sharper 4K results with fewer artifacts.",
+    "tool_name": "More demos and how it works",
+    "tool_url": null
+   },
+   {
+    "end": "4:14",
+    "start": "2:52",
+    "sub_subject": "image",
+    "subject": "ai-content-generation",
+    "summary": "Compares PID against SeedVR2, showing PID produces more consistent, detailed, and sharper results while being 5.9 times faster.",
+    "tool_name": "PiD vs SeedVR2",
+    "tool_url": null
+   },
+   {
+    "end": "5:49",
+    "start": "4:14",
+    "sub_subject": "generation-setup",
+    "subject": "ai-content-generation",
+    "summary": "Walks through installing PID locally using ComfyUI, including updating ComfyUI and downloading workflow files.",
+    "tool_name": "How to install",
+    "tool_url": null
+   },
+   {
+    "end": "6:24",
+    "start": "5:49",
+    "sub_subject": "generation-setup",
+    "subject": "ai-content-generation",
+    "summary": "Describes three available workflows: basic text-to-image at 1K, upscaling existing images to 2K/4K, and generating with models like Flux then upscaling with PID.",
+    "tool_name": "Workflows",
+    "tool_url": null
+   },
+   {
+    "end": "11:46",
+    "start": "6:24",
+    "sub_subject": "generation-setup",
+    "subject": "ai-content-generation",
+    "summary": "Details setting up the PID upscaler workflow, including downloading the Gemma 2 2B text encoder and selecting appropriate PID upscaler models for different base generators.",
+    "tool_name": "PiD upscaler workflow",
+    "tool_url": null
+   },
+   {
+    "end": "14:06",
+    "start": "13:16",
+    "sub_subject": "image",
+    "subject": "ai-content-generation",
+    "summary": "Shows a side-by-side comparison using an image comparer node, highlighting the sharpness and detail PID adds to an upscaled cityscape image.",
+    "tool_name": "Before after slider",
+    "tool_url": null
+   },
+   {
+    "end": "19:55",
+    "start": "14:06",
+    "sub_subject": "generation-setup",
+    "subject": "ai-content-generation",
+    "summary": "Demonstrates a workflow that generates an image with Z Image Turbo then upscales it with PID, covering model installation for Z Image and CLIP.",
+    "tool_name": "Zimage to PiD",
+    "tool_url": null
+   },
+   {
+    "end": "23:08",
+    "start": "19:55",
+    "sub_subject": "image",
+    "subject": "ai-content-generation",
+    "summary": "Tests PID's native text-to-image capability, noting it only generates 1K images but is very fast, though lower quality than models like Flux.",
+    "tool_name": "PiD text to image",
+    "tool_url": null
+   }
+  ],
+  "subjects": [
+   "ai-content-generation"
+  ],
+  "title": "The BEST AI for 4K images. Free & fast",
+  "transcript_source": "auto-captions",
+  "upload_date": "20260602",
+  "video_id": "DlvhlQOBHBw",
+  "video_url": "https://www.youtube.com/watch?v=DlvhlQOBHBw"
+ },
  "GUEE9OA4keo": {
   "channel": "AI Search",
   "schema_version": 2,
@@ -351,6 +680,502 @@
   "upload_date": "20260611",
   "video_id": "GUEE9OA4keo",
   "video_url": "https://www.youtube.com/watch?v=GUEE9OA4keo"
+ },
+ "OA4gchz1Zcs": {
+  "channel": "AI Search",
+  "schema_version": 2,
+  "segments": [
+   {
+    "end": "0:43",
+    "start": "0:00",
+    "sub_subject": "image",
+    "subject": "ai-content-generation",
+    "summary": "The video introduces Ideogram 4 as a powerful open-source image generator with strong prompt adherence and world understanding, and will cover its features and local installation for free offline use.",
+    "tool_name": "Ideogram 4 intro",
+    "tool_url": null
+   },
+   {
+    "end": "1:16",
+    "start": "0:43",
+    "sub_subject": "image",
+    "subject": "ai-content-generation",
+    "summary": "The presenter demonstrates Ideogram 4's ability to generate accurate video game characters like Mario and Link from text prompts, showing its inherent world knowledge.",
+    "tool_name": "World knowledge",
+    "tool_url": null
+   },
+   {
+    "end": "1:33",
+    "start": "1:16",
+    "sub_subject": "image",
+    "subject": "ai-content-generation",
+    "summary": "Ideogram 4 excels at text rendering, correctly generating text with various typography and font styles as shown in a classic prompt example.",
+    "tool_name": "Text rendering",
+    "tool_url": null
+   },
+   {
+    "end": "2:42",
+    "start": "1:33",
+    "sub_subject": "image",
+    "subject": "ai-content-generation",
+    "summary": "The model shows strong prompt adherence by generating complex scenes like a ballerina with a rabbit and elephant, and recursive images, accurately following detailed prompts.",
+    "tool_name": "Prompt adherence",
+    "tool_url": null
+   },
+   {
+    "end": "4:38",
+    "start": "2:42",
+    "sub_subject": "image",
+    "subject": "ai-content-generation",
+    "summary": "A unique bounding box feature allows precise layout control by dragging boxes on a canvas to position elements like text, characters, and backgrounds for a music festival poster.",
+    "tool_name": "Bounding box feature",
+    "tool_url": null
+   },
+   {
+    "end": "6:32",
+    "start": "4:38",
+    "sub_subject": "image",
+    "subject": "ai-content-generation",
+    "summary": "The bounding box system enables granular control over details such as hand poses, objects, and background elements, demonstrated by generating a detailed living room scene with specific placements.",
+    "tool_name": "Incredible control",
+    "tool_url": null
+   },
+   {
+    "end": "8:13",
+    "start": "6:32",
+    "sub_subject": "image",
+    "subject": "ai-content-generation",
+    "summary": "Ideogram 4 can create manga pages with panel compositions, sound effects, and speech bubbles, accurately following panel-by-panel instructions for a confrontation scene.",
+    "tool_name": "Comics and manga",
+    "tool_url": null
+   },
+   {
+    "end": "10:00",
+    "start": "8:13",
+    "sub_subject": "generation-setup",
+    "subject": "ai-content-generation",
+    "summary": "The tutorial explains using ComfyUI with a custom KJ Prompt Builder workflow to run Ideogram 4 locally, leveraging CPU offloading to run on lower VRAM GPUs.",
+    "tool_name": "Ideogram with ComfyUI",
+    "tool_url": null
+   },
+   {
+    "end": "13:24",
+    "start": "11:37",
+    "sub_subject": "generation-setup",
+    "subject": "ai-content-generation",
+    "summary": "Installing ComfyUI Manager via command line to manage missing nodes and models, then enabling it in the run.bat file for the Ideogram workflow.",
+    "tool_name": "Installing Comfy manager",
+    "tool_url": null
+   },
+   {
+    "end": "14:55",
+    "start": "13:24",
+    "sub_subject": "generation-setup",
+    "subject": "ai-content-generation",
+    "summary": "Manually installing the KJ Nodes custom node via Git clone into ComfyUI's custom nodes folder to get the Prompt Builder canvas for bounding boxes.",
+    "tool_name": "Installing KJ nodes",
+    "tool_url": null
+   },
+   {
+    "end": "17:51",
+    "start": "14:55",
+    "sub_subject": "generation-setup",
+    "subject": "ai-content-generation",
+    "summary": "Downloading Ideogram 4 model files (main and unconditional) in FP8 or NVFP4 quantization, plus the Qwen 3 VLHB text encoder, into ComfyUI's diffusion models folder.",
+    "tool_name": "Installing Ideogram models",
+    "tool_url": null
+   },
+   {
+    "end": "19:45",
+    "start": "17:51",
+    "sub_subject": "generation-setup",
+    "subject": "ai-content-generation",
+    "summary": "The workflow walkthrough sets aspect ratio, prompt, style, aesthetics, lighting, and medium, but notes that generation fails without bounding boxes due to a safety filter.",
+    "tool_name": "How to use Ideogram workflow",
+    "tool_url": null
+   },
+   {
+    "end": "22:05",
+    "start": "19:45",
+    "sub_subject": "generation-setup",
+    "subject": "ai-content-generation",
+    "summary": "Drawing bounding boxes for each object bypasses the safety filter, and UI tips like Alt-click to select overlapping layers are demonstrated.",
+    "tool_name": "Safety filter",
+    "tool_url": null
+   },
+   {
+    "end": "28:32",
+    "start": "22:05",
+    "sub_subject": "generation-setup",
+    "subject": "ai-content-generation",
+    "summary": "Creating a matcha drink poster using text boxes for titles, labels, and logos, and duplicating elements for product variations.",
+    "tool_name": "Adding text and other settings",
+    "tool_url": null
+   }
+  ],
+  "subjects": [
+   "ai-content-generation"
+  ],
+  "title": "New BEST local AI image generator is here!",
+  "transcript_source": "auto-captions",
+  "upload_date": "20260609",
+  "video_id": "OA4gchz1Zcs",
+  "video_url": "https://www.youtube.com/watch?v=OA4gchz1Zcs"
+ },
+ "QvN6Tu6dHYM": {
+  "channel": "AI Search",
+  "schema_version": 2,
+  "segments": [
+   {
+    "end": "3:49",
+    "start": "0:56",
+    "sub_subject": "autonomous-research",
+    "subject": "ai-dev-tooling",
+    "summary": "Google's Co-Scientist is described as an ecosystem of specialized AI agents organized like a virtual lab, with a supervisor agent allocating tasks to generation and reflection agents that brainstorm and critically review hypotheses.",
+    "tool_name": "Co-scientist by Google",
+    "tool_url": null
+   },
+   {
+    "end": "5:20",
+    "start": "3:49",
+    "sub_subject": "autonomous-research",
+    "subject": "ai-dev-tooling",
+    "summary": "Co-Scientist uses a ranking agent that runs automated ELO-rated tournaments where hypotheses debate head-to-head, judged by a separate AI model to surface the most robust ideas.",
+    "tool_name": "Self ranking system",
+    "tool_url": null
+   },
+   {
+    "end": "6:30",
+    "start": "5:20",
+    "sub_subject": "autonomous-research",
+    "subject": "ai-dev-tooling",
+    "summary": "In a blind test on 15 unsolved biomedical goals, Co-Scientist's hypotheses were rated by independent human experts as significantly more novel, plausible, and impactful than those from human experts or other AI models.",
+    "tool_name": "Co-scientist vs human experts",
+    "tool_url": null
+   },
+   {
+    "end": "9:45",
+    "start": "6:30",
+    "sub_subject": "autonomous-research",
+    "subject": "ai-dev-tooling",
+    "summary": "Applied to acute myeloid leukemia, Co-Scientist analyzed 2,300 FDA-approved drugs to identify repurposing candidates that could target dormant leukemia stem cells responsible for relapse.",
+    "tool_name": "Leukemia treatments",
+    "tool_url": null
+   },
+   {
+    "end": "12:44",
+    "start": "9:45",
+    "sub_subject": "autonomous-research",
+    "subject": "ai-dev-tooling",
+    "summary": "Co-Scientist proposed the novel hypothesis that KIRA 6, an IRE1 alpha inhibitor with no prior cancer link, could selectively kill leukemia cells by targeting their heightened protein-folding stress response.",
+    "tool_name": "More unexpected treatments",
+    "tool_url": null
+   },
+   {
+    "end": "14:36",
+    "start": "12:44",
+    "sub_subject": "autonomous-research",
+    "subject": "ai-dev-tooling",
+    "summary": "Co-Scientist predicted a synergistic three-drug combination (JQ1, Olaparib, MSA2) for leukemia, which was experimentally validated to be significantly more effective than single agents.",
+    "tool_name": "Drug combo breakthrough",
+    "tool_url": null
+   },
+   {
+    "end": "18:22",
+    "start": "16:39",
+    "sub_subject": "autonomous-research",
+    "subject": "ai-dev-tooling",
+    "summary": "Co-Scientist identified new epigenetic targets for liver fibrosis and proposed repurposing the lymphoma drug vorinostat, which was experimentally shown to reduce liver scarring without toxicity.",
+    "tool_name": "Liver fibrosis treatments",
+    "tool_url": null
+   },
+   {
+    "end": "21:18",
+    "start": "18:22",
+    "sub_subject": "autonomous-research",
+    "subject": "ai-dev-tooling",
+    "summary": "Co-Scientist hypothesized that CF PICI genetic elements hijack phage tails to spread antibiotic resistance across bacterial species, a mechanism validated by the researchers in two days.",
+    "tool_name": "Antibiotic resistance",
+    "tool_url": null
+   },
+   {
+    "end": "24:28",
+    "start": "21:18",
+    "sub_subject": "autonomous-research",
+    "subject": "ai-dev-tooling",
+    "summary": "The Robin system, published in Nature the same week, is a closed-loop multi-agent system that manages the entire scientific cycle, using agents like Crow for literature review and Falcon for deep-dive reports.",
+    "tool_name": "Robin agent system",
+    "tool_url": null
+   },
+   {
+    "end": "26:06",
+    "start": "24:28",
+    "sub_subject": "autonomous-research",
+    "subject": "ai-dev-tooling",
+    "summary": "Robin's Finch agent analyzes raw lab data by launching eight parallel instances that clean, code, and reach conclusions independently, accepting only results with majority consensus for reliability.",
+    "tool_name": "Consensus mechanism",
+    "tool_url": null
+   },
+   {
+    "end": "28:21",
+    "start": "26:06",
+    "sub_subject": "autonomous-research",
+    "subject": "ai-dev-tooling",
+    "summary": "Tasked with dry age-related macular degeneration, Robin hypothesized targeting RPE phagocytosis, suggested 30 existing drugs, and after human testing, Finch's consensus identified Y27632 as significantly enhancing the garbage disposal function.",
+    "tool_name": "Macular degeneration",
+    "tool_url": null
+   },
+   {
+    "end": "30:25",
+    "start": "28:21",
+    "sub_subject": "autonomous-research",
+    "subject": "ai-dev-tooling",
+    "summary": "Robin iteratively directed RNA sequencing on treated cells, and Finch's volcano plot analysis revealed massive upregulation of ABCA1, a cholesterol pump linked to the major genetic risk factor APOE for macular degeneration.",
+    "tool_name": "Finding genetic connections",
+    "tool_url": null
+   },
+   {
+    "end": "33:23",
+    "start": "30:25",
+    "sub_subject": "autonomous-research",
+    "subject": "ai-dev-tooling",
+    "summary": "Using the ABCA1 insight, Robin proposed ripasudil (an approved eye drop) and KL001 (a circadian clock modulator), both of which outperformed the initial drug in clearing cellular waste with less toxicity.",
+    "tool_name": "More treatment discoveries",
+    "tool_url": null
+   }
+  ],
+  "subjects": [
+   "ai-dev-tooling"
+  ],
+  "title": "The acceleration is here!",
+  "transcript_source": "auto-captions",
+  "upload_date": "20260528",
+  "video_id": "QvN6Tu6dHYM",
+  "video_url": "https://www.youtube.com/watch?v=QvN6Tu6dHYM"
+ },
+ "RdqYvdT74i0": {
+  "channel": "AI Search",
+  "schema_version": 2,
+  "segments": [
+   {
+    "end": "2:42",
+    "start": "1:03",
+    "sub_subject": "model-release",
+    "subject": "llms-foundation-models",
+    "summary": "Nvidia releases LocateAnything, a vision language grounding model for object detection and segmentation in images and videos, with parallel box decoding for speed and geometric consistency. The model is 3B parameters, 7.8GB, and can run on consumer GPUs; code and weights are available for local download and fine-tuning.",
+    "tool_name": "LocateAnything",
+    "tool_url": null
+   },
+   {
+    "end": "4:22",
+    "start": "2:42",
+    "sub_subject": "image",
+    "subject": "ai-content-generation",
+    "summary": "ControlLight is an AI image editing tool for relighting photos, allowing users to adjust brightness and lighting angle with a slider while preserving details and avoiding artifacts. It is based on Flux 2, runs locally on consumer devices, and is fully open source with code for inference and training.",
+    "tool_name": "ControlLight",
+    "tool_url": null
+   },
+   {
+    "end": "5:58",
+    "start": "4:22",
+    "sub_subject": "3d-world-motion",
+    "subject": "ai-content-generation",
+    "summary": "TriSplat is a 3D reconstruction model that converts images into simulation-ready 3D scenes using triangle primitives instead of Gaussian splats, enabling faster conversion to usable meshes for robotics and game engines. The model is 4.4GB and runs locally; code and installation instructions are available.",
+    "tool_name": "TriSplat",
+    "tool_url": null
+   },
+   {
+    "end": "7:51",
+    "start": "5:58",
+    "sub_subject": "image",
+    "subject": "ai-content-generation",
+    "summary": "Nvidia releases PID, a pixel diffusion decoder that upscales images directly in pixel space, achieving 2K resolution in under a second and outperforming other upscalers. It integrates with ComfyUI and supports Flux 2, SD3, and other models; code and local installation instructions are provided.",
+    "tool_name": "PiD",
+    "tool_url": null
+   },
+   {
+    "end": "9:05",
+    "start": "7:51",
+    "sub_subject": "video",
+    "subject": "ai-content-generation",
+    "summary": "InstructAV2AV is a system for jointly editing video and audio from a text prompt, capable of changing speech content, voice gender, and lip-sync. The code is released but model weights are not yet available.",
+    "tool_name": "InstructAV2AV",
+    "tool_url": null
+   },
+   {
+    "end": "10:25",
+    "start": "9:05",
+    "sub_subject": "3d-world-motion",
+    "subject": "ai-content-generation",
+    "summary": "GenRecon reconstructs 3D scenes from casual smartphone videos or images, producing PBR-ready meshes that can be relit and edited. It uses Trellis 2 as a generative shape prior for realistic reconstruction; only a technical paper is released so far.",
+    "tool_name": "GenRecon",
+    "tool_url": null
+   },
+   {
+    "end": "12:12",
+    "start": "10:25",
+    "sub_subject": "3d-world-motion",
+    "subject": "ai-content-generation",
+    "summary": "Scope is a generative world model for first-person shooter games that generates real-time video responding to player actions like movement, shooting, and reloading. Trained on 70k clips, it outperforms other game generators; code, model (30GB), and dataset are released for local use.",
+    "tool_name": "Scope",
+    "tool_url": null
+   },
+   {
+    "end": "15:08",
+    "start": "13:35",
+    "sub_subject": "3d-world-motion",
+    "subject": "ai-content-generation",
+    "summary": "PhysX Omni generates 3D objects with accurate geometry, materials, and articulation for physics simulations, unifying rigid and articulated objects in one framework. It outperforms competitors on benchmarks; code, training scripts, and dataset are released for local use.",
+    "tool_name": "PhysX Omni",
+    "tool_url": null
+   },
+   {
+    "end": "17:10",
+    "start": "15:08",
+    "sub_subject": "benchmarks",
+    "subject": "eval-model-quality",
+    "summary": "DeepSWE is a new benchmark for coding agents that tests real-world software engineering tasks across 91 repositories, using short prompts and behavioral verifiers to evaluate multi-step coding ability. Results show GPT 5.5 leading, followed by Claude and Gemini models.",
+    "tool_name": "DeepSWE",
+    "tool_url": null
+   },
+   {
+    "end": "19:45",
+    "start": "17:10",
+    "sub_subject": "model-release",
+    "subject": "llms-foundation-models",
+    "summary": "Anthropic releases Opus 4.8, claiming improvements in honesty, reduced hallucinations, and better agentic coding, reasoning, and computer use over Opus 4.7 and GPT 5.5, though independent benchmarks show mixed results. Pricing is slightly cheaper than GPT 5.5.",
+    "tool_name": "Opus 4.8",
+    "tool_url": null
+   },
+   {
+    "end": "20:53",
+    "start": "19:45",
+    "sub_subject": null,
+    "subject": "unsorted",
+    "summary": "Astribot unveils the T1 humanoid robot for home use, priced around $13,000, capable of household chores like laundry, ironing, and bartending, but uses a wheeled base limiting stair navigation.",
+    "tool_name": "Astribot T1",
+    "tool_url": null
+   },
+   {
+    "end": "22:06",
+    "start": "20:53",
+    "sub_subject": null,
+    "subject": "unsorted",
+    "summary": "Rye Institute's Athena Zero humanoid robot learns to juggle five different patterns in under 10 minutes, demonstrating high-speed adaptive control and real-time spatial computing.",
+    "tool_name": "Rai AthenaZero",
+    "tool_url": null
+   },
+   {
+    "end": "23:33",
+    "start": "22:06",
+    "sub_subject": "model-release",
+    "subject": "llms-foundation-models",
+    "summary": "StepFun releases Step 3.7 Flash, an efficient multimodal model for real-world agents that handles images, documents, and browser automation, performing near GPT 5.5 and Opus 4.7 on benchmarks. The 400GB model is open-sourced but requires high-end hardware.",
+    "tool_name": "Step 3.7 Flash",
+    "tool_url": null
+   },
+   {
+    "end": "25:18",
+    "start": "23:33",
+    "sub_subject": "3d-world-motion",
+    "subject": "ai-content-generation",
+    "summary": "CubePart generates 3D objects from text prompts with automatic part decomposition, outputting separate meshes that assemble into articulated objects ready for games or simulation. The model is under 10GB and runs locally; code and instructions are released.",
+    "tool_name": "CubePart",
+    "tool_url": null
+   },
+   {
+    "end": "26:11",
+    "start": "25:18",
+    "sub_subject": "3d-world-motion",
+    "subject": "ai-content-generation",
+    "summary": "Google unveils relightable hollowported characters, a method to capture moving humans with multiple cameras and render them in new scenes with adjustable lighting, though code is not yet released.",
+    "tool_name": "Relightable chars",
+    "tool_url": null
+   },
+   {
+    "end": "27:43",
+    "start": "26:11",
+    "sub_subject": "training-finetuning",
+    "subject": "ai-dev-tooling",
+    "summary": "BEES (Bidirectional Evolutionary Search) is a self-improvement method for language models that uses forward and backward evolutionary search to find solutions more efficiently, showing gains on post-training tasks and benchmarks. Code is released for local experimentation.",
+    "tool_name": "Self Improving AI",
+    "tool_url": null
+   },
+   {
+    "end": "30:19",
+    "start": "27:43",
+    "sub_subject": "autonomous-research",
+    "subject": "ai-dev-tooling",
+    "summary": "AutoScientist is an agentic framework where AI agents organize into research teams to autonomously explore scientific ideas in parallel, maintaining a shared state with experiment logs and dead-end registries to avoid redundant work. It aims to automate the messy process of scientific discovery.",
+    "tool_name": "AutoScientists",
+    "tool_url": null
+   },
+   {
+    "end": "31:44",
+    "start": "30:19",
+    "sub_subject": "3d-world-motion",
+    "subject": "ai-content-generation",
+    "summary": "Nvidia's Gamma World generates real-time multi-agent simulations for up to four players, using simplex rotary agent encoding to maintain consistency. Code, training scripts, and dataset preparation tools are planned for release.",
+    "tool_name": "Gamma World",
+    "tool_url": null
+   },
+   {
+    "end": "33:00",
+    "start": "31:44",
+    "sub_subject": "video",
+    "subject": "ai-content-generation",
+    "summary": "Pantheon 360 generates consistent 360° panoramic videos from multiple 360° images and a camera path, using 3D point cloud reconstruction for stable digital twins, robotics, or autonomous driving training. Code release is planned.",
+    "tool_name": "Pantheon 360",
+    "tool_url": null
+   },
+   {
+    "end": "34:26",
+    "start": "33:00",
+    "sub_subject": "image",
+    "subject": "ai-content-generation",
+    "summary": "Bonsai Image is a quantized version of Flux 2 Klein compressed to ~1GB, enabling local image generation on iPhone with 512x512 images in 9.4 seconds. Two variants (1-bit and ternary) are released with GitHub instructions.",
+    "tool_name": "Bonsai Image",
+    "tool_url": null
+   },
+   {
+    "end": "35:14",
+    "start": "34:26",
+    "sub_subject": "model-release",
+    "subject": "llms-foundation-models",
+    "summary": "MiniCPM5 1B is a 1-billion-parameter model that outperforms similar-sized models on knowledge, coding, math, and agentic benchmarks, while being only 2GB for local deployment on laptops or phones. Setup instructions for various platforms are provided.",
+    "tool_name": "MiniCPM5 1B",
+    "tool_url": null
+   },
+   {
+    "end": "36:46",
+    "start": "35:14",
+    "sub_subject": "image",
+    "subject": "ai-content-generation",
+    "summary": "Sega is a high-resolution image generation method that produces detailed 6K+ images with Flux or Quen bases, offering better consistency than other upscalers. Code is released for local use with Flux 1 or Quen image.",
+    "tool_name": "Sega",
+    "tool_url": null
+   },
+   {
+    "end": "38:49",
+    "start": "36:46",
+    "sub_subject": "image",
+    "subject": "ai-content-generation",
+    "summary": "Pixel Relights is an image relighting system that estimates a rough 3D understanding of a scene from a single photo and uses Blender to relight realistically from any angle. Code is released for local download and run.",
+    "tool_name": "PixlRelight",
+    "tool_url": null
+   }
+  ],
+  "subjects": [
+   "ai-content-generation",
+   "ai-dev-tooling",
+   "eval-model-quality",
+   "llms-foundation-models",
+   "unsorted"
+  ],
+  "title": "Self-improving AI, Opus 4.8, Nvidia bangers, game-ready 3D models, juggling robots: AI NEWS",
+  "transcript_source": "auto-captions",
+  "upload_date": "20260531",
+  "video_id": "RdqYvdT74i0",
+  "video_url": "https://www.youtube.com/watch?v=RdqYvdT74i0"
  },
  "SxiRANj0xLs": {
   "channel": "AI Search",
