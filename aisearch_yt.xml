@@ -385,5 +385,230 @@
 
 [ai-dev-tooling] More treatment discoveries: Using the ABCA1 insight, Robin proposed ripasudil (an approved eye drop) and KL001 (a circadian clock modulator), both of which outperformed the initial drug in clearing cellular waste with less toxicity.]]></description>
     </item>
+    <item>
+      <title>AI scientist, DNA editors, AI NPCs, new Qwen, open-source robots, new video editors: AI NEWS</title>
+      <link>https://www.youtube.com/watch?v=pC6KHflGye0</link>
+      <guid isPermaLink="false">pC6KHflGye0</guid>
+      <pubDate>Sun, 24 May 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[AI scientist, DNA editors, AI NPCs, new Qwen, open-source robots, new video editors: AI NEWS — segmented AI-news roundup (21 segments).
+
+[ai-content-generation] Lance: ByteDance releases Lance, a 3B parameter unified multimodal model for text-to-video, video editing, visual understanding, and text-to-image generation.
+
+[ai-content-generation] LiTo: Apple releases Lito, a 3D model generator using surface light field tokenization to create view-dependent 3D representations from single images, with code and training scripts available.
+
+[ai-dev-tooling] Flash GRPO: Flash GRPO is a system for aligning video models to human preferences using isotemporal grouping and temporal gradient rectification, with code available for local training.
+
+[ai-content-generation] ReactiveGWM: Reactive GWM is a reactive game world model that generates video where NPCs can be controlled via high-level strategies, with GitHub code for local execution.
+
+[ai-content-generation] L2P: L2P is a pixel-space diffusion model that generates high-quality images up to 8K resolution without VAE/latent space, with local run and fine-tuning instructions available.
+
+[llms-foundation-models] Carbon: Carbon is an open-source DNA foundation model that processes 400k base pairs, predicts DNA sequences and protein structures, and runs on a single GPU.
+
+[ai-content-generation] LongCat avatar 1.5: Meituan releases LongCat Video Avatar 1.5, an avatar generator that creates expressive talking avatars from a reference image and audio, supporting multi-person interactions.
+
+[llms-foundation-models] MegaASR: Mega ASR is a speech recognition model designed for noisy real-world audio, achieving lower error rates than competitors, with local installation and fine-tuning scripts available.
+
+[llms-foundation-models] HY-MT2: Tencent open-sources HY-MT2, a family of multilingual translation models with mixture-of-experts architecture that follows detailed translation instructions across 33 languages.
+
+[ai-dev-tooling] Co-scientist: Google DeepMind's AI co-scientist is a multi-agent system that helps scientists generate hypotheses, review literature, and propose experiments for drug discovery and biomedical research.
+
+[llms-foundation-models] Marlin 2B: Marlin 2B is a 2B parameter video language model for extracting timestamped event descriptions from videos, outperforming larger models on captioning benchmarks.
+
+[llms-foundation-models] Qwen 3.7: Alibaba releases Qwen 3.7 Max with enhanced agentic capabilities for coding and reasoning, vision support, and robot integration, currently available via API.
+
+[llms-foundation-models] Qwen live translate: Qwen 3.5 live translate adds visual context to translation, enabling better disambiguation via a free online demo.
+
+[unsorted] Robot plus: Robot Plus Plus demonstrates a magnetic wall-climbing industrial humanoid robot for teleoperated maintenance on chemical tanks and ship hulls.
+
+[unsorted] LeRobot: Hugging Face releases LeRobot Humanoid, an open-source 3D printed humanoid robot platform with full stack for robotics research.
+
+[unsorted] Unitree voice commands: Unitree demonstrates voice-controlled autonomous actions for G1 robot, including exercises and dance, processed in real-time.
+
+[ai-dev-tooling] CogOmniControl: Cog Omni Control is a video generation control system accepting sketch, pose, and line art inputs to guide output, currently only a technical paper.
+
+[ai-content-generation] WavFlow: Meta's WaveFlow generates synchronized audio from silent video in raw waveform space, with GitHub code for installation and training but no full checkpoints.
+
+[ai-content-generation] PanoWorld: Pano World generates consistent 3D panorama tours of entire houses from floor plans, using a 3D shell for view consistency, code coming soon.
+
+[ai-content-generation] Stable Audio 3: Stability AI releases Stable Audio 3 open-source music generation models (small/medium) with LoRA training support, available on Hugging Face.
+
+[ai-content-generation] FashionChameleon: Alibaba's Fashion Chameleon enables real-time virtual try-on in video, swapping garments while keeping motion coherent, with GitHub release planned.]]></description>
+    </item>
+    <item>
+      <title>Google strikes back! Gemini Omni, AI glasses, new models</title>
+      <link>https://www.youtube.com/watch?v=J02-39xtlt4</link>
+      <guid isPermaLink="false">J02-39xtlt4</guid>
+      <pubDate>Thu, 21 May 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[Google strikes back! Gemini Omni, AI glasses, new models — segmented AI-news roundup (15 segments).
+
+[ai-content-generation] Gemini Omni: Gemini Omni is Google's new multimodal video generation model that can create and edit videos from text, image, video, or audio inputs, demonstrating capabilities like object transformation, background replacement, camera angle changes, and educational explainer generation.
+
+[llms-foundation-models] Gemini 3.5 Flash: Gemini 3.5 Flash is Google's latest model optimized for agentic workflows with high intelligence and speed, enabling multi-agent systems that can plan, use tools, write code, and complete complex tasks like recreating AlphaZero or building a city landscape.
+
+[ai-dev-tooling] Antigravity 2.0: Antigravity 2.0 is Google's updated agentic coding platform that shifts from an IDE to a chat-based interface for orchestrating multiple agents, demonstrated by building an operating system and playing Doom using Gemini 3.5 Flash.
+
+[llms-foundation-models] Daily brief: Gemini app adds a Daily Brief feature that provides a personalized morning digest by analyzing Gmail, Calendar, and other connected apps to prioritize information and suggest next steps.
+
+[ai-dev-tooling] Gemini Spark: Gemini Spark is a cloud-based 24/7 personal agent integrated with Google Workspace that can monitor tasks, synthesize information across apps, and take actions like drafting emails or creating documents.
+
+[retrieval-rag-memory] New Google search: Google Search is redesigned with an AI-powered search box that accepts multimodal inputs, provides conversational responses, and deploys information agents to monitor the web for specific goals.
+
+[retrieval-rag-memory] Information agents: Information agents in Google Search run continuously to monitor websites and real-time data for user-defined criteria, such as flight or apartment hunting, and send synthesized updates when matches are found.
+
+[retrieval-rag-memory] Agentic search: Agentic search adds booking and calling capabilities to Google Search, allowing it to complete reservations and contact businesses, while also generating custom interactive visualizations and dashboards for queries.
+
+[retrieval-rag-memory] Personal intelligence: Personal intelligence in AI mode lets Google Search understand user context from connected apps like Gmail and Photos to provide more personalized and automatic assistance.
+
+[unsorted] AI workspace: Google Workspace updates introduce AI-powered voice features in Gmail, Docs, and Keep that enable hands-free operation, email synthesis, and voice-driven drafting with agentic assistance.
+
+[unsorted] Docs live: Docs Live acts as a voice-powered writing partner that organizes spoken thoughts into structured documents, demonstrated by generating a career talk draft from resume and email details.
+
+[ai-content-generation] Google Pics: Google Pix is an image creation and editing tool built on the Nano Banana model that allows precise object-level editing and is integrated directly into Google Workspace apps.
+
+[unsorted] AI inbox: AI Inbox enhances Gmail by surfacing important emails, generating personalized replies, and linking relevant Drive files to reduce inbox overload.
+
+[unsorted] XR glasses: Android XR smart glasses developed with Samsung and Qualcomm use Gemini to provide real-time visual and audio assistance, including navigation, translation, and context-aware information overlay.
+
+[local-models-infra] TPU 8t 8i: Google announces eighth-generation TPUs with specialized 8T training and 8I inference chips that offer massive scale, high bandwidth memory, and improved efficiency for AI workloads.]]></description>
+    </item>
+    <item>
+      <title>Real gundams, top 3D generator, open-source world models, ChatGPT updates, new TTS: AI NEWS</title>
+      <link>https://www.youtube.com/watch?v=NnsQj2nDkKA</link>
+      <guid isPermaLink="false">NnsQj2nDkKA</guid>
+      <pubDate>Sun, 17 May 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[Real gundams, top 3D generator, open-source world models, ChatGPT updates, new TTS: AI NEWS — segmented AI-news roundup (23 segments).
+
+[ai-content-generation] Just Dub it: Just Dub It is a video dubbing tool based on LTX 2.3 that can translate audio and adjust lip movements to match new languages, with a 2.5GB LoRA model available for local download.
+
+[ai-content-generation] Pixal3D: Pixel3D is an image-to-3D generator that creates high-fidelity 3D meshes with accurate geometry and textures using pixel-aligned generation, with 24GB of models available for local download.
+
+[ai-content-generation] AsymFlow: Asymmetric Flow Models is an image generator that operates directly in pixel space instead of latent space, producing hyperrealistic images with sharper details and 40% faster generation, with code released for local use.
+
+[ai-content-generation] SANA WM: NVIDIA's Sana WM is a 2.8B parameter interactive world model that generates controllable 3D environments from images and text prompts, with a distilled version running on a single RTX 5090, set for open-source release.
+
+[ai-content-generation] Warp as History: Warp as History is an interactive world generator that creates consistent 3D environments from image and text prompts with keyboard controls, with released code, models, and training scripts for local use.
+
+[ai-dev-tooling] PhyMotion: Phi Motion is a physics-based reward system that improves anatomical correctness in video generation by scoring movements in a Mujoco simulator, with code released for local setup.
+
+[llms-foundation-models] Thinking Machines interactive models: Thinking Machines introduces 'interaction models' that process audio, video, and text simultaneously in real-time, enabling natural collaborative conversations with interruptions and visual cues rather than turn-based exchanges.
+
+[ai-content-generation] CausalCine: Causal Scene is a real-time video generation system that streams consistent multi-shot videos from sequential prompts using causal generation and memory reuse, currently only available as a technical paper.
+
+[ai-content-generation] RelitLive: Relit Live is a video relighting tool that can adjust lighting warmth, harshness, angle, and environment maps on existing videos, with code released for local use requiring 24GB VRAM.
+
+[llms-foundation-models] MiniCPM: MiniCPM-V 4.6 is a 2.6GB vision-language model that runs locally on mobile devices, outperforming similar-sized models on reasoning, document analysis, and GUI understanding tasks.
+
+[ai-content-generation] Krea2: Krea 2 (CreaTII) is a closed-source image foundation model focused on artistic style control and dynamic poses, allowing style transfer from reference images, though considered less performant than GPT Image 2.
+
+[ai-dev-tooling] Codex on Phone: OpenAI's Codex agentic coding app expands to mobile devices, allowing users to monitor, approve, and redirect coding tasks from their phones while the agent runs on a Mac.
+
+[ai-content-generation] Khala: Khala is an open-source music generator that creates full songs from text prompts and lyrics, with code released for local use requiring 24GB VRAM, though with some lyric pronunciation issues.
+
+[unsorted] Xynova hand: Xynova's Flex 2 is a second-generation dexterous robotic hand with 23 degrees of freedom, 0.1mm repeatability, 12kg grasp load, and advanced sensing for adaptive grasping.
+
+[unsorted] Unitree mecha: Unitree's GD01 is a manned transformable mecha robot weighing 500kg with bipedal and quadrupedal modes, demonstrated breaking a wall while maintaining balance, priced at $650k.
+
+[ai-content-generation] Articraft: Articraft generates articulated 3D assets with moving parts by having an AI coding agent write programs that define geometry, joints, and validation tests, with a 10K dataset and code released.
+
+[llms-foundation-models] ChatGPT finance: OpenAI adds personal finance features to ChatGPT, allowing account connection via Plaid for spending analysis and dashboard creation, currently in preview for US Pro users with privacy controls.
+
+[ai-dev-tooling] TrackCraft3r: Track Crafter repurposes a video diffusion model for dense 3D pixel tracking across time, outperforming competitors on benchmarks with code released for local use.
+
+[ai-content-generation] MoCam: Mocam enables changing camera movement in existing videos with effects like orbit and bullet time while preserving motion, with code and models planned for release.
+
+[ai-content-generation] DreamX: Dream X World is an interactive world generator with keyboard controls and prompt injection, offering a 5B parameter model for local use with plans for larger variants.
+
+[llms-foundation-models] Gemini cursor: Google DeepMind prototypes a Gemini-powered cursor that understands screen context, allowing users to point at elements and request actions like summarization or chart creation without a separate chat window.
+
+[ai-content-generation] Scenema: Seen Ma Audio is an expressive text-to-speech generator that clones voices and applies stage directions, emotions, and accent changes with high fidelity.
+
+[ai-content-generation] DramaBox: Dramabox from Resemble AI is a text-to-speech generator extracted from LTX 2.3 that supports voice cloning, scene direction, and phonetic vocalizations like laughter and sighs.]]></description>
+    </item>
+    <item>
+      <title>The biggest AI breakthrough in medicine &amp; drug discovery</title>
+      <link>https://www.youtube.com/watch?v=s3rNDndvav0</link>
+      <guid isPermaLink="false">s3rNDndvav0</guid>
+      <pubDate>Thu, 14 May 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[The biggest AI breakthrough in medicine & drug discovery — segmented AI-news roundup (16 segments).
+
+[llms-foundation-models] MAMMAL intro: Introduction to Mammal, a new AI model for drug discovery and medicine that could transform biosciences.
+
+[unsorted] Problems with drug design: Explains high failure rates in drug discovery (90% fail in clinical trials) despite advanced technology.
+
+[unsorted] How biology works: Basic biology overview covering DNA, genes, proteins, gene expression, and how mutations cause diseases like cancer.
+
+[unsorted] How drug design works: Describes current drug design process using small molecules and antibodies as lock-and-key mechanisms.
+
+[llms-foundation-models] Why modern tech fails: Discusses limitations of current specialized AI tools (AlphaFold, Evo 2) being siloed across biology domains.
+
+[llms-foundation-models] How MAMMAL works: Details Mammal's training on 2B samples from biological databases and unified sequence representation for molecules, genes, proteins.
+
+[eval-model-quality] How good is it: Mammal evaluated on 11 rigorous benchmarks across drug discovery pipeline, achieving state-of-the-art on all tasks.
+
+[eval-model-quality] Predicting drug toxicity: Mammal beats specialized MoleFormer on BBBP blood-brain barrier penetration and ClinTox FDA approval prediction benchmarks.
+
+[eval-model-quality] Labelling cells based on gene activity: Mammal achieves 7.5% improvement over state-of-the-art on Zang 68K immune cell type classification benchmark.
+
+[llms-foundation-models] New cancer drug discovery: Mammal predicts efficacy of 4 unseen cancer drugs across 800 tumor cell lines, validated by low Tanimoto similarity to training data.
+
+[llms-foundation-models] Implications for drug repurposing: Discusses implications for drug repurposing using AI to screen existing drugs for new disease targets.
+
+[unsorted] Antibodies: Explains antibody structure, protein folding challenges, and AlphaFold's role in predicting 3D protein shapes.
+
+[eval-model-quality] MAMMAL vs Alphafold: Head-to-head test shows Mammal beats AlphaFold 3 on 5 of 7 antibody-disease target binding predictions.
+
+[llms-foundation-models] Why Alphafold failed: Explains why Mammal outperforms AlphaFold on flexible proteins with intrinsically disordered regions (IDRs).
+
+[unsorted] Designing new drugs: Describes antibody structure and CDR regions that determine disease targeting capability.
+
+[llms-foundation-models] Generating antibody fingers: Mammal generates antibody CDR sequences from scratch on SabDab dataset, achieving 19% improvement on complex CDRH3 region.]]></description>
+    </item>
+    <item>
+      <title>Self-evolving AI, robot fights, new GPT voice, new local image model, Gemma upgrade: AI NEWS</title>
+      <link>https://www.youtube.com/watch?v=quxnhOeRz7I</link>
+      <guid isPermaLink="false">quxnhOeRz7I</guid>
+      <pubDate>Sun, 10 May 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[Self-evolving AI, robot fights, new GPT voice, new local image model, Gemma upgrade: AI NEWS — segmented AI-news roundup (20 segments).
+
+[ai-content-generation] RecGen: RecGen reconstructs 3D objects from a few RGBD images, handling occlusion and generating geometry, textures, and positions.
+
+[ai-content-generation] HiDream-O1 Image: HiDream 01 is a new open-source image model that excels at 2K resolution, text rendering, and multi-panel image generation.
+
+[ai-content-generation] UniVidX: UniVid X generates video with intrinsic features like albedo, lighting, normals, and alpha mattes, enabling relighting and background replacement.
+
+[llms-foundation-models] Gemma 4 MTP: Google added multi-token prediction to Gemma 4, using a drafter model to achieve up to 3.1x speedup without quality loss.
+
+[eval-model-quality] ProgramBench: ProgramBench evaluates models on reconstructing entire programs from EXE files and documentation, with top models scoring 0% on 200 tasks.
+
+[llms-foundation-models] MolmoAct 2: MolmoAct 2 is an open-source vision-language-action model for robot manipulation, operating at 180ms per action and outperforming competitors.
+
+[ai-content-generation] PhysForge: PhysForge generates physics-grounded 3D assets with realistic joints and materials using a vision-language model and diffusion model.
+
+[llms-foundation-models] GPT Realtime 2: OpenAI released GPT Real-time 2 with enhanced reasoning and natural voice, plus translation and transcription models.
+
+[unsorted] Gene 26.5: Genesis released Gene 26.5, a robot foundation model with a human-scale dexterous hand for complex tasks like cooking and lab work.
+
+[ai-dev-tooling] AlphaEvolve: AlphaEvolve, Google's Gemini-powered coding agent, discovered improved algorithms for genomics, grid optimization, and disaster prediction.
+
+[ai-content-generation] Bach 1.0: Bock 1.0 is a new video generator from Video Rebirth that produces 1080p videos with sound and ranks sixth on Artificial Analysis leaderboard.
+
+[llms-foundation-models] Zaya1 8B: Zaya 1 8B is a tiny reasoning model trained on AMD hardware that matches much larger models on math and coding benchmarks.
+
+[unsorted] Atlas: Boston Dynamics demonstrated its electric Atlas robot performing superhuman moves like headstands and 180-degree torso rotation.
+
+[unsorted] Unitree vs EngineAI: Unitree G1 and Engine AI's PM1 robots fought in a demo, showing missed kicks and a double knockout.
+
+[unsorted] LabOS: Lab OS connects AI reasoning with physical labs using XR glasses to guide researchers through experiments and protocols.
+
+[ai-content-generation] DRex: D-Rex creates relightable full-body digital avatars by separating performance and lighting using a diffusion-based video relighting model.
+
+[local-models-infra] TwELL: TwELL introduces a sparse tile-wise format and custom CUDA kernels that speed up LLM inference and training by over 20-30% on H100s.
+
+[ai-content-generation] SwiftI2V: Swift I2V generates 2K resolution videos from a single image using a two-stage approach that runs on a single RTX 4090.
+
+[ai-content-generation] CDM: CDM accelerates diffusion models to four denoising steps while maintaining quality, with support for Stable Diffusion 3 and LongCat.
+
+[ai-content-generation] Map2world: Map to World generates explorable 3D worlds from top-down segmentation maps with text prompts for different regions.]]></description>
+    </item>
   </channel>
 </rss>

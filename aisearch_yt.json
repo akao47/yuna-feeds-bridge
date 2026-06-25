@@ -681,6 +681,384 @@
   "video_id": "GUEE9OA4keo",
   "video_url": "https://www.youtube.com/watch?v=GUEE9OA4keo"
  },
+ "J02-39xtlt4": {
+  "channel": "AI Search",
+  "schema_version": 2,
+  "segments": [
+   {
+    "end": "3:39",
+    "start": "0:27",
+    "sub_subject": "video",
+    "subject": "ai-content-generation",
+    "summary": "Gemini Omni is Google's new multimodal video generation model that can create and edit videos from text, image, video, or audio inputs, demonstrating capabilities like object transformation, background replacement, camera angle changes, and educational explainer generation.",
+    "tool_name": "Gemini Omni",
+    "tool_url": null
+   },
+   {
+    "end": "6:56",
+    "start": "3:39",
+    "sub_subject": "model-release",
+    "subject": "llms-foundation-models",
+    "summary": "Gemini 3.5 Flash is Google's latest model optimized for agentic workflows with high intelligence and speed, enabling multi-agent systems that can plan, use tools, write code, and complete complex tasks like recreating AlphaZero or building a city landscape.",
+    "tool_name": "Gemini 3.5 Flash",
+    "tool_url": null
+   },
+   {
+    "end": "8:36",
+    "start": "6:56",
+    "sub_subject": "agentic-frameworks",
+    "subject": "ai-dev-tooling",
+    "summary": "Antigravity 2.0 is Google's updated agentic coding platform that shifts from an IDE to a chat-based interface for orchestrating multiple agents, demonstrated by building an operating system and playing Doom using Gemini 3.5 Flash.",
+    "tool_name": "Antigravity 2.0",
+    "tool_url": null
+   },
+   {
+    "end": "9:25",
+    "start": "8:36",
+    "sub_subject": "model-release",
+    "subject": "llms-foundation-models",
+    "summary": "Gemini app adds a Daily Brief feature that provides a personalized morning digest by analyzing Gmail, Calendar, and other connected apps to prioritize information and suggest next steps.",
+    "tool_name": "Daily brief",
+    "tool_url": null
+   },
+   {
+    "end": "12:13",
+    "start": "11:11",
+    "sub_subject": "agentic-frameworks",
+    "subject": "ai-dev-tooling",
+    "summary": "Gemini Spark is a cloud-based 24/7 personal agent integrated with Google Workspace that can monitor tasks, synthesize information across apps, and take actions like drafting emails or creating documents.",
+    "tool_name": "Gemini Spark",
+    "tool_url": null
+   },
+   {
+    "end": "13:04",
+    "start": "12:13",
+    "sub_subject": "rag",
+    "subject": "retrieval-rag-memory",
+    "summary": "Google Search is redesigned with an AI-powered search box that accepts multimodal inputs, provides conversational responses, and deploys information agents to monitor the web for specific goals.",
+    "tool_name": "New Google search",
+    "tool_url": null
+   },
+   {
+    "end": "13:47",
+    "start": "13:04",
+    "sub_subject": "deep-research",
+    "subject": "retrieval-rag-memory",
+    "summary": "Information agents in Google Search run continuously to monitor websites and real-time data for user-defined criteria, such as flight or apartment hunting, and send synthesized updates when matches are found.",
+    "tool_name": "Information agents",
+    "tool_url": null
+   },
+   {
+    "end": "15:48",
+    "start": "13:47",
+    "sub_subject": "rag",
+    "subject": "retrieval-rag-memory",
+    "summary": "Agentic search adds booking and calling capabilities to Google Search, allowing it to complete reservations and contact businesses, while also generating custom interactive visualizations and dashboards for queries.",
+    "tool_name": "Agentic search",
+    "tool_url": null
+   },
+   {
+    "end": "16:32",
+    "start": "15:48",
+    "sub_subject": "rag",
+    "subject": "retrieval-rag-memory",
+    "summary": "Personal intelligence in AI mode lets Google Search understand user context from connected apps like Gmail and Photos to provide more personalized and automatic assistance.",
+    "tool_name": "Personal intelligence",
+    "tool_url": null
+   },
+   {
+    "end": "17:37",
+    "start": "16:32",
+    "sub_subject": null,
+    "subject": "unsorted",
+    "summary": "Google Workspace updates introduce AI-powered voice features in Gmail, Docs, and Keep that enable hands-free operation, email synthesis, and voice-driven drafting with agentic assistance.",
+    "tool_name": "AI workspace",
+    "tool_url": null
+   },
+   {
+    "end": "19:26",
+    "start": "17:37",
+    "sub_subject": null,
+    "subject": "unsorted",
+    "summary": "Docs Live acts as a voice-powered writing partner that organizes spoken thoughts into structured documents, demonstrated by generating a career talk draft from resume and email details.",
+    "tool_name": "Docs live",
+    "tool_url": null
+   },
+   {
+    "end": "20:30",
+    "start": "19:26",
+    "sub_subject": "image",
+    "subject": "ai-content-generation",
+    "summary": "Google Pix is an image creation and editing tool built on the Nano Banana model that allows precise object-level editing and is integrated directly into Google Workspace apps.",
+    "tool_name": "Google Pics",
+    "tool_url": null
+   },
+   {
+    "end": "21:49",
+    "start": "20:30",
+    "sub_subject": null,
+    "subject": "unsorted",
+    "summary": "AI Inbox enhances Gmail by surfacing important emails, generating personalized replies, and linking relevant Drive files to reduce inbox overload.",
+    "tool_name": "AI inbox",
+    "tool_url": null
+   },
+   {
+    "end": "24:11",
+    "start": "21:49",
+    "sub_subject": null,
+    "subject": "unsorted",
+    "summary": "Android XR smart glasses developed with Samsung and Qualcomm use Gemini to provide real-time visual and audio assistance, including navigation, translation, and context-aware information overlay.",
+    "tool_name": "XR glasses",
+    "tool_url": null
+   },
+   {
+    "end": "28:00",
+    "start": "24:11",
+    "sub_subject": "hardware",
+    "subject": "local-models-infra",
+    "summary": "Google announces eighth-generation TPUs with specialized 8T training and 8I inference chips that offer massive scale, high bandwidth memory, and improved efficiency for AI workloads.",
+    "tool_name": "TPU 8t 8i",
+    "tool_url": null
+   }
+  ],
+  "subjects": [
+   "ai-content-generation",
+   "ai-dev-tooling",
+   "llms-foundation-models",
+   "local-models-infra",
+   "retrieval-rag-memory",
+   "unsorted"
+  ],
+  "title": "Google strikes back! Gemini Omni, AI glasses, new models",
+  "transcript_source": "auto-captions",
+  "upload_date": "20260521",
+  "video_id": "J02-39xtlt4",
+  "video_url": "https://www.youtube.com/watch?v=J02-39xtlt4"
+ },
+ "NnsQj2nDkKA": {
+  "channel": "AI Search",
+  "schema_version": 2,
+  "segments": [
+   {
+    "end": "2:52",
+    "start": "1:00",
+    "sub_subject": "video",
+    "subject": "ai-content-generation",
+    "summary": "Just Dub It is a video dubbing tool based on LTX 2.3 that can translate audio and adjust lip movements to match new languages, with a 2.5GB LoRA model available for local download.",
+    "tool_name": "Just Dub it",
+    "tool_url": null
+   },
+   {
+    "end": "4:33",
+    "start": "2:52",
+    "sub_subject": "3d-world-motion",
+    "subject": "ai-content-generation",
+    "summary": "Pixel3D is an image-to-3D generator that creates high-fidelity 3D meshes with accurate geometry and textures using pixel-aligned generation, with 24GB of models available for local download.",
+    "tool_name": "Pixal3D",
+    "tool_url": null
+   },
+   {
+    "end": "6:40",
+    "start": "4:33",
+    "sub_subject": "image",
+    "subject": "ai-content-generation",
+    "summary": "Asymmetric Flow Models is an image generator that operates directly in pixel space instead of latent space, producing hyperrealistic images with sharper details and 40% faster generation, with code released for local use.",
+    "tool_name": "AsymFlow",
+    "tool_url": null
+   },
+   {
+    "end": "8:08",
+    "start": "6:40",
+    "sub_subject": "3d-world-motion",
+    "subject": "ai-content-generation",
+    "summary": "NVIDIA's Sana WM is a 2.8B parameter interactive world model that generates controllable 3D environments from images and text prompts, with a distilled version running on a single RTX 5090, set for open-source release.",
+    "tool_name": "SANA WM",
+    "tool_url": null
+   },
+   {
+    "end": "8:58",
+    "start": "8:08",
+    "sub_subject": "3d-world-motion",
+    "subject": "ai-content-generation",
+    "summary": "Warp as History is an interactive world generator that creates consistent 3D environments from image and text prompts with keyboard controls, with released code, models, and training scripts for local use.",
+    "tool_name": "Warp as History",
+    "tool_url": null
+   },
+   {
+    "end": "10:26",
+    "start": "8:58",
+    "sub_subject": "dev-utilities",
+    "subject": "ai-dev-tooling",
+    "summary": "Phi Motion is a physics-based reward system that improves anatomical correctness in video generation by scoring movements in a Mujoco simulator, with code released for local setup.",
+    "tool_name": "PhyMotion",
+    "tool_url": null
+   },
+   {
+    "end": "13:53",
+    "start": "10:26",
+    "sub_subject": "model-release",
+    "subject": "llms-foundation-models",
+    "summary": "Thinking Machines introduces 'interaction models' that process audio, video, and text simultaneously in real-time, enabling natural collaborative conversations with interruptions and visual cues rather than turn-based exchanges.",
+    "tool_name": "Thinking Machines interactive models",
+    "tool_url": null
+   },
+   {
+    "end": "15:22",
+    "start": "13:53",
+    "sub_subject": "video",
+    "subject": "ai-content-generation",
+    "summary": "Causal Scene is a real-time video generation system that streams consistent multi-shot videos from sequential prompts using causal generation and memory reuse, currently only available as a technical paper.",
+    "tool_name": "CausalCine",
+    "tool_url": null
+   },
+   {
+    "end": "16:39",
+    "start": "15:22",
+    "sub_subject": "video",
+    "subject": "ai-content-generation",
+    "summary": "Relit Live is a video relighting tool that can adjust lighting warmth, harshness, angle, and environment maps on existing videos, with code released for local use requiring 24GB VRAM.",
+    "tool_name": "RelitLive",
+    "tool_url": null
+   },
+   {
+    "end": "18:24",
+    "start": "16:39",
+    "sub_subject": "model-release",
+    "subject": "llms-foundation-models",
+    "summary": "MiniCPM-V 4.6 is a 2.6GB vision-language model that runs locally on mobile devices, outperforming similar-sized models on reasoning, document analysis, and GUI understanding tasks.",
+    "tool_name": "MiniCPM",
+    "tool_url": null
+   },
+   {
+    "end": "20:00",
+    "start": "18:24",
+    "sub_subject": "image",
+    "subject": "ai-content-generation",
+    "summary": "Krea 2 (CreaTII) is a closed-source image foundation model focused on artistic style control and dynamic poses, allowing style transfer from reference images, though considered less performant than GPT Image 2.",
+    "tool_name": "Krea2",
+    "tool_url": null
+   },
+   {
+    "end": "21:33",
+    "start": "20:00",
+    "sub_subject": "agentic-frameworks",
+    "subject": "ai-dev-tooling",
+    "summary": "OpenAI's Codex agentic coding app expands to mobile devices, allowing users to monitor, approve, and redirect coding tasks from their phones while the agent runs on a Mac.",
+    "tool_name": "Codex on Phone",
+    "tool_url": null
+   },
+   {
+    "end": "26:01",
+    "start": "23:22",
+    "sub_subject": "audio-music-tts",
+    "subject": "ai-content-generation",
+    "summary": "Khala is an open-source music generator that creates full songs from text prompts and lyrics, with code released for local use requiring 24GB VRAM, though with some lyric pronunciation issues.",
+    "tool_name": "Khala",
+    "tool_url": null
+   },
+   {
+    "end": "27:35",
+    "start": "26:01",
+    "sub_subject": null,
+    "subject": "unsorted",
+    "summary": "Xynova's Flex 2 is a second-generation dexterous robotic hand with 23 degrees of freedom, 0.1mm repeatability, 12kg grasp load, and advanced sensing for adaptive grasping.",
+    "tool_name": "Xynova hand",
+    "tool_url": null
+   },
+   {
+    "end": "29:00",
+    "start": "27:35",
+    "sub_subject": null,
+    "subject": "unsorted",
+    "summary": "Unitree's GD01 is a manned transformable mecha robot weighing 500kg with bipedal and quadrupedal modes, demonstrated breaking a wall while maintaining balance, priced at $650k.",
+    "tool_name": "Unitree mecha",
+    "tool_url": null
+   },
+   {
+    "end": "31:12",
+    "start": "29:00",
+    "sub_subject": "3d-world-motion",
+    "subject": "ai-content-generation",
+    "summary": "Articraft generates articulated 3D assets with moving parts by having an AI coding agent write programs that define geometry, joints, and validation tests, with a 10K dataset and code released.",
+    "tool_name": "Articraft",
+    "tool_url": null
+   },
+   {
+    "end": "33:15",
+    "start": "31:12",
+    "sub_subject": "model-release",
+    "subject": "llms-foundation-models",
+    "summary": "OpenAI adds personal finance features to ChatGPT, allowing account connection via Plaid for spending analysis and dashboard creation, currently in preview for US Pro users with privacy controls.",
+    "tool_name": "ChatGPT finance",
+    "tool_url": null
+   },
+   {
+    "end": "34:50",
+    "start": "33:15",
+    "sub_subject": "dev-utilities",
+    "subject": "ai-dev-tooling",
+    "summary": "Track Crafter repurposes a video diffusion model for dense 3D pixel tracking across time, outperforming competitors on benchmarks with code released for local use.",
+    "tool_name": "TrackCraft3r",
+    "tool_url": null
+   },
+   {
+    "end": "35:24",
+    "start": "34:50",
+    "sub_subject": "video",
+    "subject": "ai-content-generation",
+    "summary": "Mocam enables changing camera movement in existing videos with effects like orbit and bullet time while preserving motion, with code and models planned for release.",
+    "tool_name": "MoCam",
+    "tool_url": null
+   },
+   {
+    "end": "36:23",
+    "start": "35:24",
+    "sub_subject": "3d-world-motion",
+    "subject": "ai-content-generation",
+    "summary": "Dream X World is an interactive world generator with keyboard controls and prompt injection, offering a 5B parameter model for local use with plans for larger variants.",
+    "tool_name": "DreamX",
+    "tool_url": null
+   },
+   {
+    "end": "37:56",
+    "start": "36:23",
+    "sub_subject": "model-release",
+    "subject": "llms-foundation-models",
+    "summary": "Google DeepMind prototypes a Gemini-powered cursor that understands screen context, allowing users to point at elements and request actions like summarization or chart creation without a separate chat window.",
+    "tool_name": "Gemini cursor",
+    "tool_url": null
+   },
+   {
+    "end": "42:44",
+    "start": "37:56",
+    "sub_subject": "audio-music-tts",
+    "subject": "ai-content-generation",
+    "summary": "Seen Ma Audio is an expressive text-to-speech generator that clones voices and applies stage directions, emotions, and accent changes with high fidelity.",
+    "tool_name": "Scenema",
+    "tool_url": null
+   },
+   {
+    "end": "46:51",
+    "start": "42:44",
+    "sub_subject": "audio-music-tts",
+    "subject": "ai-content-generation",
+    "summary": "Dramabox from Resemble AI is a text-to-speech generator extracted from LTX 2.3 that supports voice cloning, scene direction, and phonetic vocalizations like laughter and sighs.",
+    "tool_name": "DramaBox",
+    "tool_url": null
+   }
+  ],
+  "subjects": [
+   "ai-content-generation",
+   "ai-dev-tooling",
+   "llms-foundation-models",
+   "unsorted"
+  ],
+  "title": "Real gundams, top 3D generator, open-source world models, ChatGPT updates, new TTS: AI NEWS",
+  "transcript_source": "auto-captions",
+  "upload_date": "20260517",
+  "video_id": "NnsQj2nDkKA",
+  "video_url": "https://www.youtube.com/watch?v=NnsQj2nDkKA"
+ },
  "OA4gchz1Zcs": {
   "channel": "AI Search",
   "schema_version": 2,
@@ -1552,5 +1930,570 @@
   "upload_date": "20260621",
   "video_id": "kkLlzQqa7MY",
   "video_url": "https://www.youtube.com/watch?v=kkLlzQqa7MY"
+ },
+ "pC6KHflGye0": {
+  "channel": "AI Search",
+  "schema_version": 2,
+  "segments": [
+   {
+    "end": "3:42",
+    "start": "1:02",
+    "sub_subject": "video",
+    "subject": "ai-content-generation",
+    "summary": "ByteDance releases Lance, a 3B parameter unified multimodal model for text-to-video, video editing, visual understanding, and text-to-image generation.",
+    "tool_name": "Lance",
+    "tool_url": null
+   },
+   {
+    "end": "4:57",
+    "start": "3:42",
+    "sub_subject": "3d-world-motion",
+    "subject": "ai-content-generation",
+    "summary": "Apple releases Lito, a 3D model generator using surface light field tokenization to create view-dependent 3D representations from single images, with code and training scripts available.",
+    "tool_name": "LiTo",
+    "tool_url": null
+   },
+   {
+    "end": "6:44",
+    "start": "4:57",
+    "sub_subject": "training-finetuning",
+    "subject": "ai-dev-tooling",
+    "summary": "Flash GRPO is a system for aligning video models to human preferences using isotemporal grouping and temporal gradient rectification, with code available for local training.",
+    "tool_name": "Flash GRPO",
+    "tool_url": null
+   },
+   {
+    "end": "8:20",
+    "start": "6:44",
+    "sub_subject": "3d-world-motion",
+    "subject": "ai-content-generation",
+    "summary": "Reactive GWM is a reactive game world model that generates video where NPCs can be controlled via high-level strategies, with GitHub code for local execution.",
+    "tool_name": "ReactiveGWM",
+    "tool_url": null
+   },
+   {
+    "end": "10:29",
+    "start": "8:20",
+    "sub_subject": "image",
+    "subject": "ai-content-generation",
+    "summary": "L2P is a pixel-space diffusion model that generates high-quality images up to 8K resolution without VAE/latent space, with local run and fine-tuning instructions available.",
+    "tool_name": "L2P",
+    "tool_url": null
+   },
+   {
+    "end": "12:53",
+    "start": "10:29",
+    "sub_subject": "model-release",
+    "subject": "llms-foundation-models",
+    "summary": "Carbon is an open-source DNA foundation model that processes 400k base pairs, predicts DNA sequences and protein structures, and runs on a single GPU.",
+    "tool_name": "Carbon",
+    "tool_url": null
+   },
+   {
+    "end": "15:47",
+    "start": "12:53",
+    "sub_subject": "video",
+    "subject": "ai-content-generation",
+    "summary": "Meituan releases LongCat Video Avatar 1.5, an avatar generator that creates expressive talking avatars from a reference image and audio, supporting multi-person interactions.",
+    "tool_name": "LongCat avatar 1.5",
+    "tool_url": null
+   },
+   {
+    "end": "18:49",
+    "start": "15:47",
+    "sub_subject": "model-release",
+    "subject": "llms-foundation-models",
+    "summary": "Mega ASR is a speech recognition model designed for noisy real-world audio, achieving lower error rates than competitors, with local installation and fine-tuning scripts available.",
+    "tool_name": "MegaASR",
+    "tool_url": null
+   },
+   {
+    "end": "21:15",
+    "start": "18:49",
+    "sub_subject": "model-release",
+    "subject": "llms-foundation-models",
+    "summary": "Tencent open-sources HY-MT2, a family of multilingual translation models with mixture-of-experts architecture that follows detailed translation instructions across 33 languages.",
+    "tool_name": "HY-MT2",
+    "tool_url": null
+   },
+   {
+    "end": "25:31",
+    "start": "23:20",
+    "sub_subject": "autonomous-research",
+    "subject": "ai-dev-tooling",
+    "summary": "Google DeepMind's AI co-scientist is a multi-agent system that helps scientists generate hypotheses, review literature, and propose experiments for drug discovery and biomedical research.",
+    "tool_name": "Co-scientist",
+    "tool_url": null
+   },
+   {
+    "end": "27:14",
+    "start": "25:31",
+    "sub_subject": "model-release",
+    "subject": "llms-foundation-models",
+    "summary": "Marlin 2B is a 2B parameter video language model for extracting timestamped event descriptions from videos, outperforming larger models on captioning benchmarks.",
+    "tool_name": "Marlin 2B",
+    "tool_url": null
+   },
+   {
+    "end": "29:08",
+    "start": "27:14",
+    "sub_subject": "model-release",
+    "subject": "llms-foundation-models",
+    "summary": "Alibaba releases Qwen 3.7 Max with enhanced agentic capabilities for coding and reasoning, vision support, and robot integration, currently available via API.",
+    "tool_name": "Qwen 3.7",
+    "tool_url": null
+   },
+   {
+    "end": "31:22",
+    "start": "29:08",
+    "sub_subject": "model-release",
+    "subject": "llms-foundation-models",
+    "summary": "Qwen 3.5 live translate adds visual context to translation, enabling better disambiguation via a free online demo.",
+    "tool_name": "Qwen live translate",
+    "tool_url": null
+   },
+   {
+    "end": "33:21",
+    "start": "31:22",
+    "sub_subject": null,
+    "subject": "unsorted",
+    "summary": "Robot Plus Plus demonstrates a magnetic wall-climbing industrial humanoid robot for teleoperated maintenance on chemical tanks and ship hulls.",
+    "tool_name": "Robot plus",
+    "tool_url": null
+   },
+   {
+    "end": "34:34",
+    "start": "33:21",
+    "sub_subject": null,
+    "subject": "unsorted",
+    "summary": "Hugging Face releases LeRobot Humanoid, an open-source 3D printed humanoid robot platform with full stack for robotics research.",
+    "tool_name": "LeRobot",
+    "tool_url": null
+   },
+   {
+    "end": "35:47",
+    "start": "34:34",
+    "sub_subject": null,
+    "subject": "unsorted",
+    "summary": "Unitree demonstrates voice-controlled autonomous actions for G1 robot, including exercises and dance, processed in real-time.",
+    "tool_name": "Unitree voice commands",
+    "tool_url": null
+   },
+   {
+    "end": "37:32",
+    "start": "35:47",
+    "sub_subject": "dev-utilities",
+    "subject": "ai-dev-tooling",
+    "summary": "Cog Omni Control is a video generation control system accepting sketch, pose, and line art inputs to guide output, currently only a technical paper.",
+    "tool_name": "CogOmniControl",
+    "tool_url": null
+   },
+   {
+    "end": "40:28",
+    "start": "37:32",
+    "sub_subject": "audio-music-tts",
+    "subject": "ai-content-generation",
+    "summary": "Meta's WaveFlow generates synchronized audio from silent video in raw waveform space, with GitHub code for installation and training but no full checkpoints.",
+    "tool_name": "WavFlow",
+    "tool_url": null
+   },
+   {
+    "end": "42:25",
+    "start": "40:28",
+    "sub_subject": "3d-world-motion",
+    "subject": "ai-content-generation",
+    "summary": "Pano World generates consistent 3D panorama tours of entire houses from floor plans, using a 3D shell for view consistency, code coming soon.",
+    "tool_name": "PanoWorld",
+    "tool_url": null
+   },
+   {
+    "end": "45:03",
+    "start": "42:25",
+    "sub_subject": "audio-music-tts",
+    "subject": "ai-content-generation",
+    "summary": "Stability AI releases Stable Audio 3 open-source music generation models (small/medium) with LoRA training support, available on Hugging Face.",
+    "tool_name": "Stable Audio 3",
+    "tool_url": null
+   },
+   {
+    "end": "47:06",
+    "start": "45:03",
+    "sub_subject": "video",
+    "subject": "ai-content-generation",
+    "summary": "Alibaba's Fashion Chameleon enables real-time virtual try-on in video, swapping garments while keeping motion coherent, with GitHub release planned.",
+    "tool_name": "FashionChameleon",
+    "tool_url": null
+   }
+  ],
+  "subjects": [
+   "ai-content-generation",
+   "ai-dev-tooling",
+   "llms-foundation-models",
+   "unsorted"
+  ],
+  "title": "AI scientist, DNA editors, AI NPCs, new Qwen, open-source robots, new video editors: AI NEWS",
+  "transcript_source": "auto-captions",
+  "upload_date": "20260524",
+  "video_id": "pC6KHflGye0",
+  "video_url": "https://www.youtube.com/watch?v=pC6KHflGye0"
+ },
+ "quxnhOeRz7I": {
+  "channel": "AI Search",
+  "schema_version": 2,
+  "segments": [
+   {
+    "end": "3:24",
+    "start": "0:46",
+    "sub_subject": "3d-world-motion",
+    "subject": "ai-content-generation",
+    "summary": "RecGen reconstructs 3D objects from a few RGBD images, handling occlusion and generating geometry, textures, and positions.",
+    "tool_name": "RecGen",
+    "tool_url": null
+   },
+   {
+    "end": "7:10",
+    "start": "3:24",
+    "sub_subject": "image",
+    "subject": "ai-content-generation",
+    "summary": "HiDream 01 is a new open-source image model that excels at 2K resolution, text rendering, and multi-panel image generation.",
+    "tool_name": "HiDream-O1 Image",
+    "tool_url": null
+   },
+   {
+    "end": "9:55",
+    "start": "7:10",
+    "sub_subject": "video",
+    "subject": "ai-content-generation",
+    "summary": "UniVid X generates video with intrinsic features like albedo, lighting, normals, and alpha mattes, enabling relighting and background replacement.",
+    "tool_name": "UniVidX",
+    "tool_url": null
+   },
+   {
+    "end": "12:26",
+    "start": "9:55",
+    "sub_subject": "model-release",
+    "subject": "llms-foundation-models",
+    "summary": "Google added multi-token prediction to Gemma 4, using a drafter model to achieve up to 3.1x speedup without quality loss.",
+    "tool_name": "Gemma 4 MTP",
+    "tool_url": null
+   },
+   {
+    "end": "15:03",
+    "start": "12:26",
+    "sub_subject": "benchmarks",
+    "subject": "eval-model-quality",
+    "summary": "ProgramBench evaluates models on reconstructing entire programs from EXE files and documentation, with top models scoring 0% on 200 tasks.",
+    "tool_name": "ProgramBench",
+    "tool_url": null
+   },
+   {
+    "end": "16:42",
+    "start": "15:03",
+    "sub_subject": "model-release",
+    "subject": "llms-foundation-models",
+    "summary": "MolmoAct 2 is an open-source vision-language-action model for robot manipulation, operating at 180ms per action and outperforming competitors.",
+    "tool_name": "MolmoAct 2",
+    "tool_url": null
+   },
+   {
+    "end": "18:27",
+    "start": "16:42",
+    "sub_subject": "3d-world-motion",
+    "subject": "ai-content-generation",
+    "summary": "PhysForge generates physics-grounded 3D assets with realistic joints and materials using a vision-language model and diffusion model.",
+    "tool_name": "PhysForge",
+    "tool_url": null
+   },
+   {
+    "end": "20:55",
+    "start": "18:27",
+    "sub_subject": "model-release",
+    "subject": "llms-foundation-models",
+    "summary": "OpenAI released GPT Real-time 2 with enhanced reasoning and natural voice, plus translation and transcription models.",
+    "tool_name": "GPT Realtime 2",
+    "tool_url": null
+   },
+   {
+    "end": "25:19",
+    "start": "22:18",
+    "sub_subject": null,
+    "subject": "unsorted",
+    "summary": "Genesis released Gene 26.5, a robot foundation model with a human-scale dexterous hand for complex tasks like cooking and lab work.",
+    "tool_name": "Gene 26.5",
+    "tool_url": null
+   },
+   {
+    "end": "28:44",
+    "start": "25:19",
+    "sub_subject": "autonomous-research",
+    "subject": "ai-dev-tooling",
+    "summary": "AlphaEvolve, Google's Gemini-powered coding agent, discovered improved algorithms for genomics, grid optimization, and disaster prediction.",
+    "tool_name": "AlphaEvolve",
+    "tool_url": null
+   },
+   {
+    "end": "30:08",
+    "start": "28:44",
+    "sub_subject": "video",
+    "subject": "ai-content-generation",
+    "summary": "Bock 1.0 is a new video generator from Video Rebirth that produces 1080p videos with sound and ranks sixth on Artificial Analysis leaderboard.",
+    "tool_name": "Bach 1.0",
+    "tool_url": null
+   },
+   {
+    "end": "33:06",
+    "start": "30:08",
+    "sub_subject": "model-release",
+    "subject": "llms-foundation-models",
+    "summary": "Zaya 1 8B is a tiny reasoning model trained on AMD hardware that matches much larger models on math and coding benchmarks.",
+    "tool_name": "Zaya1 8B",
+    "tool_url": null
+   },
+   {
+    "end": "33:55",
+    "start": "33:06",
+    "sub_subject": null,
+    "subject": "unsorted",
+    "summary": "Boston Dynamics demonstrated its electric Atlas robot performing superhuman moves like headstands and 180-degree torso rotation.",
+    "tool_name": "Atlas",
+    "tool_url": null
+   },
+   {
+    "end": "34:44",
+    "start": "33:55",
+    "sub_subject": null,
+    "subject": "unsorted",
+    "summary": "Unitree G1 and Engine AI's PM1 robots fought in a demo, showing missed kicks and a double knockout.",
+    "tool_name": "Unitree vs EngineAI",
+    "tool_url": null
+   },
+   {
+    "end": "37:13",
+    "start": "34:44",
+    "sub_subject": null,
+    "subject": "unsorted",
+    "summary": "Lab OS connects AI reasoning with physical labs using XR glasses to guide researchers through experiments and protocols.",
+    "tool_name": "LabOS",
+    "tool_url": null
+   },
+   {
+    "end": "39:18",
+    "start": "37:13",
+    "sub_subject": "3d-world-motion",
+    "subject": "ai-content-generation",
+    "summary": "D-Rex creates relightable full-body digital avatars by separating performance and lighting using a diffusion-based video relighting model.",
+    "tool_name": "DRex",
+    "tool_url": null
+   },
+   {
+    "end": "41:37",
+    "start": "39:18",
+    "sub_subject": "serving",
+    "subject": "local-models-infra",
+    "summary": "TwELL introduces a sparse tile-wise format and custom CUDA kernels that speed up LLM inference and training by over 20-30% on H100s.",
+    "tool_name": "TwELL",
+    "tool_url": null
+   },
+   {
+    "end": "43:50",
+    "start": "41:37",
+    "sub_subject": "video",
+    "subject": "ai-content-generation",
+    "summary": "Swift I2V generates 2K resolution videos from a single image using a two-stage approach that runs on a single RTX 4090.",
+    "tool_name": "SwiftI2V",
+    "tool_url": null
+   },
+   {
+    "end": "45:52",
+    "start": "43:50",
+    "sub_subject": "generation-setup",
+    "subject": "ai-content-generation",
+    "summary": "CDM accelerates diffusion models to four denoising steps while maintaining quality, with support for Stable Diffusion 3 and LongCat.",
+    "tool_name": "CDM",
+    "tool_url": null
+   },
+   {
+    "end": "48:10",
+    "start": "45:52",
+    "sub_subject": "3d-world-motion",
+    "subject": "ai-content-generation",
+    "summary": "Map to World generates explorable 3D worlds from top-down segmentation maps with text prompts for different regions.",
+    "tool_name": "Map2world",
+    "tool_url": null
+   }
+  ],
+  "subjects": [
+   "ai-content-generation",
+   "ai-dev-tooling",
+   "eval-model-quality",
+   "llms-foundation-models",
+   "local-models-infra",
+   "unsorted"
+  ],
+  "title": "Self-evolving AI, robot fights, new GPT voice, new local image model, Gemma upgrade: AI NEWS",
+  "transcript_source": "auto-captions",
+  "upload_date": "20260510",
+  "video_id": "quxnhOeRz7I",
+  "video_url": "https://www.youtube.com/watch?v=quxnhOeRz7I"
+ },
+ "s3rNDndvav0": {
+  "channel": "AI Search",
+  "schema_version": 2,
+  "segments": [
+   {
+    "end": "0:38",
+    "start": "0:00",
+    "sub_subject": "model-release",
+    "subject": "llms-foundation-models",
+    "summary": "Introduction to Mammal, a new AI model for drug discovery and medicine that could transform biosciences.",
+    "tool_name": "MAMMAL intro",
+    "tool_url": null
+   },
+   {
+    "end": "1:36",
+    "start": "0:38",
+    "sub_subject": null,
+    "subject": "unsorted",
+    "summary": "Explains high failure rates in drug discovery (90% fail in clinical trials) despite advanced technology.",
+    "tool_name": "Problems with drug design",
+    "tool_url": null
+   },
+   {
+    "end": "3:23",
+    "start": "1:36",
+    "sub_subject": null,
+    "subject": "unsorted",
+    "summary": "Basic biology overview covering DNA, genes, proteins, gene expression, and how mutations cause diseases like cancer.",
+    "tool_name": "How biology works",
+    "tool_url": null
+   },
+   {
+    "end": "5:24",
+    "start": "3:23",
+    "sub_subject": null,
+    "subject": "unsorted",
+    "summary": "Describes current drug design process using small molecules and antibodies as lock-and-key mechanisms.",
+    "tool_name": "How drug design works",
+    "tool_url": null
+   },
+   {
+    "end": "6:47",
+    "start": "5:24",
+    "sub_subject": "model-behavior",
+    "subject": "llms-foundation-models",
+    "summary": "Discusses limitations of current specialized AI tools (AlphaFold, Evo 2) being siloed across biology domains.",
+    "tool_name": "Why modern tech fails",
+    "tool_url": null
+   },
+   {
+    "end": "10:10",
+    "start": "6:47",
+    "sub_subject": "model-release",
+    "subject": "llms-foundation-models",
+    "summary": "Details Mammal's training on 2B samples from biological databases and unified sequence representation for molecules, genes, proteins.",
+    "tool_name": "How MAMMAL works",
+    "tool_url": null
+   },
+   {
+    "end": "10:59",
+    "start": "10:10",
+    "sub_subject": "benchmarks",
+    "subject": "eval-model-quality",
+    "summary": "Mammal evaluated on 11 rigorous benchmarks across drug discovery pipeline, achieving state-of-the-art on all tasks.",
+    "tool_name": "How good is it",
+    "tool_url": null
+   },
+   {
+    "end": "13:48",
+    "start": "10:59",
+    "sub_subject": "benchmarks",
+    "subject": "eval-model-quality",
+    "summary": "Mammal beats specialized MoleFormer on BBBP blood-brain barrier penetration and ClinTox FDA approval prediction benchmarks.",
+    "tool_name": "Predicting drug toxicity",
+    "tool_url": null
+   },
+   {
+    "end": "16:05",
+    "start": "15:19",
+    "sub_subject": "benchmarks",
+    "subject": "eval-model-quality",
+    "summary": "Mammal achieves 7.5% improvement over state-of-the-art on Zang 68K immune cell type classification benchmark.",
+    "tool_name": "Labelling cells based on gene activity",
+    "tool_url": null
+   },
+   {
+    "end": "20:19",
+    "start": "16:05",
+    "sub_subject": "reasoning-demo",
+    "subject": "llms-foundation-models",
+    "summary": "Mammal predicts efficacy of 4 unseen cancer drugs across 800 tumor cell lines, validated by low Tanimoto similarity to training data.",
+    "tool_name": "New cancer drug discovery",
+    "tool_url": null
+   },
+   {
+    "end": "21:16",
+    "start": "20:19",
+    "sub_subject": "model-behavior",
+    "subject": "llms-foundation-models",
+    "summary": "Discusses implications for drug repurposing using AI to screen existing drugs for new disease targets.",
+    "tool_name": "Implications for drug repurposing",
+    "tool_url": null
+   },
+   {
+    "end": "22:17",
+    "start": "21:16",
+    "sub_subject": null,
+    "subject": "unsorted",
+    "summary": "Explains antibody structure, protein folding challenges, and AlphaFold's role in predicting 3D protein shapes.",
+    "tool_name": "Antibodies",
+    "tool_url": null
+   },
+   {
+    "end": "23:29",
+    "start": "22:17",
+    "sub_subject": "benchmarks",
+    "subject": "eval-model-quality",
+    "summary": "Head-to-head test shows Mammal beats AlphaFold 3 on 5 of 7 antibody-disease target binding predictions.",
+    "tool_name": "MAMMAL vs Alphafold",
+    "tool_url": null
+   },
+   {
+    "end": "26:05",
+    "start": "23:29",
+    "sub_subject": "model-behavior",
+    "subject": "llms-foundation-models",
+    "summary": "Explains why Mammal outperforms AlphaFold on flexible proteins with intrinsically disordered regions (IDRs).",
+    "tool_name": "Why Alphafold failed",
+    "tool_url": null
+   },
+   {
+    "end": "27:27",
+    "start": "26:05",
+    "sub_subject": null,
+    "subject": "unsorted",
+    "summary": "Describes antibody structure and CDR regions that determine disease targeting capability.",
+    "tool_name": "Designing new drugs",
+    "tool_url": null
+   },
+   {
+    "end": "29:29",
+    "start": "27:27",
+    "sub_subject": "reasoning-demo",
+    "subject": "llms-foundation-models",
+    "summary": "Mammal generates antibody CDR sequences from scratch on SabDab dataset, achieving 19% improvement on complex CDRH3 region.",
+    "tool_name": "Generating antibody fingers",
+    "tool_url": null
+   }
+  ],
+  "subjects": [
+   "eval-model-quality",
+   "llms-foundation-models",
+   "unsorted"
+  ],
+  "title": "The biggest AI breakthrough in medicine & drug discovery",
+  "transcript_source": "auto-captions",
+  "upload_date": "20260514",
+  "video_id": "s3rNDndvav0",
+  "video_url": "https://www.youtube.com/watch?v=s3rNDndvav0"
  }
 }
