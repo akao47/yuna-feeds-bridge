@@ -610,5 +610,240 @@
 
 [ai-content-generation] Map2world: Map to World generates explorable 3D worlds from top-down segmentation maps with text prompts for different regions.]]></description>
     </item>
+    <item>
+      <title>Robot girlfriends, recursive AI agents, full AI research, Happy Horse: AI NEWS</title>
+      <link>https://www.youtube.com/watch?v=7r_WJ9xpne0</link>
+      <guid isPermaLink="false">7r_WJ9xpne0</guid>
+      <pubDate>Sun, 03 May 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[Robot girlfriends, recursive AI agents, full AI research, Happy Horse: AI NEWS — segmented AI-news roundup (21 segments).
+
+[llms-foundation-models] OmniShotCut: OmniShotCut detects video cuts and transitions (hard cut, dissolve, fade, slide, cross zoom) using a 164MB model trained on 2.5M videos, with Hugging Face demo and local installation instructions.
+
+[ai-content-generation] HappyHorse: Alibaba's Happy Horse video model ranks #1 on Artificial Analysis leaderboard but shows poor physics and prompt adherence in tests vs. Seed Dance 2.0.
+
+[ai-content-generation] Mocap Anything v2: Mocap Anything v2 converts any video of a moving person/creature into clean animation-ready skeletons across different skeletons using end-to-end learning, improving stability over v1.
+
+[llms-foundation-models] Ling2.6 Flash: Inclusion AI (Alibaba spin-off) releases Link 2.6 Flash, a 104B MoE model with 7.4B active parameters optimized for speed/efficiency with long context.
+
+[ai-content-generation] Z-anime: Z-anime releases anime-specialized image model fine-tuned from Zimage Base, 6B parameters with FP8/GGUF/4-step distilled versions for fast consumer GPU inference.
+
+[ai-dev-tooling] Recursive multi agents: Recursive multi-agent systems enable agents to collaborate in latent space, looping thoughts for 2.4-4x speedup, 75% fewer tokens, 8% accuracy boost across benchmarks.
+
+[ai-content-generation] Vista4D: Vista4D converts video to 4D scene (3D + time), enabling camera reshoots, point cloud editing, object insertion/removal, and video merging with high coherence.
+
+[ai-content-generation] Tuna2: Meta releases Tuna 2 image generator/editor with good prompt understanding and text rendering, but withholds full model weights due to organizational policy, offering only a nerfed foundation checkpoint.
+
+[ai-content-generation] AnyRecon: AnyRecon reconstructs coherent 3D scenes from sparse, unordered photos using global memory, outperforming ViewCrafter/Uni3C in detail and coherence.
+
+[ai-dev-tooling] ARA: ARA (Agent-native Research Artifacts) proposes replacing PDF papers with AI-readable structured packages containing code, configs, failed attempts, and full research graphs.
+
+[unsorted] KAI: Kinetics AI unveils Kai humanoid robot with 115 DoF, 36 DoF hands, full-body tactile skin, and Kai world model for long-horizon tasks like laundry folding.
+
+[unsorted] Robotera factory: Robot Era demonstrates dozens of L7 humanoid robots automating parcel sorting in logistics center, planning 1000-unit fleet for factory automation.
+
+[unsorted] Neotix head: Noix Robotics shows bionic desktop humanoid head with realistic facial expressions, synthetic skin, eyelashes for social interaction/companionship.
+
+[unsorted] TFBOT Ella: TFbot reveals Ella android head marketed as girlfriend robot with natural expressions, though eyes less realistic than Neotix.
+
+[ai-content-generation] SenseNova U1: SenseNova U1 unified multimodal model generates complex posters/infographics with accurate text, edits images via prompt, outputs interleaved text/image storyboards, and solves visual puzzles outperforming Nano Banana/GPT-4o.
+
+[llms-foundation-models] Nemotron 3 Nano Omni: Nvidia releases Nemotron 3 Nano Omni, a 30B MoE model (3B active) handling video/audio/images/text jointly with efficient temporal compression, open-sourced with data/recipes.
+
+[claude-code] Claude connectors: Anthropic releases Claude connectors for creative tools (Adobe Creative Cloud, Blender, Autodesk Fusion, Ableton, Canva), enabling Claude to directly operate within these applications.
+
+[ai-content-generation] Moonlake: Moonlake 3D world-building agent operates directly in Blender, clicking/editing to build structured scenes with proper connections, learning from expert workflows.
+
+[llms-foundation-models] Talkie: Talkie 13B model trained exclusively on pre-1930 historical data to study training data influence, showing surprise at post-1930 events and limited coding ability despite no computer exposure.
+
+[llms-foundation-models] Grok 4.3: xAI quietly releases Grok 4.3 beta with sandbox computer access for agentic tool use, but benchmarks show it behind top open/closed models despite competitive pricing.
+
+[llms-foundation-models] Mistral 3.5: Mistral releases Medium 3.5 128B dense model with 256K context, but independent benchmarks show poor performance vs. DeepSeek V4/Kimi 2.6 and expensive API pricing.]]></description>
+    </item>
+    <item>
+      <title>The insane engineering of Deepseek V4</title>
+      <link>https://www.youtube.com/watch?v=XJUpuOBpT-4</link>
+      <guid isPermaLink="false">XJUpuOBpT-4</guid>
+      <pubDate>Fri, 01 May 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[The insane engineering of Deepseek V4 — segmented AI-news roundup (17 segments).
+
+[llms-foundation-models] Deepseek V4 intro: Introduces DeepSeek V4, a 1.6 trillion parameter model with 1M context window, noting the team's resource constraints compared to large labs and their open-source release with a technical paper.
+
+[llms-foundation-models] Deepseek V4 specs: Details DeepSeek V4 Pro's specifications, including 1.6 trillion parameters and a 1 million token context window, explaining parameters as model dials and context as short-term memory.
+
+[llms-foundation-models] The challenge of 1M context: Explains the computational challenge of 1M token context, describing how attention mechanisms scale quadratically and the KV cache memory burden.
+
+[llms-foundation-models] Hybrid attention: Presents DeepSeek's hybrid attention architecture (CSA and HCA) that compresses past context and selectively retrieves relevant information instead of attending to all tokens.
+
+[llms-foundation-models] CSA & sparse selection: Describes Compressed Sparse Attention (CSA) which groups tokens into compressed blocks and uses a lightning indexer to sparsely retrieve only the most relevant blocks.
+
+[llms-foundation-models] HCA: Explains Heavily Compressed Attention (HCA) that aggressively compresses 128 tokens into a single representation to maintain high-level understanding of distant history.
+
+[llms-foundation-models] Sliding window attention: Details the sliding window attention pathway that keeps recent tokens uncompressed for exact fidelity, creating three parallel attention views interleaved through the network.
+
+[llms-foundation-models] Insane efficiency gains: Reports benchmark results showing DeepSeek V4 Pro requires 3.7x lower FLOPs and 10x smaller KV cache than V3.2, drastically reducing compute and memory requirements.
+
+[llms-foundation-models] Signal explosion: Describes the signal explosion problem at trillion-parameter scale where residual connections cause feedback loops that can crash training runs.
+
+[llms-foundation-models] Residual connections: Covers residual connections and hyperconnections as traditional solutions, noting they fail at trillion-parameter scale, leading to DeepSeek's novel manifold constraint hyperconnections (MHC).
+
+[llms-foundation-models] mHC: Explains MHC constrains residuals to doubly stochastic matrices using the Sinkhorn algorithm to conserve signal and prevent amplification.
+
+[llms-foundation-models] mHC continued: Continues MHC discussion, detailing low-level GPU optimizations like fused kernels and selective recomputation to efficiently implement the Sinkhorn algorithm at scale.
+
+[llms-foundation-models] Muon: Introduces Muon, a custom optimizer replacing AdamW, which uses a two-phase process of aggressive convergence pushing followed by careful stabilization for faster, stable learning.
+
+[llms-foundation-models] Infra challenges: Addresses distributed training communication bottlenecks at 1.6T parameters, describing how DeepSeek overlaps computation and communication using TileLang fused kernels to keep GPUs busy.
+
+[llms-foundation-models] Training challenges: Outlines the 33 trillion token training curriculum that gradually extends context from 4K to 1M tokens, and mentions loss spikes as a major instability threat.
+
+[llms-foundation-models] Anticipatory routing: Describes anticipatory routing that uses historical parameter snapshots to detect and stabilize loss spikes by ignoring chaotic noise and locking onto underlying trends.
+
+[llms-foundation-models] SOTA results: Summarizes SOTA results showing DeepSeek V4 matches or beats top closed models on benchmarks, achieves perfect Putnam 2025 score, and ranks second among open-source models.]]></description>
+    </item>
+    <item>
+      <title>The most insane week in AI</title>
+      <link>https://www.youtube.com/watch?v=ZKfd9S9lOtc</link>
+      <guid isPermaLink="false">ZKfd9S9lOtc</guid>
+      <pubDate>Sun, 26 Apr 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[The most insane week in AI — segmented AI-news roundup (20 segments).
+
+[ai-content-generation] Multiworld: MultiWorld generates multi-agent video worlds with consistent multi-view camera angles for game environments and robot training data using a multi-agent condition module and global state encoder.
+
+[ai-dev-tooling] OpenGame: OpenGame is an open-source agentic framework that autonomously builds, tests, and fixes video games end-to-end through a self-correction loop with classification, scaffolding, design, asset synthesis, implementation, and verification.
+
+[ai-content-generation] UniGenDet: UniGenDet uses a unified model with symbiotic self-attention to simultaneously detect AI-generated images and generate more realistic images, outperforming competitors on fake image detection benchmarks.
+
+[llms-foundation-models] Kimi K2.6: Kimi K2.6 is a new open-source model achieving top scores on agentic, coding, and visual benchmarks, capable of autonomously deploying and optimizing models, front-end design, and orchestrating up to 300 sub-agents.
+
+[ai-dev-tooling] Open CoDesign: Open Co-design is an open-source, self-hosted AI design system that autonomously generates user interfaces, slide decks, PDFs, and posters from text descriptions or reference images as an alternative to proprietary tools.
+
+[llms-foundation-models] Mimo v2.5: Xiaomi releases MiMo 2.5 Pro, an open-source model tying for top open-source performance on agentic coding and general benchmarks, and a multimodal version understanding images and audio, both planned for open-source release.
+
+[ai-dev-tooling] ML Intern: ML Intern is an open-source agentic framework from Hugging Face that autonomously performs machine learning research by reading papers, finding datasets, training models, and writing code within the Hugging Face ecosystem.
+
+[unsorted] Humanoid outruns human: Huawei's Honor lab wins humanoid robot marathon in Beijing with 'Lightning' robot completing 21km in 15:26, beating human world record, with 100+ robots competing and 40% fully autonomous.
+
+[unsorted] Unitree with wheels: Unitree demonstrates new wheeled and bladed foot attachments enabling their humanoid robot to glide, skate, and perform complex balance maneuvers on various surfaces.
+
+[llms-foundation-models] GPT 5.5: OpenAI releases GPT-5.5, described as the best and most performant model currently available with improved coding autonomy and fewer errors than competitors.
+
+[ai-content-generation] UniGeo: UniGeo enables precise 3D camera control in image editing by reconstructing scenes into 3D point clouds, allowing panning, tilting, and multi-movement sequences with exact degree specifications.
+
+[ai-content-generation] EditCrafter: EditCrafter edits images up to 4K resolution with examples showing style transfers and scene changes, though tends to oversaturate colors and requires 24GB VRAM for 4K editing.
+
+[ai-content-generation] GPT image 2: OpenAI releases GPT Image 2 (ChatGPT Images 2), an image generator creating accurate diagrams, infographics, realistic images, and readable text, surpassing previous leader Nano Banana.
+
+[ai-content-generation] LTX HDR: LTX releases a 340MB LoRA that adds HDR capability to their open-source video generator, significantly improving dynamic range, color balance, and post-processing flexibility.
+
+[llms-foundation-models] VisionBanana: Google releases VisionBanana, a vision model combining understanding and generation with precise segmentation, depth estimation, and surface normal mapping capabilities.
+
+[llms-foundation-models] HY3: Tencent Hunyuan releases HY3 (HiP preview), a 295B parameter hybrid expert language model with 21B active parameters and 256K context, open-sourced but requiring multi-GPU setup.
+
+[llms-foundation-models] DeepSeek V4: DeepSeek V4 preview releases Pro (1.6T params) and Flash (284B params) models with 1M context, ranking third on open-source leaderboards behind Kimi K2.6 and MiMo 2.5 but winning Vibe Code Bench.
+
+[ai-content-generation] CoInteract: CoInteract generates realistic influencer-style product videos from two images using dual-stream code generation for physically plausible human-object interactions, planning to release inference, model, and training code open-source.
+
+[llms-foundation-models] Qwen 3.6 27B: Alibaba releases Qwen 3.6 27B, a dense open-source model with strong agentic coding and multimodal reasoning, currently best medium-sized model at 55.6GB fitting high-end GPUs.
+
+[ai-content-generation] UniMesh: UniMesh generates and edits 3D models from text or image prompts and can caption 3D objects, with model release planned for late May 2026.]]></description>
+    </item>
+    <item>
+      <title>GPT-5.5 is a total freak</title>
+      <link>https://www.youtube.com/watch?v=G-oNwbngkt0</link>
+      <guid isPermaLink="false">G-oNwbngkt0</guid>
+      <pubDate>Sat, 25 Apr 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[GPT-5.5 is a total freak — segmented AI-news roundup (15 segments).
+
+[ai-dev-tooling] ChatGPT vs Codex: The creator recommends using OpenAI's Codex app over ChatGPT for building and vibe coding, as Codex allows multiple agents to work on entire projects in folders for more complex iterations.
+
+[llms-foundation-models] Digital Earth: Using GPT-5.5 in Codex, the creator builds an interactive 3D digital twin of Earth with zoom from space to street level, 3D buildings, night lights, and city navigation through iterative prompting.
+
+[llms-foundation-models] Ray tracing: The creator develops a ray tracing simulation with adjustable material properties for sphere, cube, and pyramid shapes in a standalone HTML file, refining reflections and translucency through multiple prompts.
+
+[llms-foundation-models] Detecting cancer: In ChatGPT with GPT-5.5, the creator uploads chest CT slices and asks the model to identify and circle lesions, achieving three out of four correct detections.
+
+[llms-foundation-models] Classifying tumors: The creator tests GPT-5.5 on six brain tumor CT images, but the model misidentifies most tumor types, correctly identifying only one out of six cases.
+
+[llms-foundation-models] Liquid mixer: Using Codex, the creator builds a web-based liquid splash simulator with hand tracking control, adjustable gravity, lighting, and particle persistence through iterative refinement.
+
+[llms-foundation-models] 3D rendering: The creator prompts Codex to generate a detailed 3D animated office scene from a single isometric image, achieving coherent geometry, monitors, plants, and human figures after multiple revisions.
+
+[llms-foundation-models] Music composition: Codex creates a functional DAW interface with piano roll editors for multiple instruments and composes a 28-bar song, though sounds are synthetic and require external instruments for quality.
+
+[llms-foundation-models] 3D video game: Codex builds a playable 3D mech shooter game in Three.js with multiple waves, levels, and functional controls after just two refinement prompts.
+
+[llms-foundation-models] Find the frog: The creator challenges GPT-5.5 to find a hidden frog in an image, but the model incorrectly circles a wrong region and fails the test.
+
+[ai-dev-tooling] Lead scraping and automation: Codex autonomously scrapes roofing company leads in California, extracts emails, and generates custom landing pages for each in standalone HTML files within minutes.
+
+[retrieval-rag-memory] Deep research: ChatGPT's deep research mode analyzes Alzheimer's disease mechanisms, therapies, and phase 3 trials for 7 minutes, producing detailed sections with citations, tables, and visualizations.
+
+[llms-foundation-models] Hallucinations: GPT-5.5 correctly identifies there is no 'S' in ChatGPT and solves the car wash reasoning puzzle, demonstrating resistance to trick questions.
+
+[llms-foundation-models] Specs and where to use: GPT-5.5 is OpenAI's smartest model with strengths in agentic coding and research, available to Plus, Pro, Business, and Enterprise users via ChatGPT and Codex model selectors.
+
+[eval-model-quality] Benchmarks: GPT-5.5 beats Claude Opus 4.7 on Terminal Bench by 12%, ranks #1 on Artificial Analysis and LiveBench leaderboards, and achieves highest score on ARC-AGI-2 visual reasoning benchmark.]]></description>
+    </item>
+    <item>
+      <title>New AI image generator BEATS EVERYTHING</title>
+      <link>https://www.youtube.com/watch?v=TLFPbMUtErM</link>
+      <guid isPermaLink="false">TLFPbMUtErM</guid>
+      <pubDate>Wed, 22 Apr 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[New AI image generator BEATS EVERYTHING — segmented AI-news roundup (27 segments).
+
+[ai-content-generation] 100 posters: Comparison of GPT Image 2 and Nano Banana Pro generating 100 anime poster grid; GPT Image 2 produces clearer characters and correct text.
+
+[ai-content-generation] Desktop windows: Comparison generating messy Windows 11 desktop screenshot; GPT Image 2 renders window text accurately while Nano Banana Pro shows misspellings and gibberish.
+
+[ai-content-generation] Youtube screenshot: Comparison generating YouTube homepage screenshot; GPT Image 2 produces correct thumbnails and text while Nano Banana Pro has alignment issues and misspellings.
+
+[ai-content-generation] Tiktok livestream: Comparison generating TikTok live stream interface; GPT Image 2 creates realistic UI with correct icons and comments while Nano Banana Pro looks fake with misplaced icons.
+
+[ai-content-generation] Branding board: Comparison generating branding board for matcha brand; both models include all elements but GPT Image 2 looks more professional while Nano Banana Pro appears cartoony.
+
+[ai-content-generation] Catalog design: Comparison generating 7-day fashion catalog infographic; GPT Image 2 produces professional outfits and color palette while Nano Banana Pro is less aesthetically pleasing.
+
+[ai-content-generation] Spritesheet animation: Comparison generating 5x5 pixel art sprite sheet of warrior princess; GPT Image 2 animation is dynamic and fluid while Nano Banana Pro is static with strange sword slash.
+
+[ai-content-generation] Data visualization: Comparison generating data visualization from AI model table; GPT Image 2 creates accurate bar graphs with correct numbers and labels while Nano Banana Pro has numerous errors and omissions.
+
+[ai-content-generation] Editing images: Comparison editing screenshot to fake social media metrics; GPT Image 2 successfully increases engagement numbers and adds realistic comments while Nano Banana Pro produces formatting errors.
+
+[ai-content-generation] Font design: Comparison generating typography design from reference font; GPT Image 2 matches style accurately while Nano Banana Pro shows inconsistencies in letter width and shapes.
+
+[ai-content-generation] Electronic diagram: Comparison generating exploded iPhone diagram with labels; GPT Image 2 identifies components correctly with minor label error while Nano Banana Pro produces cartoony render with incorrect camera lenses and port orientation.
+
+[ai-content-generation] Manga page: Comparison generating manga page from two character photos; both models create decent fight scenes with Naruto and Gojo, though GPT Image 2 slightly better.
+
+[ai-content-generation] UI design: Comparison redesigning website landing page; GPT Image 2 completely redesigns header and tags for professional look while Nano Banana Pro only adds highlights and gradients.
+
+[ai-content-generation] Storyboard: Comparison generating ad storyboard for earbuds; GPT Image 2 creates detailed multi-scene narrative with noise visualization while Nano Banana Pro produces simpler, worse version.
+
+[ai-content-generation] Street scene with signs: Comparison generating Hong Kong street scene with Chinese/English signs; both models produce good results with legible text, though GPT Image 2 has fewer errors, resulting in a tie.
+
+[ai-content-generation] GTA6 gameplay: Comparison generating GTA 6 gameplay screenshot; GPT Image 2 shows accurate map, cars, and text while Nano Banana Pro has more errors in map interface.
+
+[ai-content-generation] Doing your homework: Comparison labeling animal cell organelles with messy handwriting; both models perform poorly, with GPT Image 2 getting some correct and Nano Banana Pro mislabeling most.
+
+[ai-content-generation] Species knowledge: Comparison generating 3x3 grid of Borneo endemic frog species; both models fail to produce accurate endemic species images, generating random frogs not specific to Borneo.
+
+[ai-content-generation] World map: Comparison generating detailed world map with topography and statistics; GPT Image 2 labels most features correctly despite some misses while Nano Banana Pro has numerous misspellings and errors.
+
+[ai-content-generation] Metro map: Comparison generating Hong Kong MTR subway map with bilingual station labels; GPT Image 2 labels all stations and lines impressively while Nano Banana Pro misses 80% of stations.
+
+[ai-content-generation] Spatial understanding: Comparison generating room photo from floor plan perspective; GPT Image 2 fails to understand door perspective while Nano Banana Pro correctly renders view from main door with minor flaws.
+
+[ai-content-generation] Chess moves: Comparison generating chess checkmate in two moves; both models fail, with GPT Image 2 suggesting illegal queen move and Nano Banana Pro showing incorrect board configuration.
+
+[ai-content-generation] Clock and wine glass: Comparison generating clock showing 11:15 with full wine glass; GPT Image 2 succeeds while Nano Banana Pro fails to render correct time and glass fill.
+
+[ai-content-generation] Wheres Waldo: Comparison generating Where's Waldo image; both models fail as GPT Image 2 produces undefined squiggles and Nano Banana Pro adds too many Waldos.
+
+[ai-content-generation] Other demos: Showcase of additional GPT Image 2 capabilities: magazines, handwritten essays, comics with consistent text, multilingual typography, photorealistic images, recursive presentation, ultra-wide aspect ratios, and data visualizations.
+
+[llms-foundation-models] How to use GPT Images 2.0: Explains ChatGPT Images 2.0 availability: free users get 3-5 daily generations, paid plans have higher limits, also accessible via third-party platforms and API.
+
+[llms-foundation-models] Specs and performance: Details specs: 2K resolution via API, 1K in ChatGPT free, strong multilingual text generation, photorealism with natural imperfections, aspect ratios up to 3:1, December 2025 knowledge cutoff, agent mode with web search, and Arena leaderboard dominance.]]></description>
+    </item>
   </channel>
 </rss>

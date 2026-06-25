@@ -237,6 +237,213 @@
   "video_id": "6d__WOpZswY",
   "video_url": "https://www.youtube.com/watch?v=6d__WOpZswY"
  },
+ "7r_WJ9xpne0": {
+  "channel": "AI Search",
+  "schema_version": 2,
+  "segments": [
+   {
+    "end": "2:05",
+    "start": "0:50",
+    "sub_subject": "model-release",
+    "subject": "llms-foundation-models",
+    "summary": "OmniShotCut detects video cuts and transitions (hard cut, dissolve, fade, slide, cross zoom) using a 164MB model trained on 2.5M videos, with Hugging Face demo and local installation instructions.",
+    "tool_name": "OmniShotCut",
+    "tool_url": null
+   },
+   {
+    "end": "5:27",
+    "start": "2:05",
+    "sub_subject": "video",
+    "subject": "ai-content-generation",
+    "summary": "Alibaba's Happy Horse video model ranks #1 on Artificial Analysis leaderboard but shows poor physics and prompt adherence in tests vs. Seed Dance 2.0.",
+    "tool_name": "HappyHorse",
+    "tool_url": null
+   },
+   {
+    "end": "7:23",
+    "start": "5:27",
+    "sub_subject": "3d-world-motion",
+    "subject": "ai-content-generation",
+    "summary": "Mocap Anything v2 converts any video of a moving person/creature into clean animation-ready skeletons across different skeletons using end-to-end learning, improving stability over v1.",
+    "tool_name": "Mocap Anything v2",
+    "tool_url": null
+   },
+   {
+    "end": "8:33",
+    "start": "7:23",
+    "sub_subject": "model-release",
+    "subject": "llms-foundation-models",
+    "summary": "Inclusion AI (Alibaba spin-off) releases Link 2.6 Flash, a 104B MoE model with 7.4B active parameters optimized for speed/efficiency with long context.",
+    "tool_name": "Ling2.6 Flash",
+    "tool_url": null
+   },
+   {
+    "end": "9:37",
+    "start": "8:33",
+    "sub_subject": "image",
+    "subject": "ai-content-generation",
+    "summary": "Z-anime releases anime-specialized image model fine-tuned from Zimage Base, 6B parameters with FP8/GGUF/4-step distilled versions for fast consumer GPU inference.",
+    "tool_name": "Z-anime",
+    "tool_url": null
+   },
+   {
+    "end": "12:50",
+    "start": "9:37",
+    "sub_subject": "agentic-frameworks",
+    "subject": "ai-dev-tooling",
+    "summary": "Recursive multi-agent systems enable agents to collaborate in latent space, looping thoughts for 2.4-4x speedup, 75% fewer tokens, 8% accuracy boost across benchmarks.",
+    "tool_name": "Recursive multi agents",
+    "tool_url": null
+   },
+   {
+    "end": "15:47",
+    "start": "12:50",
+    "sub_subject": "3d-world-motion",
+    "subject": "ai-content-generation",
+    "summary": "Vista4D converts video to 4D scene (3D + time), enabling camera reshoots, point cloud editing, object insertion/removal, and video merging with high coherence.",
+    "tool_name": "Vista4D",
+    "tool_url": null
+   },
+   {
+    "end": "17:02",
+    "start": "15:47",
+    "sub_subject": "image",
+    "subject": "ai-content-generation",
+    "summary": "Meta releases Tuna 2 image generator/editor with good prompt understanding and text rendering, but withholds full model weights due to organizational policy, offering only a nerfed foundation checkpoint.",
+    "tool_name": "Tuna2",
+    "tool_url": null
+   },
+   {
+    "end": "19:19",
+    "start": "17:02",
+    "sub_subject": "3d-world-motion",
+    "subject": "ai-content-generation",
+    "summary": "AnyRecon reconstructs coherent 3D scenes from sparse, unordered photos using global memory, outperforming ViewCrafter/Uni3C in detail and coherence.",
+    "tool_name": "AnyRecon",
+    "tool_url": null
+   },
+   {
+    "end": "24:52",
+    "start": "21:29",
+    "sub_subject": "autonomous-research",
+    "subject": "ai-dev-tooling",
+    "summary": "ARA (Agent-native Research Artifacts) proposes replacing PDF papers with AI-readable structured packages containing code, configs, failed attempts, and full research graphs.",
+    "tool_name": "ARA",
+    "tool_url": null
+   },
+   {
+    "end": "26:33",
+    "start": "24:52",
+    "sub_subject": null,
+    "subject": "unsorted",
+    "summary": "Kinetics AI unveils Kai humanoid robot with 115 DoF, 36 DoF hands, full-body tactile skin, and Kai world model for long-horizon tasks like laundry folding.",
+    "tool_name": "KAI",
+    "tool_url": null
+   },
+   {
+    "end": "27:35",
+    "start": "26:33",
+    "sub_subject": null,
+    "subject": "unsorted",
+    "summary": "Robot Era demonstrates dozens of L7 humanoid robots automating parcel sorting in logistics center, planning 1000-unit fleet for factory automation.",
+    "tool_name": "Robotera factory",
+    "tool_url": null
+   },
+   {
+    "end": "28:02",
+    "start": "27:35",
+    "sub_subject": null,
+    "subject": "unsorted",
+    "summary": "Noix Robotics shows bionic desktop humanoid head with realistic facial expressions, synthetic skin, eyelashes for social interaction/companionship.",
+    "tool_name": "Neotix head",
+    "tool_url": null
+   },
+   {
+    "end": "28:50",
+    "start": "28:02",
+    "sub_subject": null,
+    "subject": "unsorted",
+    "summary": "TFbot reveals Ella android head marketed as girlfriend robot with natural expressions, though eyes less realistic than Neotix.",
+    "tool_name": "TFBOT Ella",
+    "tool_url": null
+   },
+   {
+    "end": "32:14",
+    "start": "28:50",
+    "sub_subject": "image",
+    "subject": "ai-content-generation",
+    "summary": "SenseNova U1 unified multimodal model generates complex posters/infographics with accurate text, edits images via prompt, outputs interleaved text/image storyboards, and solves visual puzzles outperforming Nano Banana/GPT-4o.",
+    "tool_name": "SenseNova U1",
+    "tool_url": null
+   },
+   {
+    "end": "34:17",
+    "start": "32:14",
+    "sub_subject": "model-release",
+    "subject": "llms-foundation-models",
+    "summary": "Nvidia releases Nemotron 3 Nano Omni, a 30B MoE model (3B active) handling video/audio/images/text jointly with efficient temporal compression, open-sourced with data/recipes.",
+    "tool_name": "Nemotron 3 Nano Omni",
+    "tool_url": null
+   },
+   {
+    "end": "35:34",
+    "start": "34:17",
+    "sub_subject": "product-updates",
+    "subject": "claude-code",
+    "summary": "Anthropic releases Claude connectors for creative tools (Adobe Creative Cloud, Blender, Autodesk Fusion, Ableton, Canva), enabling Claude to directly operate within these applications.",
+    "tool_name": "Claude connectors",
+    "tool_url": null
+   },
+   {
+    "end": "37:59",
+    "start": "35:34",
+    "sub_subject": "3d-world-motion",
+    "subject": "ai-content-generation",
+    "summary": "Moonlake 3D world-building agent operates directly in Blender, clicking/editing to build structured scenes with proper connections, learning from expert workflows.",
+    "tool_name": "Moonlake",
+    "tool_url": null
+   },
+   {
+    "end": "42:07",
+    "start": "37:59",
+    "sub_subject": "model-release",
+    "subject": "llms-foundation-models",
+    "summary": "Talkie 13B model trained exclusively on pre-1930 historical data to study training data influence, showing surprise at post-1930 events and limited coding ability despite no computer exposure.",
+    "tool_name": "Talkie",
+    "tool_url": null
+   },
+   {
+    "end": "43:23",
+    "start": "42:07",
+    "sub_subject": "model-release",
+    "subject": "llms-foundation-models",
+    "summary": "xAI quietly releases Grok 4.3 beta with sandbox computer access for agentic tool use, but benchmarks show it behind top open/closed models despite competitive pricing.",
+    "tool_name": "Grok 4.3",
+    "tool_url": null
+   },
+   {
+    "end": "45:27",
+    "start": "43:23",
+    "sub_subject": "model-release",
+    "subject": "llms-foundation-models",
+    "summary": "Mistral releases Medium 3.5 128B dense model with 256K context, but independent benchmarks show poor performance vs. DeepSeek V4/Kimi 2.6 and expensive API pricing.",
+    "tool_name": "Mistral 3.5",
+    "tool_url": null
+   }
+  ],
+  "subjects": [
+   "ai-content-generation",
+   "ai-dev-tooling",
+   "claude-code",
+   "llms-foundation-models",
+   "unsorted"
+  ],
+  "title": "Robot girlfriends, recursive AI agents, full AI research, Happy Horse: AI NEWS",
+  "transcript_source": "auto-captions",
+  "upload_date": "20260503",
+  "video_id": "7r_WJ9xpne0",
+  "video_url": "https://www.youtube.com/watch?v=7r_WJ9xpne0"
+ },
  "CzxqQJOswvo": {
   "channel": "AI Search",
   "schema_version": 2,
@@ -565,6 +772,158 @@
   "upload_date": "20260602",
   "video_id": "DlvhlQOBHBw",
   "video_url": "https://www.youtube.com/watch?v=DlvhlQOBHBw"
+ },
+ "G-oNwbngkt0": {
+  "channel": "AI Search",
+  "schema_version": 2,
+  "segments": [
+   {
+    "end": "1:28",
+    "start": "0:47",
+    "sub_subject": "autonomous-research",
+    "subject": "ai-dev-tooling",
+    "summary": "The creator recommends using OpenAI's Codex app over ChatGPT for building and vibe coding, as Codex allows multiple agents to work on entire projects in folders for more complex iterations.",
+    "tool_name": "ChatGPT vs Codex",
+    "tool_url": null
+   },
+   {
+    "end": "3:24",
+    "start": "1:28",
+    "sub_subject": "coding-build-demo",
+    "subject": "llms-foundation-models",
+    "summary": "Using GPT-5.5 in Codex, the creator builds an interactive 3D digital twin of Earth with zoom from space to street level, 3D buildings, night lights, and city navigation through iterative prompting.",
+    "tool_name": "Digital Earth",
+    "tool_url": null
+   },
+   {
+    "end": "6:27",
+    "start": "3:24",
+    "sub_subject": "coding-build-demo",
+    "subject": "llms-foundation-models",
+    "summary": "The creator develops a ray tracing simulation with adjustable material properties for sphere, cube, and pyramid shapes in a standalone HTML file, refining reflections and translucency through multiple prompts.",
+    "tool_name": "Ray tracing",
+    "tool_url": null
+   },
+   {
+    "end": "7:26",
+    "start": "6:27",
+    "sub_subject": "multimodal-demo",
+    "subject": "llms-foundation-models",
+    "summary": "In ChatGPT with GPT-5.5, the creator uploads chest CT slices and asks the model to identify and circle lesions, achieving three out of four correct detections.",
+    "tool_name": "Detecting cancer",
+    "tool_url": null
+   },
+   {
+    "end": "10:14",
+    "start": "8:45",
+    "sub_subject": "multimodal-demo",
+    "subject": "llms-foundation-models",
+    "summary": "The creator tests GPT-5.5 on six brain tumor CT images, but the model misidentifies most tumor types, correctly identifying only one out of six cases.",
+    "tool_name": "Classifying tumors",
+    "tool_url": null
+   },
+   {
+    "end": "12:10",
+    "start": "10:14",
+    "sub_subject": "coding-build-demo",
+    "subject": "llms-foundation-models",
+    "summary": "Using Codex, the creator builds a web-based liquid splash simulator with hand tracking control, adjustable gravity, lighting, and particle persistence through iterative refinement.",
+    "tool_name": "Liquid mixer",
+    "tool_url": null
+   },
+   {
+    "end": "13:45",
+    "start": "12:10",
+    "sub_subject": "coding-build-demo",
+    "subject": "llms-foundation-models",
+    "summary": "The creator prompts Codex to generate a detailed 3D animated office scene from a single isometric image, achieving coherent geometry, monitors, plants, and human figures after multiple revisions.",
+    "tool_name": "3D rendering",
+    "tool_url": null
+   },
+   {
+    "end": "16:18",
+    "start": "13:45",
+    "sub_subject": "coding-build-demo",
+    "subject": "llms-foundation-models",
+    "summary": "Codex creates a functional DAW interface with piano roll editors for multiple instruments and composes a 28-bar song, though sounds are synthetic and require external instruments for quality.",
+    "tool_name": "Music composition",
+    "tool_url": null
+   },
+   {
+    "end": "17:52",
+    "start": "16:18",
+    "sub_subject": "coding-build-demo",
+    "subject": "llms-foundation-models",
+    "summary": "Codex builds a playable 3D mech shooter game in Three.js with multiple waves, levels, and functional controls after just two refinement prompts.",
+    "tool_name": "3D video game",
+    "tool_url": null
+   },
+   {
+    "end": "18:29",
+    "start": "17:52",
+    "sub_subject": "multimodal-demo",
+    "subject": "llms-foundation-models",
+    "summary": "The creator challenges GPT-5.5 to find a hidden frog in an image, but the model incorrectly circles a wrong region and fails the test.",
+    "tool_name": "Find the frog",
+    "tool_url": null
+   },
+   {
+    "end": "19:55",
+    "start": "18:29",
+    "sub_subject": "autonomous-research",
+    "subject": "ai-dev-tooling",
+    "summary": "Codex autonomously scrapes roofing company leads in California, extracts emails, and generates custom landing pages for each in standalone HTML files within minutes.",
+    "tool_name": "Lead scraping and automation",
+    "tool_url": null
+   },
+   {
+    "end": "21:24",
+    "start": "19:55",
+    "sub_subject": "deep-research",
+    "subject": "retrieval-rag-memory",
+    "summary": "ChatGPT's deep research mode analyzes Alzheimer's disease mechanisms, therapies, and phase 3 trials for 7 minutes, producing detailed sections with citations, tables, and visualizations.",
+    "tool_name": "Deep research",
+    "tool_url": null
+   },
+   {
+    "end": "22:22",
+    "start": "21:24",
+    "sub_subject": "reasoning-demo",
+    "subject": "llms-foundation-models",
+    "summary": "GPT-5.5 correctly identifies there is no 'S' in ChatGPT and solves the car wash reasoning puzzle, demonstrating resistance to trick questions.",
+    "tool_name": "Hallucinations",
+    "tool_url": null
+   },
+   {
+    "end": "23:30",
+    "start": "22:22",
+    "sub_subject": "model-release",
+    "subject": "llms-foundation-models",
+    "summary": "GPT-5.5 is OpenAI's smartest model with strengths in agentic coding and research, available to Plus, Pro, Business, and Enterprise users via ChatGPT and Codex model selectors.",
+    "tool_name": "Specs and where to use",
+    "tool_url": null
+   },
+   {
+    "end": "27:13",
+    "start": "23:30",
+    "sub_subject": "benchmarks",
+    "subject": "eval-model-quality",
+    "summary": "GPT-5.5 beats Claude Opus 4.7 on Terminal Bench by 12%, ranks #1 on Artificial Analysis and LiveBench leaderboards, and achieves highest score on ARC-AGI-2 visual reasoning benchmark.",
+    "tool_name": "Benchmarks",
+    "tool_url": null
+   }
+  ],
+  "subjects": [
+   "ai-dev-tooling",
+   "eval-model-quality",
+   "llms-foundation-models",
+   "retrieval-rag-memory"
+  ],
+  "title": "GPT-5.5 is a total freak",
+  "transcript_source": "auto-captions",
+  "upload_date": "20260425",
+  "video_id": "G-oNwbngkt0",
+  "video_url": "https://www.youtube.com/watch?v=G-oNwbngkt0"
  },
  "GUEE9OA4keo": {
   "channel": "AI Search",
@@ -1778,6 +2137,628 @@
   "upload_date": "20260614",
   "video_id": "SxiRANj0xLs",
   "video_url": "https://www.youtube.com/watch?v=SxiRANj0xLs"
+ },
+ "TLFPbMUtErM": {
+  "channel": "AI Search",
+  "schema_version": 2,
+  "segments": [
+   {
+    "end": "2:22",
+    "start": "0:51",
+    "sub_subject": "image",
+    "subject": "ai-content-generation",
+    "summary": "Comparison of GPT Image 2 and Nano Banana Pro generating 100 anime poster grid; GPT Image 2 produces clearer characters and correct text.",
+    "tool_name": "100 posters",
+    "tool_url": null
+   },
+   {
+    "end": "4:11",
+    "start": "2:22",
+    "sub_subject": "image",
+    "subject": "ai-content-generation",
+    "summary": "Comparison generating messy Windows 11 desktop screenshot; GPT Image 2 renders window text accurately while Nano Banana Pro shows misspellings and gibberish.",
+    "tool_name": "Desktop windows",
+    "tool_url": null
+   },
+   {
+    "end": "5:27",
+    "start": "4:11",
+    "sub_subject": "image",
+    "subject": "ai-content-generation",
+    "summary": "Comparison generating YouTube homepage screenshot; GPT Image 2 produces correct thumbnails and text while Nano Banana Pro has alignment issues and misspellings.",
+    "tool_name": "Youtube screenshot",
+    "tool_url": null
+   },
+   {
+    "end": "6:11",
+    "start": "5:27",
+    "sub_subject": "image",
+    "subject": "ai-content-generation",
+    "summary": "Comparison generating TikTok live stream interface; GPT Image 2 creates realistic UI with correct icons and comments while Nano Banana Pro looks fake with misplaced icons.",
+    "tool_name": "Tiktok livestream",
+    "tool_url": null
+   },
+   {
+    "end": "8:12",
+    "start": "6:11",
+    "sub_subject": "image",
+    "subject": "ai-content-generation",
+    "summary": "Comparison generating branding board for matcha brand; both models include all elements but GPT Image 2 looks more professional while Nano Banana Pro appears cartoony.",
+    "tool_name": "Branding board",
+    "tool_url": null
+   },
+   {
+    "end": "9:29",
+    "start": "8:12",
+    "sub_subject": "image",
+    "subject": "ai-content-generation",
+    "summary": "Comparison generating 7-day fashion catalog infographic; GPT Image 2 produces professional outfits and color palette while Nano Banana Pro is less aesthetically pleasing.",
+    "tool_name": "Catalog design",
+    "tool_url": null
+   },
+   {
+    "end": "10:19",
+    "start": "9:29",
+    "sub_subject": "image",
+    "subject": "ai-content-generation",
+    "summary": "Comparison generating 5x5 pixel art sprite sheet of warrior princess; GPT Image 2 animation is dynamic and fluid while Nano Banana Pro is static with strange sword slash.",
+    "tool_name": "Spritesheet animation",
+    "tool_url": null
+   },
+   {
+    "end": "12:22",
+    "start": "10:19",
+    "sub_subject": "image",
+    "subject": "ai-content-generation",
+    "summary": "Comparison generating data visualization from AI model table; GPT Image 2 creates accurate bar graphs with correct numbers and labels while Nano Banana Pro has numerous errors and omissions.",
+    "tool_name": "Data visualization",
+    "tool_url": null
+   },
+   {
+    "end": "13:36",
+    "start": "12:22",
+    "sub_subject": "image",
+    "subject": "ai-content-generation",
+    "summary": "Comparison editing screenshot to fake social media metrics; GPT Image 2 successfully increases engagement numbers and adds realistic comments while Nano Banana Pro produces formatting errors.",
+    "tool_name": "Editing images",
+    "tool_url": null
+   },
+   {
+    "end": "14:26",
+    "start": "13:36",
+    "sub_subject": "image",
+    "subject": "ai-content-generation",
+    "summary": "Comparison generating typography design from reference font; GPT Image 2 matches style accurately while Nano Banana Pro shows inconsistencies in letter width and shapes.",
+    "tool_name": "Font design",
+    "tool_url": null
+   },
+   {
+    "end": "15:50",
+    "start": "14:26",
+    "sub_subject": "image",
+    "subject": "ai-content-generation",
+    "summary": "Comparison generating exploded iPhone diagram with labels; GPT Image 2 identifies components correctly with minor label error while Nano Banana Pro produces cartoony render with incorrect camera lenses and port orientation.",
+    "tool_name": "Electronic diagram",
+    "tool_url": null
+   },
+   {
+    "end": "18:33",
+    "start": "17:23",
+    "sub_subject": "image",
+    "subject": "ai-content-generation",
+    "summary": "Comparison generating manga page from two character photos; both models create decent fight scenes with Naruto and Gojo, though GPT Image 2 slightly better.",
+    "tool_name": "Manga page",
+    "tool_url": null
+   },
+   {
+    "end": "19:08",
+    "start": "18:33",
+    "sub_subject": "image",
+    "subject": "ai-content-generation",
+    "summary": "Comparison redesigning website landing page; GPT Image 2 completely redesigns header and tags for professional look while Nano Banana Pro only adds highlights and gradients.",
+    "tool_name": "UI design",
+    "tool_url": null
+   },
+   {
+    "end": "19:59",
+    "start": "19:08",
+    "sub_subject": "image",
+    "subject": "ai-content-generation",
+    "summary": "Comparison generating ad storyboard for earbuds; GPT Image 2 creates detailed multi-scene narrative with noise visualization while Nano Banana Pro produces simpler, worse version.",
+    "tool_name": "Storyboard",
+    "tool_url": null
+   },
+   {
+    "end": "21:28",
+    "start": "19:59",
+    "sub_subject": "image",
+    "subject": "ai-content-generation",
+    "summary": "Comparison generating Hong Kong street scene with Chinese/English signs; both models produce good results with legible text, though GPT Image 2 has fewer errors, resulting in a tie.",
+    "tool_name": "Street scene with signs",
+    "tool_url": null
+   },
+   {
+    "end": "22:00",
+    "start": "21:28",
+    "sub_subject": "image",
+    "subject": "ai-content-generation",
+    "summary": "Comparison generating GTA 6 gameplay screenshot; GPT Image 2 shows accurate map, cars, and text while Nano Banana Pro has more errors in map interface.",
+    "tool_name": "GTA6 gameplay",
+    "tool_url": null
+   },
+   {
+    "end": "22:53",
+    "start": "22:00",
+    "sub_subject": "image",
+    "subject": "ai-content-generation",
+    "summary": "Comparison labeling animal cell organelles with messy handwriting; both models perform poorly, with GPT Image 2 getting some correct and Nano Banana Pro mislabeling most.",
+    "tool_name": "Doing your homework",
+    "tool_url": null
+   },
+   {
+    "end": "24:11",
+    "start": "22:53",
+    "sub_subject": "image",
+    "subject": "ai-content-generation",
+    "summary": "Comparison generating 3x3 grid of Borneo endemic frog species; both models fail to produce accurate endemic species images, generating random frogs not specific to Borneo.",
+    "tool_name": "Species knowledge",
+    "tool_url": null
+   },
+   {
+    "end": "25:46",
+    "start": "24:11",
+    "sub_subject": "image",
+    "subject": "ai-content-generation",
+    "summary": "Comparison generating detailed world map with topography and statistics; GPT Image 2 labels most features correctly despite some misses while Nano Banana Pro has numerous misspellings and errors.",
+    "tool_name": "World map",
+    "tool_url": null
+   },
+   {
+    "end": "26:45",
+    "start": "25:46",
+    "sub_subject": "image",
+    "subject": "ai-content-generation",
+    "summary": "Comparison generating Hong Kong MTR subway map with bilingual station labels; GPT Image 2 labels all stations and lines impressively while Nano Banana Pro misses 80% of stations.",
+    "tool_name": "Metro map",
+    "tool_url": null
+   },
+   {
+    "end": "27:35",
+    "start": "26:45",
+    "sub_subject": "image",
+    "subject": "ai-content-generation",
+    "summary": "Comparison generating room photo from floor plan perspective; GPT Image 2 fails to understand door perspective while Nano Banana Pro correctly renders view from main door with minor flaws.",
+    "tool_name": "Spatial understanding",
+    "tool_url": null
+   },
+   {
+    "end": "28:00",
+    "start": "27:35",
+    "sub_subject": "image",
+    "subject": "ai-content-generation",
+    "summary": "Comparison generating chess checkmate in two moves; both models fail, with GPT Image 2 suggesting illegal queen move and Nano Banana Pro showing incorrect board configuration.",
+    "tool_name": "Chess moves",
+    "tool_url": null
+   },
+   {
+    "end": "28:46",
+    "start": "28:00",
+    "sub_subject": "image",
+    "subject": "ai-content-generation",
+    "summary": "Comparison generating clock showing 11:15 with full wine glass; GPT Image 2 succeeds while Nano Banana Pro fails to render correct time and glass fill.",
+    "tool_name": "Clock and wine glass",
+    "tool_url": null
+   },
+   {
+    "end": "29:25",
+    "start": "28:46",
+    "sub_subject": "image",
+    "subject": "ai-content-generation",
+    "summary": "Comparison generating Where's Waldo image; both models fail as GPT Image 2 produces undefined squiggles and Nano Banana Pro adds too many Waldos.",
+    "tool_name": "Wheres Waldo",
+    "tool_url": null
+   },
+   {
+    "end": "31:20",
+    "start": "29:25",
+    "sub_subject": "image",
+    "subject": "ai-content-generation",
+    "summary": "Showcase of additional GPT Image 2 capabilities: magazines, handwritten essays, comics with consistent text, multilingual typography, photorealistic images, recursive presentation, ultra-wide aspect ratios, and data visualizations.",
+    "tool_name": "Other demos",
+    "tool_url": null
+   },
+   {
+    "end": "32:13",
+    "start": "31:20",
+    "sub_subject": "model-release",
+    "subject": "llms-foundation-models",
+    "summary": "Explains ChatGPT Images 2.0 availability: free users get 3-5 daily generations, paid plans have higher limits, also accessible via third-party platforms and API.",
+    "tool_name": "How to use GPT Images 2.0",
+    "tool_url": null
+   },
+   {
+    "end": "35:19",
+    "start": "32:13",
+    "sub_subject": "model-release",
+    "subject": "llms-foundation-models",
+    "summary": "Details specs: 2K resolution via API, 1K in ChatGPT free, strong multilingual text generation, photorealism with natural imperfections, aspect ratios up to 3:1, December 2025 knowledge cutoff, agent mode with web search, and Arena leaderboard dominance.",
+    "tool_name": "Specs and performance",
+    "tool_url": null
+   }
+  ],
+  "subjects": [
+   "ai-content-generation",
+   "llms-foundation-models"
+  ],
+  "title": "New AI image generator BEATS EVERYTHING",
+  "transcript_source": "auto-captions",
+  "upload_date": "20260422",
+  "video_id": "TLFPbMUtErM",
+  "video_url": "https://www.youtube.com/watch?v=TLFPbMUtErM"
+ },
+ "XJUpuOBpT-4": {
+  "channel": "AI Search",
+  "schema_version": 2,
+  "segments": [
+   {
+    "end": "1:00",
+    "start": "0:00",
+    "sub_subject": "model-release",
+    "subject": "llms-foundation-models",
+    "summary": "Introduces DeepSeek V4, a 1.6 trillion parameter model with 1M context window, noting the team's resource constraints compared to large labs and their open-source release with a technical paper.",
+    "tool_name": "Deepseek V4 intro",
+    "tool_url": null
+   },
+   {
+    "end": "2:06",
+    "start": "1:00",
+    "sub_subject": "model-release",
+    "subject": "llms-foundation-models",
+    "summary": "Details DeepSeek V4 Pro's specifications, including 1.6 trillion parameters and a 1 million token context window, explaining parameters as model dials and context as short-term memory.",
+    "tool_name": "Deepseek V4 specs",
+    "tool_url": null
+   },
+   {
+    "end": "4:16",
+    "start": "2:06",
+    "sub_subject": "model-release",
+    "subject": "llms-foundation-models",
+    "summary": "Explains the computational challenge of 1M token context, describing how attention mechanisms scale quadratically and the KV cache memory burden.",
+    "tool_name": "The challenge of 1M context",
+    "tool_url": null
+   },
+   {
+    "end": "5:11",
+    "start": "4:16",
+    "sub_subject": "model-release",
+    "subject": "llms-foundation-models",
+    "summary": "Presents DeepSeek's hybrid attention architecture (CSA and HCA) that compresses past context and selectively retrieves relevant information instead of attending to all tokens.",
+    "tool_name": "Hybrid attention",
+    "tool_url": null
+   },
+   {
+    "end": "6:50",
+    "start": "5:11",
+    "sub_subject": "model-release",
+    "subject": "llms-foundation-models",
+    "summary": "Describes Compressed Sparse Attention (CSA) which groups tokens into compressed blocks and uses a lightning indexer to sparsely retrieve only the most relevant blocks.",
+    "tool_name": "CSA & sparse selection",
+    "tool_url": null
+   },
+   {
+    "end": "8:22",
+    "start": "6:50",
+    "sub_subject": "model-release",
+    "subject": "llms-foundation-models",
+    "summary": "Explains Heavily Compressed Attention (HCA) that aggressively compresses 128 tokens into a single representation to maintain high-level understanding of distant history.",
+    "tool_name": "HCA",
+    "tool_url": null
+   },
+   {
+    "end": "10:44",
+    "start": "8:22",
+    "sub_subject": "model-release",
+    "subject": "llms-foundation-models",
+    "summary": "Details the sliding window attention pathway that keeps recent tokens uncompressed for exact fidelity, creating three parallel attention views interleaved through the network.",
+    "tool_name": "Sliding window attention",
+    "tool_url": null
+   },
+   {
+    "end": "12:02",
+    "start": "10:44",
+    "sub_subject": "model-release",
+    "subject": "llms-foundation-models",
+    "summary": "Reports benchmark results showing DeepSeek V4 Pro requires 3.7x lower FLOPs and 10x smaller KV cache than V3.2, drastically reducing compute and memory requirements.",
+    "tool_name": "Insane efficiency gains",
+    "tool_url": null
+   },
+   {
+    "end": "13:00",
+    "start": "12:02",
+    "sub_subject": "model-release",
+    "subject": "llms-foundation-models",
+    "summary": "Describes the signal explosion problem at trillion-parameter scale where residual connections cause feedback loops that can crash training runs.",
+    "tool_name": "Signal explosion",
+    "tool_url": null
+   },
+   {
+    "end": "13:52",
+    "start": "13:00",
+    "sub_subject": "model-release",
+    "subject": "llms-foundation-models",
+    "summary": "Covers residual connections and hyperconnections as traditional solutions, noting they fail at trillion-parameter scale, leading to DeepSeek's novel manifold constraint hyperconnections (MHC).",
+    "tool_name": "Residual connections",
+    "tool_url": null
+   },
+   {
+    "end": "14:17",
+    "start": "13:52",
+    "sub_subject": "model-release",
+    "subject": "llms-foundation-models",
+    "summary": "Explains MHC constrains residuals to doubly stochastic matrices using the Sinkhorn algorithm to conserve signal and prevent amplification.",
+    "tool_name": "mHC",
+    "tool_url": null
+   },
+   {
+    "end": "17:54",
+    "start": "15:24",
+    "sub_subject": "model-release",
+    "subject": "llms-foundation-models",
+    "summary": "Continues MHC discussion, detailing low-level GPU optimizations like fused kernels and selective recomputation to efficiently implement the Sinkhorn algorithm at scale.",
+    "tool_name": "mHC continued",
+    "tool_url": null
+   },
+   {
+    "end": "19:26",
+    "start": "17:54",
+    "sub_subject": "model-release",
+    "subject": "llms-foundation-models",
+    "summary": "Introduces Muon, a custom optimizer replacing AdamW, which uses a two-phase process of aggressive convergence pushing followed by careful stabilization for faster, stable learning.",
+    "tool_name": "Muon",
+    "tool_url": null
+   },
+   {
+    "end": "22:31",
+    "start": "19:26",
+    "sub_subject": "model-release",
+    "subject": "llms-foundation-models",
+    "summary": "Addresses distributed training communication bottlenecks at 1.6T parameters, describing how DeepSeek overlaps computation and communication using TileLang fused kernels to keep GPUs busy.",
+    "tool_name": "Infra challenges",
+    "tool_url": null
+   },
+   {
+    "end": "24:09",
+    "start": "22:31",
+    "sub_subject": "model-release",
+    "subject": "llms-foundation-models",
+    "summary": "Outlines the 33 trillion token training curriculum that gradually extends context from 4K to 1M tokens, and mentions loss spikes as a major instability threat.",
+    "tool_name": "Training challenges",
+    "tool_url": null
+   },
+   {
+    "end": "25:24",
+    "start": "24:09",
+    "sub_subject": "model-release",
+    "subject": "llms-foundation-models",
+    "summary": "Describes anticipatory routing that uses historical parameter snapshots to detect and stabilize loss spikes by ignoring chaotic noise and locking onto underlying trends.",
+    "tool_name": "Anticipatory routing",
+    "tool_url": null
+   },
+   {
+    "end": "29:31",
+    "start": "25:24",
+    "sub_subject": "model-release",
+    "subject": "llms-foundation-models",
+    "summary": "Summarizes SOTA results showing DeepSeek V4 matches or beats top closed models on benchmarks, achieves perfect Putnam 2025 score, and ranks second among open-source models.",
+    "tool_name": "SOTA results",
+    "tool_url": null
+   }
+  ],
+  "subjects": [
+   "llms-foundation-models"
+  ],
+  "title": "The insane engineering of Deepseek V4",
+  "transcript_source": "auto-captions",
+  "upload_date": "20260501",
+  "video_id": "XJUpuOBpT-4",
+  "video_url": "https://www.youtube.com/watch?v=XJUpuOBpT-4"
+ },
+ "ZKfd9S9lOtc": {
+  "channel": "AI Search",
+  "schema_version": 2,
+  "segments": [
+   {
+    "end": "2:46",
+    "start": "0:48",
+    "sub_subject": "3d-world-motion",
+    "subject": "ai-content-generation",
+    "summary": "MultiWorld generates multi-agent video worlds with consistent multi-view camera angles for game environments and robot training data using a multi-agent condition module and global state encoder.",
+    "tool_name": "Multiworld",
+    "tool_url": null
+   },
+   {
+    "end": "4:25",
+    "start": "2:46",
+    "sub_subject": "agentic-frameworks",
+    "subject": "ai-dev-tooling",
+    "summary": "OpenGame is an open-source agentic framework that autonomously builds, tests, and fixes video games end-to-end through a self-correction loop with classification, scaffolding, design, asset synthesis, implementation, and verification.",
+    "tool_name": "OpenGame",
+    "tool_url": null
+   },
+   {
+    "end": "6:16",
+    "start": "4:25",
+    "sub_subject": "image",
+    "subject": "ai-content-generation",
+    "summary": "UniGenDet uses a unified model with symbiotic self-attention to simultaneously detect AI-generated images and generate more realistic images, outperforming competitors on fake image detection benchmarks.",
+    "tool_name": "UniGenDet",
+    "tool_url": null
+   },
+   {
+    "end": "9:35",
+    "start": "6:16",
+    "sub_subject": "model-release",
+    "subject": "llms-foundation-models",
+    "summary": "Kimi K2.6 is a new open-source model achieving top scores on agentic, coding, and visual benchmarks, capable of autonomously deploying and optimizing models, front-end design, and orchestrating up to 300 sub-agents.",
+    "tool_name": "Kimi K2.6",
+    "tool_url": null
+   },
+   {
+    "end": "10:30",
+    "start": "9:35",
+    "sub_subject": "agentic-frameworks",
+    "subject": "ai-dev-tooling",
+    "summary": "Open Co-design is an open-source, self-hosted AI design system that autonomously generates user interfaces, slide decks, PDFs, and posters from text descriptions or reference images as an alternative to proprietary tools.",
+    "tool_name": "Open CoDesign",
+    "tool_url": null
+   },
+   {
+    "end": "12:55",
+    "start": "10:30",
+    "sub_subject": "model-release",
+    "subject": "llms-foundation-models",
+    "summary": "Xiaomi releases MiMo 2.5 Pro, an open-source model tying for top open-source performance on agentic coding and general benchmarks, and a multimodal version understanding images and audio, both planned for open-source release.",
+    "tool_name": "Mimo v2.5",
+    "tool_url": null
+   },
+   {
+    "end": "14:39",
+    "start": "12:55",
+    "sub_subject": "autonomous-research",
+    "subject": "ai-dev-tooling",
+    "summary": "ML Intern is an open-source agentic framework from Hugging Face that autonomously performs machine learning research by reading papers, finding datasets, training models, and writing code within the Hugging Face ecosystem.",
+    "tool_name": "ML Intern",
+    "tool_url": null
+   },
+   {
+    "end": "16:16",
+    "start": "14:39",
+    "sub_subject": null,
+    "subject": "unsorted",
+    "summary": "Huawei's Honor lab wins humanoid robot marathon in Beijing with 'Lightning' robot completing 21km in 15:26, beating human world record, with 100+ robots competing and 40% fully autonomous.",
+    "tool_name": "Humanoid outruns human",
+    "tool_url": null
+   },
+   {
+    "end": "18:14",
+    "start": "16:16",
+    "sub_subject": null,
+    "subject": "unsorted",
+    "summary": "Unitree demonstrates new wheeled and bladed foot attachments enabling their humanoid robot to glide, skate, and perform complex balance maneuvers on various surfaces.",
+    "tool_name": "Unitree with wheels",
+    "tool_url": null
+   },
+   {
+    "end": "20:42",
+    "start": "20:08",
+    "sub_subject": "model-release",
+    "subject": "llms-foundation-models",
+    "summary": "OpenAI releases GPT-5.5, described as the best and most performant model currently available with improved coding autonomy and fewer errors than competitors.",
+    "tool_name": "GPT 5.5",
+    "tool_url": null
+   },
+   {
+    "end": "22:15",
+    "start": "20:42",
+    "sub_subject": "image",
+    "subject": "ai-content-generation",
+    "summary": "UniGeo enables precise 3D camera control in image editing by reconstructing scenes into 3D point clouds, allowing panning, tilting, and multi-movement sequences with exact degree specifications.",
+    "tool_name": "UniGeo",
+    "tool_url": null
+   },
+   {
+    "end": "23:40",
+    "start": "22:15",
+    "sub_subject": "image",
+    "subject": "ai-content-generation",
+    "summary": "EditCrafter edits images up to 4K resolution with examples showing style transfers and scene changes, though tends to oversaturate colors and requires 24GB VRAM for 4K editing.",
+    "tool_name": "EditCrafter",
+    "tool_url": null
+   },
+   {
+    "end": "24:41",
+    "start": "23:40",
+    "sub_subject": "image",
+    "subject": "ai-content-generation",
+    "summary": "OpenAI releases GPT Image 2 (ChatGPT Images 2), an image generator creating accurate diagrams, infographics, realistic images, and readable text, surpassing previous leader Nano Banana.",
+    "tool_name": "GPT image 2",
+    "tool_url": null
+   },
+   {
+    "end": "25:43",
+    "start": "24:41",
+    "sub_subject": "video",
+    "subject": "ai-content-generation",
+    "summary": "LTX releases a 340MB LoRA that adds HDR capability to their open-source video generator, significantly improving dynamic range, color balance, and post-processing flexibility.",
+    "tool_name": "LTX HDR",
+    "tool_url": null
+   },
+   {
+    "end": "28:41",
+    "start": "25:43",
+    "sub_subject": "model-release",
+    "subject": "llms-foundation-models",
+    "summary": "Google releases VisionBanana, a vision model combining understanding and generation with precise segmentation, depth estimation, and surface normal mapping capabilities.",
+    "tool_name": "VisionBanana",
+    "tool_url": null
+   },
+   {
+    "end": "30:53",
+    "start": "28:41",
+    "sub_subject": "model-release",
+    "subject": "llms-foundation-models",
+    "summary": "Tencent Hunyuan releases HY3 (HiP preview), a 295B parameter hybrid expert language model with 21B active parameters and 256K context, open-sourced but requiring multi-GPU setup.",
+    "tool_name": "HY3",
+    "tool_url": null
+   },
+   {
+    "end": "33:35",
+    "start": "30:53",
+    "sub_subject": "model-release",
+    "subject": "llms-foundation-models",
+    "summary": "DeepSeek V4 preview releases Pro (1.6T params) and Flash (284B params) models with 1M context, ranking third on open-source leaderboards behind Kimi K2.6 and MiMo 2.5 but winning Vibe Code Bench.",
+    "tool_name": "DeepSeek V4",
+    "tool_url": null
+   },
+   {
+    "end": "35:01",
+    "start": "33:35",
+    "sub_subject": "video",
+    "subject": "ai-content-generation",
+    "summary": "CoInteract generates realistic influencer-style product videos from two images using dual-stream code generation for physically plausible human-object interactions, planning to release inference, model, and training code open-source.",
+    "tool_name": "CoInteract",
+    "tool_url": null
+   },
+   {
+    "end": "36:42",
+    "start": "35:01",
+    "sub_subject": "model-release",
+    "subject": "llms-foundation-models",
+    "summary": "Alibaba releases Qwen 3.6 27B, a dense open-source model with strong agentic coding and multimodal reasoning, currently best medium-sized model at 55.6GB fitting high-end GPUs.",
+    "tool_name": "Qwen 3.6 27B",
+    "tool_url": null
+   },
+   {
+    "end": "38:28",
+    "start": "36:42",
+    "sub_subject": "3d-world-motion",
+    "subject": "ai-content-generation",
+    "summary": "UniMesh generates and edits 3D models from text or image prompts and can caption 3D objects, with model release planned for late May 2026.",
+    "tool_name": "UniMesh",
+    "tool_url": null
+   }
+  ],
+  "subjects": [
+   "ai-content-generation",
+   "ai-dev-tooling",
+   "llms-foundation-models",
+   "unsorted"
+  ],
+  "title": "The most insane week in AI",
+  "transcript_source": "auto-captions",
+  "upload_date": "20260426",
+  "video_id": "ZKfd9S9lOtc",
+  "video_url": "https://www.youtube.com/watch?v=ZKfd9S9lOtc"
  },
  "kkLlzQqa7MY": {
   "channel": "AI Search",
