@@ -136,6 +136,7 @@ def test_build_routing_prompt_lists_subjects_and_segments():
     segs = [{"tool_name": "Claude Code", "text": "agentic cli"}]
     prompt = yt.build_routing_prompt("Week in AI", segs)
     assert "claude-code" in prompt and "unsorted" in prompt
+    assert "coding-build-demo" in prompt  # 2-level taxonomy renders sub_subjects
     assert "[0] tool/topic: Claude Code" in prompt
     assert "JSON array" in prompt
 
@@ -149,6 +150,17 @@ def test_parse_routing_response_aligns_and_coerces_unknown_subject():
     out = yt.parse_routing_response(raw, 2)
     assert out[0]["subject"] == "claude-code"
     assert out[1]["subject"] == "unsorted"  # unknown slug → escape hatch
+    assert out[0]["sub_subject"] is None  # absent sub_subject → null
+
+
+def test_parse_routing_response_validates_sub_subject():
+    raw = (
+        '[{"index":0,"subject":"claude-code","sub_subject":"build-demo","summary":"x","keep":true},'
+        '{"index":1,"subject":"claude-code","sub_subject":"not-a-sub","summary":"y","keep":true}]'
+    )
+    out = yt.parse_routing_response(raw, 2)
+    assert out[0]["sub_subject"] == "build-demo"
+    assert out[1]["sub_subject"] is None  # invalid sub for this subject → null
 
 
 def test_parse_routing_response_missing_index_raises():
@@ -219,11 +231,11 @@ def test_end_to_end_sidecar_and_rss_match_yuna_contract():
     # Yuna's /api/subjects reads.
     assert set(("segments", "subjects", "transcript_source", "schema_version")).issubset(entry)
     assert entry["transcript_source"] == "captions"
-    assert entry["schema_version"] == 1
+    assert entry["schema_version"] == 2
     assert entry["subjects"] == ["ai-dev-tooling", "claude-code", "retrieval-rag-memory"]
     assert len(entry["segments"]) == 3  # intro + outro dropped
     seg0 = entry["segments"][0]
-    assert set(seg0) == {"start", "end", "tool_name", "tool_url", "subject", "summary"}
+    assert set(seg0) == {"start", "end", "tool_name", "tool_url", "subject", "sub_subject", "summary"}
 
     sidecar = {video["video_id"]: entry}
     rss = yt.build_rss(sidecar, 100, yt._upload_date_to_rfc822(None, "2026-06-24T00:00:00Z"),

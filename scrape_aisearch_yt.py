@@ -91,7 +91,20 @@ SUBJECT_SLUGS = (
     "local-models-infra",
 )
 UNSORTED = "unsorted"
-SCHEMA_VERSION = 1
+# Sub-subjects per subject (2-level taxonomy — see Yuna ADR 2026-06-25). The router
+# emits subject + sub_subject; Yuna merges segments[] whole, so sub_subject flows
+# through with no Yuna change. Order within each tuple is the routing rubric order.
+SUB_SUBJECTS = {
+    "claude-code": ("product-updates", "configuration", "build-demo", "usage"),
+    "ai-dev-tooling": ("agentic-frameworks", "training-finetuning", "autonomous-research", "dev-utilities"),
+    "llms-foundation-models": ("model-release", "coding-build-demo", "reasoning-demo", "multimodal-demo", "model-behavior"),
+    "ai-content-generation": ("image", "video", "audio-music-tts", "3d-world-motion", "generation-setup"),
+    "eval-model-quality": ("benchmarks", "eval-methods"),
+    "retrieval-rag-memory": ("rag", "memory", "deep-research"),
+    "local-models-infra": ("serving", "quantization", "hardware"),
+    UNSORTED: (),
+}
+SCHEMA_VERSION = 2  # 2: segments carry sub_subject (2-level taxonomy)
 
 # A timestamp at line start: MM:SS or H:MM:SS / HH:MM:SS, optionally bracketed.
 _TOC_LINE_RE = re.compile(r"^\s*\[?\(?\s*((?:\d{1,2}:)?\d{1,2}:\d{2})\s*\)?\]?\s*[-–—)\.]*\s*(.*\S)?\s*$")
@@ -250,9 +263,13 @@ def slice_transcript(cues: list[dict], toc: list[dict], duration: float | None) 
 
 
 def build_routing_prompt(video_title: str, segments: list[dict]) -> str:
-    """The Ultra instruction: route + summarize + keep each pre-bounded segment.
-    Returns a single prompt asking for a strict JSON array aligned to segment index."""
-    subjects = "\n".join(f"  - {s}" for s in SUBJECT_SLUGS)
+    """The Ultra instruction: route (subject + sub_subject) + summarize + keep each
+    pre-bounded segment, per the 2-level taxonomy + conventions C1-C6 (validated against
+    the founder gold). Returns a single prompt asking for a strict JSON array by index."""
+    tax = "\n".join(
+        f"  {subj}: " + " · ".join(subs)
+        for subj, subs in SUB_SUBJECTS.items() if subj != UNSORTED
+    )
     blocks = []
     for i, seg in enumerate(segments):
         name = seg.get("tool_name") or "(untitled segment)"
@@ -262,18 +279,55 @@ def build_routing_prompt(video_title: str, segments: list[dict]) -> str:
         blocks.append(f'[{i}] tool/topic: {name}\ntranscript:\n{body or "(no transcript for this segment)"}')
     joined = "\n\n".join(blocks)
     return (
-        "You are routing segments of an AI-news YouTube video into a personal "
-        "knowledge base. For EACH numbered segment below, decide:\n"
-        "  - subject: the single best-fit slug from this list, or \"unsorted\" if "
-        "none fits:\n" + subjects + "\n  - " + UNSORTED + "\n"
-        "  - summary: 1-2 plain sentences on what the tool/topic is and why it "
-        "matters, grounded ONLY in the transcript.\n"
-        "  - keep: true if the segment is about a real AI tool/topic; false for "
-        "intros, outros, sponsor reads, channel plugs, or filler.\n\n"
-        f"Video title: {video_title}\n\n"
-        f"{joined}\n\n"
-        "Respond with ONLY a JSON array of objects, one per segment, in order, each "
-        '{\"index\": <int>, \"subject\": <slug>, \"summary\": <string>, \"keep\": <bool>}. '
+        "You route segments of an AI-news YouTube video into a 2-LEVEL personal knowledge "
+        "taxonomy. For EACH numbered segment decide: subject, sub_subject, summary, keep.\n\n"
+        "TAXONOMY (subject -> allowed sub_subjects):\n" + tax + "\n  " + UNSORTED +
+        ": (robotics / lab automation / medical hardware — anything fitting no subject)\n\n"
+        "ROUTING RULES (decisive):\n"
+        "C1 LOCAL GENERATORS: a locally-runnable image/video GENERATOR (e.g. Krea 2) -> ALL its "
+        "segments go to ai-content-generation. Capability/output segments -> image/video/etc; "
+        "run/quant/ComfyUI-setup/download how-tos -> generation-setup. Do NOT send a generator's "
+        "segments to local-models-infra (that bucket is infra NOT tied to a generative output: "
+        "serving frameworks, quantization, hardware in the abstract).\n"
+        "C2 BUILD DEMOS ('watch a model build X'): if CLAUDE CODE drove the build -> "
+        "claude-code/build-demo (regardless of model). Otherwise -> the MODEL's subject: "
+        "llms-foundation-models/coding-build-demo.\n"
+        "C3 CAPABILITY TESTS: a FORMAL/named benchmark -> eval-model-quality/benchmarks. An INFORMAL "
+        "'watch it try X to show off' (e.g. 'find the frog') -> the model's subject: "
+        "llms-foundation-models/reasoning-demo or /multimodal-demo. A model's own specs/release "
+        "segment that merely CITES benchmark wins -> llms-foundation-models/model-release; use "
+        "eval-model-quality ONLY when the segment is fundamentally ABOUT a benchmark/test/leaderboard.\n"
+        "C4 TRAINING TOOLS: a STANDALONE trainer/fine-tuning package (LTX Trainer, an AI-Toolkit kit) "
+        "-> ai-dev-tooling/training-finetuning. ('how to train LoRAs for THIS generator' inside a "
+        "generator video stays C1 -> generation-setup.)\n"
+        "C5 GENERATIVE-MODEL TECH REPORTS: a report on an image/video model's training/architecture "
+        "-> ai-content-generation (it's the generative model), NOT llms-foundation-models.\n"
+        "C6 WORLD MODELS & SIM/DATA GENERATORS: software that GENERATES 3D worlds, simulations, motion, "
+        "or synthetic training data -> ai-content-generation/3d-world-motion, EVEN IF its stated use is "
+        "robotics/agent training. 'unsorted' is ONLY for PHYSICAL robots, humanoid hardware, "
+        "exoskeletons, lab/medical hardware. Autonomous SOFTWARE/coding research agents -> "
+        "ai-dev-tooling/autonomous-research; physical-science lab automation -> unsorted.\n"
+        "C7 CLAUDE CODE AS THE SUBJECT: when a segment's PRIMARY topic is the Claude Code product "
+        "itself — configuring it, setting it up, pointing it at a model, its features/updates -> "
+        "claude-code (configuration / usage / product-updates), EVEN IF another model is named. But a "
+        "segment that merely MENTIONS Claude Code among several tools routes by its OWN primary topic, "
+        "NOT claude-code.\n"
+        "NOTE: model-release also covers a model's availability / access / 'where to use it' info.\n\n"
+        "EXAMPLES:\n"
+        '- "Krea 2 produces photorealistic images, anime, NSFW" -> {"subject":"ai-content-generation","sub_subject":"image"}\n'
+        '- "Download Krea 2 quantizations (FP8/NVFP4) into ComfyUI folders" -> {"subject":"ai-content-generation","sub_subject":"generation-setup"}\n'
+        '- "Using the Claude Code app, Fable 5 codes a ray tracer" -> {"subject":"claude-code","sub_subject":"build-demo"}\n'
+        '- "Using GLM in Zcode, the user builds a 3D digital twin of Earth" -> {"subject":"llms-foundation-models","sub_subject":"coding-build-demo"}\n'
+        '- "Tests the model vision by asking it to find a hidden frog" -> {"subject":"llms-foundation-models","sub_subject":"multimodal-demo"}\n'
+        '- "Benchmark testing AI agents across 55 subindustries" -> {"subject":"eval-model-quality","sub_subject":"benchmarks"}\n'
+        '- "Configure Claude Code (settings.json) to use GLM as the model" -> {"subject":"claude-code","sub_subject":"configuration"}\n'
+        '- "Wearable exoskeleton that teaches robots manipulation" -> {"subject":"unsorted","sub_subject":null}\n\n'
+        f"Video title: {video_title}\n\n{joined}\n\n"
+        "summary: 1-2 plain sentences grounded ONLY in the transcript. keep: false for "
+        "intros/outros/sponsor reads/channel plugs/filler.\n"
+        "Respond with ONLY a JSON array, one object per segment in order, each "
+        '{\"index\": <int>, \"subject\": <slug>, \"sub_subject\": <slug or null>, \"summary\": <string>, \"keep\": <bool>}. '
+        "sub_subject MUST be one of the chosen subject's allowed sub_subjects (null only for unsorted). "
         "No prose, no markdown fences."
     )
 
@@ -305,8 +359,12 @@ def parse_routing_response(raw: str, expected_n: int) -> list[dict]:
         subject = obj.get("subject")
         if subject not in SUBJECT_SLUGS:
             subject = UNSORTED
+        sub_subject = obj.get("sub_subject")
+        if sub_subject not in SUB_SUBJECTS.get(subject, ()):
+            sub_subject = None  # invalid/absent sub coerces to null (escape hatch)
         by_index[idx] = {
             "subject": subject,
+            "sub_subject": sub_subject,
             "summary": (obj.get("summary") or "").strip(),
             "keep": bool(obj.get("keep", True)),
         }
@@ -319,7 +377,7 @@ def parse_routing_response(raw: str, expected_n: int) -> list[dict]:
 def assemble_routed(segments: list[dict], routings: list[dict]) -> list[dict]:
     """Combine sliced segments with their routing results, dropping keep=false.
     Returns the sidecar segment shape Yuna files: {start, end, tool_name, tool_url,
-    subject, summary}."""
+    subject, sub_subject, summary}."""
     out: list[dict] = []
     for seg, routing in zip(segments, routings):
         if not routing.get("keep", True):
@@ -330,6 +388,7 @@ def assemble_routed(segments: list[dict], routings: list[dict]) -> list[dict]:
             "tool_name": seg.get("tool_name"),
             "tool_url": seg.get("tool_url"),
             "subject": routing.get("subject") or UNSORTED,
+            "sub_subject": routing.get("sub_subject"),
             "summary": _clean(routing.get("summary") or ""),
         })
     return out
