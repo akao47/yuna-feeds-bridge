@@ -109,10 +109,10 @@ The key shape fact (confirmed with the founder): **the description is only a ske
 | File | What |
 |---|---|
 | `aisearch_yt.xml` | RSS 2.0, one item per video. `<guid>`=video_id, `<link>`=watch URL, `<pubDate>`=upload date, `<description>`=CDATA digest of the routed segments. |
-| `aisearch_yt.json` | Sidecar keyed by video_id: `{video_id, title, video_url, channel, upload_date, segments[], subjects[], transcript_source, schema_version}`. Each segment = `{start, end, tool_name, tool_url, subject, summary}`. Yuna merges `segments/subjects/transcript_source/schema_version` into the item's `extracted_metadata`. |
+| `aisearch_yt.json` | Sidecar keyed by video_id: `{video_id, title, video_url, channel, upload_date, segments[], subjects[], transcript_source, schema_version}`. Each segment = `{start, end, tool_name, tool_url, subject, sub_subject, summary}`. Yuna merges `segments/subjects/transcript_source/schema_version` into the item's `extracted_metadata`. |
 | `aisearch_yt-heartbeat.json` | `{status, last_run, last_success, items_total, items_new, videos_listed, empty_videos, error}` — Yuna surfaces staleness via `/health/sources` (`aisearch_yt-heartbeat.json`). |
 
-The 7 subject slugs (the routing taxonomy SOT) live in `scrape_aisearch_yt.py` (`SUBJECT_SLUGS`): `claude-code`, `ai-dev-tooling`, `llms-foundation-models`, `retrieval-rag-memory`, `ai-content-generation`, `eval-model-quality`, `local-models-infra`, plus `unsorted`.
+The routing taxonomy is **2-level** (per the 2026-06-25 taxonomy ADR + conventions C1–C7 in `build_routing_prompt`): a `subject` plus a `sub_subject`, both in `scrape_aisearch_yt.py` (`SUBJECT_SLUGS` + `SUB_SUBJECTS`). The 7 subjects: `claude-code`, `ai-dev-tooling`, `llms-foundation-models`, `retrieval-rag-memory`, `ai-content-generation`, `eval-model-quality`, `local-models-infra`, plus `unsorted`. Each subject has its own sub_subjects (e.g. `ai-content-generation` → image / video / audio-music-tts / 3d-world-motion / generation-setup).
 
 **Loud-fail:** if the channel listing is empty, or more than `AISEARCH_YT_MAX_EMPTY_FRACTION` of a run's new videos yield no usable segments (TOC/transcript drift), the scraper writes **nothing** and exits non-zero (`status:error` heartbeat still written). A single video failing is swallowed to a warning so it can't sink the run.
 
