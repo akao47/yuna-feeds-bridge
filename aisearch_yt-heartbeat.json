@@ -1,9 +1,9 @@
 {
   "source": "rss_aisearch_yt",
   "status": "ok",
-  "last_run": "2026-06-25T16:23:02Z",
-  "last_success": "2026-06-25T16:23:02Z",
-  "items_total": 20,
+  "last_run": "2026-06-25T20:23:02Z",
+  "last_success": "2026-06-25T20:23:02Z",
+  "items_total": 25,
   "items_new": 5,
   "videos_listed": 30,
   "empty_videos": 0,

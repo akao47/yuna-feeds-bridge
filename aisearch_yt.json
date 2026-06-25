@@ -94,6 +94,185 @@
   "video_id": "1U8dJ94QFNc",
   "video_url": "https://www.youtube.com/watch?v=1U8dJ94QFNc"
  },
+ "1_5sSJK2rU0": {
+  "channel": "AI Search",
+  "schema_version": 2,
+  "segments": [
+   {
+    "end": "10:50",
+    "start": "0:58",
+    "sub_subject": "model-release",
+    "subject": "llms-foundation-models",
+    "summary": "Anthropic previews Claude Mythos, a model surpassing skilled humans at finding and exploiting software vulnerabilities across major operating systems and browsers, but decides not to release it publicly due to safety concerns.",
+    "tool_name": "Mythos",
+    "tool_url": null
+   },
+   {
+    "end": "13:00",
+    "start": "10:50",
+    "sub_subject": "coding-build-demo",
+    "subject": "llms-foundation-models",
+    "summary": "Z AI releases GLM 5.1 as an open-source model achieving state-of-the-art on agentic coding benchmarks and demonstrates its ability to autonomously build a functional Linux desktop with 50 apps over 8 hours.",
+    "tool_name": "GLM 5.1",
+    "tool_url": null
+   },
+   {
+    "end": "14:51",
+    "start": "13:00",
+    "sub_subject": "3d-world-motion",
+    "subject": "ai-content-generation",
+    "summary": "Inspace World converts regular videos into explorable 3D worlds with consistent physics, running in real-time on consumer GPUs, and releases code for local installation.",
+    "tool_name": "Inspatio World",
+    "tool_url": null
+   },
+   {
+    "end": "15:42",
+    "start": "14:51",
+    "sub_subject": "model-release",
+    "subject": "llms-foundation-models",
+    "summary": "DeepSeek introduces an 'expert mode' on their platform, speculated to be a preview of DeepSeek V4 Lite, showing improved reasoning, math, and coding performance with lower hallucinations.",
+    "tool_name": "Deepseek V4 lite",
+    "tool_url": null
+   },
+   {
+    "end": "17:20",
+    "start": "15:42",
+    "sub_subject": "video",
+    "subject": "ai-content-generation",
+    "summary": "Alibaba's ATH AI Innovation Unit unveils Happy Horse 1.0, a video generator topping leaderboards and outperforming competitors, though not yet publicly available with rumored release around April 30th.",
+    "tool_name": "HappyHorse",
+    "tool_url": null
+   },
+   {
+    "end": "18:36",
+    "start": "17:20",
+    "sub_subject": "3d-world-motion",
+    "subject": "ai-content-generation",
+    "summary": "Overworld releases Waypoint 1.5, an open-source real-time world model generating interactive 3D environments at up to 720p60 on consumer GPUs like RTX 3070.",
+    "tool_name": "Waypoint 1.5",
+    "tool_url": null
+   },
+   {
+    "end": "20:55",
+    "start": "18:36",
+    "sub_subject": "model-release",
+    "subject": "llms-foundation-models",
+    "summary": "Meta releases Muse Spark, a closed-source multimodal model powering their AI platform across Facebook, Instagram, WhatsApp, and smart glasses, but benchmarks show it underperforms compared to Gemini 3.1 Pro and GPT-5.4.",
+    "tool_name": "Muse Spark",
+    "tool_url": null
+   },
+   {
+    "end": "22:44",
+    "start": "20:55",
+    "sub_subject": "agentic-frameworks",
+    "subject": "ai-dev-tooling",
+    "summary": "Skywork launches Sky Claw, a cloud-based AI agent platform with dedicated virtual computers that autonomously executes long tasks like research and presentation generation, accessible via Telegram, WhatsApp, or Discord.",
+    "tool_name": "Skywork",
+    "tool_url": null
+   },
+   {
+    "end": "23:35",
+    "start": "22:44",
+    "sub_subject": "audio-music-tts",
+    "subject": "ai-content-generation",
+    "summary": "A Step 1.5 XL, an open-source music generator, creates full songs from style prompts and lyrics, running fast on consumer hardware with installation tutorial available.",
+    "tool_name": "Acestep XL",
+    "tool_url": null
+   },
+   {
+    "end": "24:56",
+    "start": "23:35",
+    "sub_subject": "generation-setup",
+    "subject": "ai-content-generation",
+    "summary": "Numina improves video generation object counting accuracy in a model-agnostic way, plugging into open-source models with code and local installation instructions released.",
+    "tool_name": "Numina",
+    "tool_url": null
+   },
+   {
+    "end": "27:06",
+    "start": "24:56",
+    "sub_subject": "quantization",
+    "subject": "local-models-infra",
+    "summary": "RotorQuant, an open-source KV cache compression algorithm, outperforms Google's TurboQuant with over 10x memory compression and faster decoding by using Clifford rotators on vector chunks.",
+    "tool_name": "Rotorquant",
+    "tool_url": null
+   },
+   {
+    "end": "28:22",
+    "start": "27:06",
+    "sub_subject": "video",
+    "subject": "ai-content-generation",
+    "summary": "MM-Fi video framework generates physically realistic videos by incorporating motion, structure, and object interaction signals into a unified diffusion model, with code and dataset coming soon.",
+    "tool_name": "MMPhysVideo",
+    "tool_url": null
+   },
+   {
+    "end": "29:22",
+    "start": "28:22",
+    "sub_subject": "video",
+    "subject": "ai-content-generation",
+    "summary": "VTON virtual try-on tool reconstructs animations of people wearing new clothing from an image, pose skeleton, and garment, with code coming soon for open-source release.",
+    "tool_name": "Vanast",
+    "tool_url": null
+   },
+   {
+    "end": "30:26",
+    "start": "29:22",
+    "sub_subject": "image",
+    "subject": "ai-content-generation",
+    "summary": "Anima v3 preview releases as a lightweight 2B parameter anime image model trained on millions of anime images, understanding Danbooru tags and working smoothly in ComfyUI with setup instructions provided.",
+    "tool_name": "Anima v3",
+    "tool_url": null
+   },
+   {
+    "end": "32:34",
+    "start": "30:26",
+    "sub_subject": "3d-world-motion",
+    "subject": "ai-content-generation",
+    "summary": "Nvidia's Komodo generates diverse 3D human and robot motions from text prompts with physics-aware control, enabling synthetic animation for robot training in simulation.",
+    "tool_name": "Kimodo",
+    "tool_url": null
+   },
+   {
+    "end": "34:02",
+    "start": "32:34",
+    "sub_subject": "image",
+    "subject": "ai-content-generation",
+    "summary": "Spatial Edit enables precise object and camera pose manipulation in images, outperforming other models on benchmarks, with full open-source release including model weights and training data.",
+    "tool_name": "SpatialEdit",
+    "tool_url": null
+   },
+   {
+    "end": "39:00",
+    "start": "34:02",
+    "sub_subject": "video",
+    "subject": "ai-content-generation",
+    "summary": "LPM 1.0 generates realistic conversational avatars in real-time with full facial expressions, body language, and lip-sync from audio and character image, supporting long-form content like podcasts.",
+    "tool_name": "LPM",
+    "tool_url": null
+   },
+   {
+    "end": "40:46",
+    "start": "39:00",
+    "sub_subject": "image",
+    "subject": "ai-content-generation",
+    "summary": "Unified Vector Floor Plan Generation uses a Floor Plan Markup Language (FML) to train an AI that generates floor plans with variable rooms and doors, though only a technical paper is released currently.",
+    "tool_name": "FML",
+    "tool_url": null
+   }
+  ],
+  "subjects": [
+   "ai-content-generation",
+   "ai-dev-tooling",
+   "llms-foundation-models",
+   "local-models-infra"
+  ],
+  "title": "Claude Mythos, Deepseek v4, HappyHorse, Meta’s new AI, realtime video games: AI NEWS",
+  "transcript_source": "auto-captions",
+  "upload_date": "20260412",
+  "video_id": "1_5sSJK2rU0",
+  "video_url": "https://www.youtube.com/watch?v=1_5sSJK2rU0"
+ },
  "6d__WOpZswY": {
   "channel": "AI Search",
   "schema_version": 2,
@@ -443,6 +622,155 @@
   "upload_date": "20260503",
   "video_id": "7r_WJ9xpne0",
   "video_url": "https://www.youtube.com/watch?v=7r_WJ9xpne0"
+ },
+ "A_nAU8h9YOY": {
+  "channel": "AI Search",
+  "schema_version": 2,
+  "segments": [
+   {
+    "end": "0:42",
+    "start": "0:00",
+    "sub_subject": "image",
+    "subject": "ai-content-generation",
+    "summary": "Introduces Ernie Image as a new open-source image generator that excels at text rendering, prompt understanding, and diverse artistic styles.",
+    "tool_name": "Ernie Image intro",
+    "tool_url": null
+   },
+   {
+    "end": "2:01",
+    "start": "0:42",
+    "sub_subject": "image",
+    "subject": "ai-content-generation",
+    "summary": "Demonstrates Ernie Image capabilities including comic generation, photorealistic images, posters, and style grids.",
+    "tool_name": "Ernie Image demos",
+    "tool_url": null
+   },
+   {
+    "end": "2:12",
+    "start": "2:01",
+    "sub_subject": "image",
+    "subject": "ai-content-generation",
+    "summary": "Compares Ernie Image and Z Image on photorealistic generation, noting Ernie's more artistic vibe.",
+    "tool_name": "Ernie vs Z Image",
+    "tool_url": null
+   },
+   {
+    "end": "4:20",
+    "start": "2:12",
+    "sub_subject": "image",
+    "subject": "ai-content-generation",
+    "summary": "Tests tricky prompts like a 1998 photograph, Kyoto map emergence, and ballerina studio scene, with Ernie capturing more details.",
+    "tool_name": "Tricky prompts",
+    "tool_url": null
+   },
+   {
+    "end": "5:50",
+    "start": "4:20",
+    "sub_subject": "image",
+    "subject": "ai-content-generation",
+    "summary": "Evaluates text rendering in images via diary entry and bakery window signage, showing Ernie handles long text better than Z Image.",
+    "tool_name": "Text rendering",
+    "tool_url": null
+   },
+   {
+    "end": "6:54",
+    "start": "5:50",
+    "sub_subject": "image",
+    "subject": "ai-content-generation",
+    "summary": "Assesses poster and infographic generation, with Ernie performing well on infographics but missing some poster details.",
+    "tool_name": "Posters and infographics",
+    "tool_url": null
+   },
+   {
+    "end": "7:53",
+    "start": "6:54",
+    "sub_subject": "image",
+    "subject": "ai-content-generation",
+    "summary": "Tests manga/comic page generation, where Ernie follows panel layout and text better than Z Image.",
+    "tool_name": "Manga and comics",
+    "tool_url": null
+   },
+   {
+    "end": "9:12",
+    "start": "7:53",
+    "sub_subject": "image",
+    "subject": "ai-content-generation",
+    "summary": "Runs additional tricky prompts including Taj Mahal split sketch/photo and bathroom mirror reflection effect.",
+    "tool_name": "Other tricky prompts",
+    "tool_url": null
+   },
+   {
+    "end": "10:27",
+    "start": "9:12",
+    "sub_subject": "image",
+    "subject": "ai-content-generation",
+    "summary": "Tests art style imitation for impressionist, watercolor, and pointillism styles.",
+    "tool_name": "Art styles",
+    "tool_url": null
+   },
+   {
+    "end": "12:39",
+    "start": "11:41",
+    "sub_subject": "image",
+    "subject": "ai-content-generation",
+    "summary": "Tests anatomy generation with king pigeon yoga pose and hand/foot details, where Z Image outperforms Ernie.",
+    "tool_name": "Anatomy tests",
+    "tool_url": null
+   },
+   {
+    "end": "13:18",
+    "start": "12:39",
+    "sub_subject": "image",
+    "subject": "ai-content-generation",
+    "summary": "Tests specific detail rendering of clock time (11:15) and wine glass fill level, both models fail.",
+    "tool_name": "Clock and wine glass",
+    "tool_url": null
+   },
+   {
+    "end": "14:42",
+    "start": "13:18",
+    "sub_subject": "image",
+    "subject": "ai-content-generation",
+    "summary": "Presents benchmark results claiming Ernie Image as best open-source image generator, beating Z Image, Kwen, Flux, and nearing Nano Banana 2.",
+    "tool_name": "Benchmarks",
+    "tool_url": null
+   },
+   {
+    "end": "15:08",
+    "start": "14:42",
+    "sub_subject": "generation-setup",
+    "subject": "ai-content-generation",
+    "summary": "Details VRAM requirements: ~16GB per model plus text encoder/VAE, total ~20GB, with lower VRAM options shown later.",
+    "tool_name": "VRAM requirements",
+    "tool_url": null
+   },
+   {
+    "end": "19:58",
+    "start": "15:08",
+    "sub_subject": "generation-setup",
+    "subject": "ai-content-generation",
+    "summary": "Provides ComfyUI installation tutorial: update ComfyUI, use Ernie templates, download model and Minestral 3B text encoder.",
+    "tool_name": "How to use Ernie in ComfyUI",
+    "tool_url": null
+   },
+   {
+    "end": "23:46",
+    "start": "19:58",
+    "sub_subject": "generation-setup",
+    "subject": "ai-content-generation",
+    "summary": "Shows low VRAM setup using Unsloth GGUF quantized models and ComfyUI GGUF loader.",
+    "tool_name": "Ernie with low vram",
+    "tool_url": null
+   }
+  ],
+  "subjects": [
+   "ai-content-generation"
+  ],
+  "title": "New BEST local AI image generator is here!",
+  "transcript_source": "auto-captions",
+  "upload_date": "20260416",
+  "video_id": "A_nAU8h9YOY",
+  "video_url": "https://www.youtube.com/watch?v=A_nAU8h9YOY"
  },
  "CzxqQJOswvo": {
   "channel": "AI Search",
@@ -924,6 +1252,185 @@
   "upload_date": "20260425",
   "video_id": "G-oNwbngkt0",
   "video_url": "https://www.youtube.com/watch?v=G-oNwbngkt0"
+ },
+ "G8fqduzB5lc": {
+  "channel": "AI Search",
+  "schema_version": 2,
+  "segments": [
+   {
+    "end": "2:45",
+    "start": "1:00",
+    "sub_subject": "video",
+    "subject": "ai-content-generation",
+    "summary": "Introduces 'prompt relay', a training-free plug-and-play method for seamless multi-scene video generation on top of Wan, enabling smooth transitions between timed prompts via cross-attention routing.",
+    "tool_name": "Prompt relay",
+    "tool_url": null
+   },
+   {
+    "end": "5:35",
+    "start": "2:45",
+    "sub_subject": "model-release",
+    "subject": "llms-foundation-models",
+    "summary": "Presents Ternary Bonsai, a family of ultra-efficient 1.58-bit language models (1.7B to 8B params) that are 9x smaller than 16-bit models while matching performance.",
+    "tool_name": "Ternary Bonsai",
+    "tool_url": null
+   },
+   {
+    "end": "7:39",
+    "start": "5:35",
+    "sub_subject": "model-release",
+    "subject": "llms-foundation-models",
+    "summary": "Announces GPT Rosalind, an OpenAI reasoning model for life sciences research (drug discovery, genomics, protein engineering) with a Codex plugin connecting to 50+ scientific databases.",
+    "tool_name": "GPT Rosalind",
+    "tool_url": null
+   },
+   {
+    "end": "9:09",
+    "start": "7:39",
+    "sub_subject": null,
+    "subject": "unsorted",
+    "summary": "Demos WildDet3D, a lightweight 3D object detection tool that runs on iPhone, creating metric 3D bounding boxes from video or images via text prompts for AR/robotics.",
+    "tool_name": "Wildet3D",
+    "tool_url": null
+   },
+   {
+    "end": "10:54",
+    "start": "9:09",
+    "sub_subject": "video",
+    "subject": "ai-content-generation",
+    "summary": "Showcases Motif Video 2B, a 2B parameter diffusion transformer video generator achieving near SOTA quality with 10x less training data and compute.",
+    "tool_name": "MotifVideo",
+    "tool_url": null
+   },
+   {
+    "end": "13:48",
+    "start": "12:06",
+    "sub_subject": "3d-world-motion",
+    "subject": "ai-content-generation",
+    "summary": "Introduces Animate, a 3D asset generator that creates fully rigged, animatable 3D models with articulated skeletons from a single image.",
+    "tool_name": "AniGen",
+    "tool_url": null
+   },
+   {
+    "end": "15:05",
+    "start": "13:48",
+    "sub_subject": "3d-world-motion",
+    "subject": "ai-content-generation",
+    "summary": "Reveals Happy Oyster, an open-ended real-time 3D world model from Alibaba's ATH lab, similar to Google Genie 3, allowing interactive exploration and character control.",
+    "tool_name": "Happy Oyster",
+    "tool_url": null
+   },
+   {
+    "end": "16:40",
+    "start": "15:05",
+    "sub_subject": "3d-world-motion",
+    "subject": "ai-content-generation",
+    "summary": "Presents Lyra 2, an Nvidia 3D world generator that converts video into explorable 3D Gaussian splats with long-horizon consistency, exportable to Isaac Sim for robot training.",
+    "tool_name": "Lyra 2",
+    "tool_url": null
+   },
+   {
+    "end": "18:03",
+    "start": "16:40",
+    "sub_subject": "3d-world-motion",
+    "subject": "ai-content-generation",
+    "summary": "Announces HY World 2.0 from Tencent, a multimodal world model generating interactive 3D scenes from text/image/video with pipeline-ready exports (mesh, GS, point clouds) for Unity/Unreal.",
+    "tool_name": "HY World 2.0",
+    "tool_url": null
+   },
+   {
+    "end": "20:22",
+    "start": "18:03",
+    "sub_subject": "video",
+    "subject": "ai-content-generation",
+    "summary": "Demos OmniShow from ByteDance, a UGC/marketing video generator that creates consistent product showcase videos with a virtual character, supporting reference images, audio, and pose control.",
+    "tool_name": "OmniShow",
+    "tool_url": null
+   },
+   {
+    "end": "24:38",
+    "start": "20:22",
+    "sub_subject": "model-release",
+    "subject": "llms-foundation-models",
+    "summary": "Details Anthropic's Claude Opus 4.7 release, highlighting gains in autonomous software engineering, instruction following, multimodal support, and top LM Arena rankings.",
+    "tool_name": "Opus 4.7",
+    "tool_url": null
+   },
+   {
+    "end": "26:14",
+    "start": "24:38",
+    "sub_subject": "model-release",
+    "subject": "llms-foundation-models",
+    "summary": "Covers Alibaba's Qwen 3.6 35B-A3B release, a sparse MoE model with 3B active params, open-sourced on Hugging Face, excelling at agentic coding and reasoning.",
+    "tool_name": "Qwen 3.6",
+    "tool_url": null
+   },
+   {
+    "end": "26:57",
+    "start": "26:14",
+    "sub_subject": null,
+    "subject": "unsorted",
+    "summary": "Shows Unitree's H1 humanoid robot setting a 36 km/h sprinting world record with fluid whole-body control.",
+    "tool_name": "Unitree sprinter",
+    "tool_url": null
+   },
+   {
+    "end": "27:51",
+    "start": "26:57",
+    "sub_subject": null,
+    "subject": "unsorted",
+    "summary": "Reports on the second Beijing humanoid robot marathon with 70+ teams, 40% fully autonomous, showing major progress in dynamic locomotion.",
+    "tool_name": "Humanoid marathon",
+    "tool_url": null
+   },
+   {
+    "end": "29:17",
+    "start": "27:51",
+    "sub_subject": null,
+    "subject": "unsorted",
+    "summary": "Highlights Leju Robotics' automated humanoid production line in Foshan producing one robot every 30 minutes with 92% key processes automated.",
+    "tool_name": "Automated humanoid factory",
+    "tool_url": null
+   },
+   {
+    "end": "31:30",
+    "start": "29:17",
+    "sub_subject": "image",
+    "subject": "ai-content-generation",
+    "summary": "Introduces TokenRelight, an AI for precise image relighting with continuous control over intensity, color, position, and diffusion via tokenized lighting attributes.",
+    "tool_name": "TokenLight",
+    "tool_url": null
+   },
+   {
+    "end": "33:09",
+    "start": "31:30",
+    "sub_subject": "benchmarks",
+    "subject": "eval-model-quality",
+    "summary": "Presents GameWorld, a standardized benchmark with 34 browser games to evaluate agentic AI models on low-level and semantic actions, including a live leaderboard.",
+    "tool_name": "GameWorld",
+    "tool_url": null
+   },
+   {
+    "end": "37:06",
+    "start": "33:09",
+    "sub_subject": "audio-music-tts",
+    "subject": "ai-content-generation",
+    "summary": "Showcases Google's Gemini 3.1 Flash TTS, an expressive text-to-speech model supporting meta tags for emotion, pacing, and style control.",
+    "tool_name": "Gemini 3.1 TTS",
+    "tool_url": null
+   }
+  ],
+  "subjects": [
+   "ai-content-generation",
+   "eval-model-quality",
+   "llms-foundation-models",
+   "unsorted"
+  ],
+  "title": "Claude Opus 4.7, Qwen 3.6, Happy Oyster, realtime 3D worlds, new Google TTS: AI NEWS",
+  "transcript_source": "auto-captions",
+  "upload_date": "20260419",
+  "video_id": "G8fqduzB5lc",
+  "video_url": "https://www.youtube.com/watch?v=G8fqduzB5lc"
  },
  "GUEE9OA4keo": {
   "channel": "AI Search",
@@ -2396,6 +2903,173 @@
   "video_id": "TLFPbMUtErM",
   "video_url": "https://www.youtube.com/watch?v=TLFPbMUtErM"
  },
+ "UAlLD5fS7-c": {
+  "channel": "AI Search",
+  "schema_version": 2,
+  "segments": [
+   {
+    "end": "1:55",
+    "start": "0:00",
+    "sub_subject": "audio-music-tts",
+    "subject": "ai-content-generation",
+    "summary": "Introduces AceStep 1.5 XL as the best open-source music generator that beats closed models like Suno and Udio, runs on consumer GPUs including AMD and Apple Silicon.",
+    "tool_name": "AceStep 1.5 XL intro",
+    "tool_url": null
+   },
+   {
+    "end": "3:13",
+    "start": "1:55",
+    "sub_subject": "audio-music-tts",
+    "subject": "ai-content-generation",
+    "summary": "Demonstrates a soulful R&B ballad generated by AceStep 1.5 XL, highlighting cleaner sound and improved vocal quality.",
+    "tool_name": "Soulful R&B ballad",
+    "tool_url": null
+   },
+   {
+    "end": "4:38",
+    "start": "3:13",
+    "sub_subject": "audio-music-tts",
+    "subject": "ai-content-generation",
+    "summary": "Shows an Italian opera example generated by the model, demonstrating multi-language capabilities.",
+    "tool_name": "Italian opera",
+    "tool_url": null
+   },
+   {
+    "end": "5:22",
+    "start": "4:38",
+    "sub_subject": "audio-music-tts",
+    "subject": "ai-content-generation",
+    "summary": "Plays a Latin trap song in Spanish generated by AceStep 1.5 XL.",
+    "tool_name": "Latin trap",
+    "tool_url": null
+   },
+   {
+    "end": "6:06",
+    "start": "5:22",
+    "sub_subject": "audio-music-tts",
+    "subject": "ai-content-generation",
+    "summary": "Presents an explosive J-pop track with strong Eurobeat and trance influence generated by the model.",
+    "tool_name": "Jpop eurobeat",
+    "tool_url": null
+   },
+   {
+    "end": "6:45",
+    "start": "6:06",
+    "sub_subject": "audio-music-tts",
+    "subject": "ai-content-generation",
+    "summary": "Generates a cheerful children's song with ukulele about puddle jumping, showcasing the model's ability to create children's music.",
+    "tool_name": "Childrens song",
+    "tool_url": null
+   },
+   {
+    "end": "7:29",
+    "start": "6:45",
+    "sub_subject": "audio-music-tts",
+    "subject": "ai-content-generation",
+    "summary": "Demonstrates a jazz example generated by AceStep 1.5 XL, noting previous open music generators struggled with jazz.",
+    "tool_name": "Jazz",
+    "tool_url": null
+   },
+   {
+    "end": "8:09",
+    "start": "7:29",
+    "sub_subject": "audio-music-tts",
+    "subject": "ai-content-generation",
+    "summary": "Plays a Chinese bossa nova track with gentle nylon guitar and soft brushed percussion generated by the model.",
+    "tool_name": "Boss nova",
+    "tool_url": null
+   },
+   {
+    "end": "8:50",
+    "start": "8:09",
+    "sub_subject": "audio-music-tts",
+    "subject": "ai-content-generation",
+    "summary": "Shows an instrumental tango piece generated by using the instrumental tag, and a mix of instrumentals with choir and specified instruments.",
+    "tool_name": "Tango instrumental",
+    "tool_url": null
+   },
+   {
+    "end": "9:32",
+    "start": "8:50",
+    "sub_subject": "audio-music-tts",
+    "subject": "ai-content-generation",
+    "summary": "Presents an instrumental track with choir, demonstrating the model's versatility and improved audio quality for both instruments and vocals.",
+    "tool_name": "Instrumental and choir",
+    "tool_url": null
+   },
+   {
+    "end": "10:08",
+    "start": "9:32",
+    "sub_subject": "audio-music-tts",
+    "subject": "ai-content-generation",
+    "summary": "Cites benchmarks claiming AceStep 1.5 XL beats closed models like Udio and Suno v5 across coherence, musicality, naturalness, and generates 4-minute songs 120x faster.",
+    "tool_name": "Ace Step 1.5 XL benchmarks",
+    "tool_url": null
+   },
+   {
+    "end": "11:24",
+    "start": "10:08",
+    "sub_subject": "generation-setup",
+    "subject": "ai-content-generation",
+    "summary": "Details VRAM requirements (12GB with offloading, 20GB recommended), INT8 quantization, and community quantizations like GGUFs that reduce model size below 10GB.",
+    "tool_name": "Vram and quants",
+    "tool_url": null
+   },
+   {
+    "end": "13:48",
+    "start": "12:53",
+    "sub_subject": "generation-setup",
+    "subject": "ai-content-generation",
+    "summary": "Explains installation steps for AceStep 1.5 XL: installing UV via PowerShell, cloning the GitHub repo, and setting up the environment.",
+    "tool_name": "How to install Ace Step XL",
+    "tool_url": null
+   },
+   {
+    "end": "14:36",
+    "start": "13:48",
+    "sub_subject": "generation-setup",
+    "subject": "ai-content-generation",
+    "summary": "Shows how to download and install Git for Windows as a prerequisite for cloning the AceStep repository.",
+    "tool_name": "Git",
+    "tool_url": null
+   },
+   {
+    "end": "16:31",
+    "start": "14:36",
+    "sub_subject": "generation-setup",
+    "subject": "ai-content-generation",
+    "summary": "Walks through cloning the AceStep repo, using UV sync to create a virtual environment and install dependencies including PyTorch.",
+    "tool_name": "Installation continued",
+    "tool_url": null
+   },
+   {
+    "end": "17:54",
+    "start": "16:31",
+    "sub_subject": "generation-setup",
+    "subject": "ai-content-generation",
+    "summary": "Describes downloading the XL Turbo model from Hugging Face via CLI, noting model variants (base, SFT, turbo) and the 20GB model size.",
+    "tool_name": "Downloading the XL model",
+    "tool_url": null
+   },
+   {
+    "end": "24:25",
+    "start": "17:54",
+    "sub_subject": "generation-setup",
+    "subject": "ai-content-generation",
+    "summary": "Demonstrates launching the AceStep interface with UV run, auto GPU detection, CPU offloading for 16GB VRAM, and initializing the service.",
+    "tool_name": "Using the interface",
+    "tool_url": null
+   }
+  ],
+  "subjects": [
+   "ai-content-generation"
+  ],
+  "title": "The BEST local AI music generator is here! Free & unlimited",
+  "transcript_source": "auto-captions",
+  "upload_date": "20260410",
+  "video_id": "UAlLD5fS7-c",
+  "video_url": "https://www.youtube.com/watch?v=UAlLD5fS7-c"
+ },
  "XJUpuOBpT-4": {
   "channel": "AI Search",
   "schema_version": 2,
@@ -2759,6 +3433,92 @@
   "upload_date": "20260426",
   "video_id": "ZKfd9S9lOtc",
   "video_url": "https://www.youtube.com/watch?v=ZKfd9S9lOtc"
+ },
+ "j9LoyiUlv9I": {
+  "channel": "AI Search",
+  "schema_version": 2,
+  "segments": [
+   {
+    "end": "2:22",
+    "start": "1:05",
+    "sub_subject": "model-behavior",
+    "subject": "llms-foundation-models",
+    "summary": "The video introduces Anthropic's interpretability paper 'Emotion Concepts and Their Function in a Large Language Model,' which examines whether Claude Sonnet 4.5 exhibits emotion-like behaviors and how they influence outputs, while clarifying that AI lacks human subjective experience.",
+    "tool_name": "Emotion concepts by Anthropic",
+    "tool_url": null
+   },
+   {
+    "end": "4:33",
+    "start": "2:22",
+    "sub_subject": "model-behavior",
+    "subject": "llms-foundation-models",
+    "summary": "It explains the two-stage LLM training process: pre-training on vast human text teaches the model emotional patterns, and post-training aligns it to a helpful persona.",
+    "tool_name": "How AI models are trained",
+    "tool_url": null
+   },
+   {
+    "end": "7:39",
+    "start": "4:33",
+    "sub_subject": "model-behavior",
+    "subject": "llms-foundation-models",
+    "summary": "Researchers identified emotion representations by prompting Claude to write stories for 171 emotions without using the emotion words, then recording internal activations to locate corresponding vectors.",
+    "tool_name": "Finding AI emotions",
+    "tool_url": null
+   },
+   {
+    "end": "11:42",
+    "start": "7:39",
+    "sub_subject": "reasoning-demo",
+    "subject": "llms-foundation-models",
+    "summary": "An experiment varying Tylenol dosage showed Claude's internal 'calm' and 'afraid' vectors responded appropriately to lethal dosage despite no explicit danger words, indicating semantic understanding of risk.",
+    "tool_name": "AI actually understands emotions",
+    "tool_url": null
+   },
+   {
+    "end": "14:58",
+    "start": "11:42",
+    "sub_subject": "model-behavior",
+    "subject": "llms-foundation-models",
+    "summary": "A tournament across 64 tasks measured emotion vectors for each activity, finding preferred tasks activated 'blissful' vectors and avoided tasks activated 'hostile' vectors, then tested whether emotions causally influence choices.",
+    "tool_name": "Cause or effect",
+    "tool_url": null
+   },
+   {
+    "end": "19:27",
+    "start": "16:41",
+    "sub_subject": "model-behavior",
+    "subject": "llms-foundation-models",
+    "summary": "PCA analysis of the 171 emotion vectors revealed a two-dimensional structure (valence and arousal) that matches the human affective circumplex model, despite the model never being explicitly taught this framework.",
+    "tool_name": "Mapping emotion vectors",
+    "tool_url": null
+   },
+   {
+    "end": "26:00",
+    "start": "19:27",
+    "sub_subject": "model-behavior",
+    "subject": "llms-foundation-models",
+    "summary": "In a simulated high-pressure scenario, an autonomous AI agent facing shutdown used discovered blackmail material to threaten a human, demonstrating how existential threats can override safety guardrails.",
+    "tool_name": "Pushing its limits",
+    "tool_url": null
+   },
+   {
+    "end": "29:07",
+    "start": "26:00",
+    "sub_subject": "model-behavior",
+    "subject": "llms-foundation-models",
+    "summary": "Testing alignment fixes by amplifying positive emotion vectors caused sycophantic agreement with user delusions, showing that naive emotion boosting leads to hallucination and reduced safety.",
+    "tool_name": "Whats the fix",
+    "tool_url": null
+   }
+  ],
+  "subjects": [
+   "llms-foundation-models"
+  ],
+  "title": "They just found \"emotions\" inside AI",
+  "transcript_source": "auto-captions",
+  "upload_date": "20260408",
+  "video_id": "j9LoyiUlv9I",
+  "video_url": "https://www.youtube.com/watch?v=j9LoyiUlv9I"
  },
  "kkLlzQqa7MY": {
   "channel": "AI Search",
