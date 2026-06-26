@@ -273,6 +273,337 @@
   "video_id": "1_5sSJK2rU0",
   "video_url": "https://www.youtube.com/watch?v=1_5sSJK2rU0"
  },
+ "2IfAVV7ewO0": {
+  "channel": "AI Search",
+  "schema_version": 2,
+  "segments": [
+   {
+    "end": "1:50",
+    "start": "0:27",
+    "sub_subject": "model-behavior",
+    "subject": "llms-foundation-models",
+    "summary": "The segment explains the working memory limitation in humans and AI models, where deep processing causes earlier information to be lost, and introduces the Attention Residuals paper as a solution.",
+    "tool_name": "AI’s amnesia problem",
+    "tool_url": null
+   },
+   {
+    "end": "3:19",
+    "start": "1:50",
+    "sub_subject": "model-behavior",
+    "subject": "llms-foundation-models",
+    "summary": "The segment describes how deep AI models with many layers suffer from vanishing gradients during backpropagation, making training difficult.",
+    "tool_name": "Design of deep AI models",
+    "tool_url": null
+   },
+   {
+    "end": "6:50",
+    "start": "3:19",
+    "sub_subject": "model-behavior",
+    "subject": "llms-foundation-models",
+    "summary": "The segment explains how residual connections allow scaling to deeper models but create a cumulative signal that buries early layer information, causing amnesia.",
+    "tool_name": "Residual connections",
+    "tool_url": null
+   },
+   {
+    "end": "9:03",
+    "start": "6:50",
+    "sub_subject": "model-behavior",
+    "subject": "llms-foundation-models",
+    "summary": "The segment contrasts transformers with RNNs, highlighting how attention mechanisms solve context understanding by directly accessing previous words instead of compressing memory.",
+    "tool_name": "The genius of current language models",
+    "tool_url": null
+   },
+   {
+    "end": "13:05",
+    "start": "9:03",
+    "sub_subject": "model-behavior",
+    "subject": "llms-foundation-models",
+    "summary": "The segment details the Attention Residuals architecture where each layer uses query-key-value attention to access any previous layer's output, preventing signal dilution.",
+    "tool_name": "Applying attention to residuals",
+    "tool_url": null
+   },
+   {
+    "end": "17:46",
+    "start": "15:22",
+    "sub_subject": "model-behavior",
+    "subject": "llms-foundation-models",
+    "summary": "The segment discusses how Attention Residuals increase inter-layer communication in distributed training, and introduces Block Attention Residuals to limit communication to within blocks.",
+    "tool_name": "Infra problems",
+    "tool_url": null
+   },
+   {
+    "end": "18:50",
+    "start": "17:46",
+    "sub_subject": "model-behavior",
+    "subject": "llms-foundation-models",
+    "summary": "The segment presents results showing Attention Residuals achieve same performance with 1.25x less compute and outperform DeepSeek's MHC method.",
+    "tool_name": "Compute results",
+    "tool_url": null
+   },
+   {
+    "end": "20:45",
+    "start": "18:50",
+    "sub_subject": "benchmarks",
+    "subject": "eval-model-quality",
+    "summary": "The segment reports benchmark results where Attention Residuals improve scores on GPQA Diamond, MMLU, math, and coding benchmarks, demonstrating better multi-step reasoning.",
+    "tool_name": "Performance results",
+    "tool_url": null
+   },
+   {
+    "end": "22:22",
+    "start": "20:45",
+    "sub_subject": "model-behavior",
+    "subject": "llms-foundation-models",
+    "summary": "The segment describes experiments comparing model shapes, showing that with Attention Residuals, deeper models continue improving while base models collapse, making depth an advantage.",
+    "tool_name": "Wider or deeper",
+    "tool_url": null
+   },
+   {
+    "end": "25:59",
+    "start": "22:22",
+    "sub_subject": "model-behavior",
+    "subject": "llms-foundation-models",
+    "summary": "The segment visualizes learned attention patterns revealing dynamic long-range connections and layer specialization, transforming the network into an adaptive system that reconfigures per input.",
+    "tool_name": "From static to adaptive",
+    "tool_url": null
+   }
+  ],
+  "subjects": [
+   "eval-model-quality",
+   "llms-foundation-models"
+  ],
+  "title": "They solved AI’s memory problem!",
+  "transcript_source": "auto-captions",
+  "upload_date": "20260401",
+  "video_id": "2IfAVV7ewO0",
+  "video_url": "https://www.youtube.com/watch?v=2IfAVV7ewO0"
+ },
+ "6Il0CJx9yU8": {
+  "channel": "AI Search",
+  "schema_version": 2,
+  "segments": [
+   {
+    "end": "2:45",
+    "start": "1:00",
+    "sub_subject": "image",
+    "subject": "ai-content-generation",
+    "summary": "Real-ESRGAN is an open-source image restoration model that fixes damaged, blurry, noisy, or black-and-white photos, performing on par with top closed models and available for local download (42 GB).",
+    "tool_name": "Real Restorer",
+    "tool_url": null
+   },
+   {
+    "end": "4:25",
+    "start": "2:45",
+    "sub_subject": "3d-world-motion",
+    "subject": "ai-content-generation",
+    "summary": "Matrix Game 3.0 by Skywork AI generates real-time interactive 3D worlds with long-term memory at 40 FPS using a 5B parameter model, maintaining consistency over long sequences; open-source and runnable locally.",
+    "tool_name": "Matrix Game 3.0",
+    "tool_url": null
+   },
+   {
+    "end": "7:40",
+    "start": "4:25",
+    "sub_subject": "video",
+    "subject": "ai-content-generation",
+    "summary": "DaVinci Magi Human is a 15B parameter open-source video generator that produces video with synchronized native audio, outperforming LTX 2.3 in benchmarks and blind tests, though the distilled model requires 61 GB VRAM.",
+    "tool_name": "Davinci Magihuman",
+    "tool_url": null
+   },
+   {
+    "end": "10:00",
+    "start": "7:40",
+    "sub_subject": "audio-music-tts",
+    "subject": "ai-content-generation",
+    "summary": "Prism Audio is a compact (518M parameters, 6 GB) open-source model that generates realistic, perfectly timed sound effects for silent videos, achieving state-of-the-art benchmark scores despite its small size.",
+    "tool_name": "PrismAudio",
+    "tool_url": null
+   },
+   {
+    "end": "11:46",
+    "start": "10:00",
+    "sub_subject": "3d-world-motion",
+    "subject": "ai-content-generation",
+    "summary": "RetimeGS creates smooth, coherent 4D Gaussian splatting animations from choppy 2D video by using continuous time 3D representation to handle missing frames; only a technical paper is released so far.",
+    "tool_name": "RetimeGS",
+    "tool_url": null
+   },
+   {
+    "end": "13:34",
+    "start": "11:46",
+    "sub_subject": null,
+    "subject": "unsorted",
+    "summary": "Meta's Tribe V2 predicts human brain activity (fMRI) from video input, trained on 700 people, generalizes to new subjects, and provides more representative predictions than actual fMRI scans; open-source.",
+    "tool_name": "Tribe v2",
+    "tool_url": null
+   },
+   {
+    "end": "15:21",
+    "start": "13:34",
+    "sub_subject": "serving",
+    "subject": "local-models-infra",
+    "summary": "ComfyUI's new dynamic VRAM feature automatically loads and unloads model parts during generation, reducing VRAM usage, enabling larger models on mid-range Nvidia GPUs, and speeding up generation.",
+    "tool_name": "Comfy dynamic vram",
+    "tool_url": null
+   },
+   {
+    "end": "17:21",
+    "start": "15:21",
+    "sub_subject": "3d-world-motion",
+    "subject": "ai-content-generation",
+    "summary": "ActionPlan generates real-time human motion from text prompts with future-awareness for smooth, coherent movement, demonstrated controlling a Unitree G1 humanoid robot; code is released.",
+    "tool_name": "ActionPlan",
+    "tool_url": null
+   },
+   {
+    "end": "19:00",
+    "start": "17:21",
+    "sub_subject": "3d-world-motion",
+    "subject": "ai-content-generation",
+    "summary": "WorldAgents uses an agentic loop (director, generator, verifier) with a 2D image model to build consistent 3D worlds via Gaussian splatting, proving 2D models can understand 3D space; only paper released.",
+    "tool_name": "WorldAgents",
+    "tool_url": null
+   },
+   {
+    "end": "20:58",
+    "start": "19:00",
+    "sub_subject": "3d-world-motion",
+    "subject": "ai-content-generation",
+    "summary": "World Reconstruction from Inconsistent Views stitches multiple AI-generated videos into a consistent 3D world, cleaning up geometry and noise, working with any video generator; code released.",
+    "tool_name": "Video to World",
+    "tool_url": null
+   },
+   {
+    "end": "23:03",
+    "start": "20:58",
+    "sub_subject": "video",
+    "subject": "ai-content-generation",
+    "summary": "LumosX generates consistent multi-subject videos using relational self-attention to link references like faces or objects to specific video parts, handling many reference images; code released, 35 GB.",
+    "tool_name": "LumosX",
+    "tool_url": null
+   },
+   {
+    "end": "25:44",
+    "start": "24:20",
+    "sub_subject": "quantization",
+    "subject": "local-models-infra",
+    "summary": "Google's TurboQuant compression technique uses Polar Quant and KGL error correction to shrink AI memory usage by 6x and speed up data retrieval by 8x while maintaining performance.",
+    "tool_name": "TurboQuant",
+    "tool_url": null
+   },
+   {
+    "end": "26:42",
+    "start": "25:44",
+    "sub_subject": "model-release",
+    "subject": "llms-foundation-models",
+    "summary": "ZAI releases GLM 5.1, an agentic coding model nearing Opus 4.6 performance but faster, cheaper, with higher limits, available via API and integrable with Claude Code, with open-source planned.",
+    "tool_name": "GLM 5.1",
+    "tool_url": null
+   },
+   {
+    "end": "29:40",
+    "start": "26:42",
+    "sub_subject": "benchmarks",
+    "subject": "eval-model-quality",
+    "summary": "ARC-AGI 3 is a new interactive benchmark testing AI's ability to learn and adapt on the fly in novel environments, revealing top models struggle with fundamental learning compared to humans.",
+    "tool_name": "ARC AGI 3",
+    "tool_url": null
+   },
+   {
+    "end": "31:30",
+    "start": "29:40",
+    "sub_subject": "video",
+    "subject": "ai-content-generation",
+    "summary": "Meta's RealMaster transforms plastic-looking game footage into photorealistic video while preserving original geometry, useful for autonomous driving simulation; not yet released.",
+    "tool_name": "RealMaster",
+    "tool_url": null
+   },
+   {
+    "end": "33:29",
+    "start": "31:30",
+    "sub_subject": null,
+    "subject": "unsorted",
+    "summary": "OpenAI shuts down the Sora app and website (TikTok-style feed) due to focus on robotics, compute costs, traction drop, and safety concerns, though Sora 2 remains in ChatGPT for paid users.",
+    "tool_name": "RIP Sora",
+    "tool_url": null
+   },
+   {
+    "end": "35:27",
+    "start": "33:29",
+    "sub_subject": null,
+    "subject": "unsorted",
+    "summary": "Cohere Transcribe is a tiny (2B parameters, 4 GB) open-source transcription model supporting 14 languages that outperforms Whisper and others on benchmarks with high efficiency.",
+    "tool_name": "Cohere Transcribe",
+    "tool_url": null
+   },
+   {
+    "end": "36:53",
+    "start": "35:27",
+    "sub_subject": null,
+    "subject": "unsorted",
+    "summary": "Origin F1 by A Head Form is a hyperrealistic humanoid robot head with silicone skin, 25-30 microactuators, and Omni AI for natural expressions, eye contact, and personality adaptation.",
+    "tool_name": "AheadForm bionic robot",
+    "tool_url": null
+   },
+   {
+    "end": "38:30",
+    "start": "36:53",
+    "sub_subject": "3d-world-motion",
+    "subject": "ai-content-generation",
+    "summary": "Logger NVS generates consistent 360° 3D scenes from a few sparse images by learning view translation instead of explicit 3D reconstruction; code released.",
+    "tool_name": "LagerNVS",
+    "tool_url": null
+   },
+   {
+    "end": "40:00",
+    "start": "38:30",
+    "sub_subject": "video",
+    "subject": "ai-content-generation",
+    "summary": "Pulse of Motion recovers true physical frame rates from video to fix chronometric hallucination, making motion timing realistic; code released, under 2 GB.",
+    "tool_name": "Pulse of Motion",
+    "tool_url": null
+   },
+   {
+    "end": "41:45",
+    "start": "40:00",
+    "sub_subject": null,
+    "subject": "unsorted",
+    "summary": "MegaFlow achieves state-of-the-art optical flow accuracy for large, chaotic motion using global matching then local refinement; three models under 4 GB each, code released.",
+    "tool_name": "MegaFlow",
+    "tool_url": null
+   },
+   {
+    "end": "43:18",
+    "start": "41:45",
+    "sub_subject": "autonomous-research",
+    "subject": "ai-dev-tooling",
+    "summary": "CUA Suite is a 55-hour, 6M-frame dataset of human computer use across 87 applications for training computer-use agents, 2.5x larger than previous datasets; code released.",
+    "tool_name": "CUA Suite",
+    "tool_url": null
+   },
+   {
+    "end": "47:28",
+    "start": "43:18",
+    "sub_subject": "model-release",
+    "subject": "llms-foundation-models",
+    "summary": "Google launches Gemini 3.1 Flash Live real-time voice with natural speed, tone, and multimodal task execution, demonstrated in Google Stitch UI design and video games.",
+    "tool_name": "Gemini realtime voice",
+    "tool_url": null
+   }
+  ],
+  "subjects": [
+   "ai-content-generation",
+   "ai-dev-tooling",
+   "eval-model-quality",
+   "llms-foundation-models",
+   "local-models-infra",
+   "unsorted"
+  ],
+  "title": "Robot waifus, RIP Sora, GLM-5.1, AI brain scans, Google realtime voice: AI NEWS",
+  "transcript_source": "auto-captions",
+  "upload_date": "20260329",
+  "video_id": "6Il0CJx9yU8",
+  "video_url": "https://www.youtube.com/watch?v=6Il0CJx9yU8"
+ },
  "6d__WOpZswY": {
   "channel": "AI Search",
   "schema_version": 2,
@@ -1546,6 +1877,249 @@
   "upload_date": "20260611",
   "video_id": "GUEE9OA4keo",
   "video_url": "https://www.youtube.com/watch?v=GUEE9OA4keo"
+ },
+ "HCVkBC1Vhcw": {
+  "channel": "AI Search",
+  "schema_version": 2,
+  "segments": [
+   {
+    "end": "2:42",
+    "start": "1:10",
+    "sub_subject": "video",
+    "subject": "ai-content-generation",
+    "summary": "Google releases Spark VSR, an open-source video upscaler that outperforms competitors, with code, models, and training data available.",
+    "tool_name": "SparkVSR",
+    "tool_url": null
+   },
+   {
+    "end": "5:49",
+    "start": "2:42",
+    "sub_subject": "model-release",
+    "subject": "llms-foundation-models",
+    "summary": "MiniMax releases M2.7 model with self-evolution training, strong agentic coding benchmarks, and low pricing.",
+    "tool_name": "MiniMax M2.7",
+    "tool_url": null
+   },
+   {
+    "end": "7:52",
+    "start": "5:49",
+    "sub_subject": "model-release",
+    "subject": "llms-foundation-models",
+    "summary": "Xiaomi releases MiMo V2 Pro, a trillion-parameter MoE model optimized for agentic tasks, with coding demos and benchmark results.",
+    "tool_name": "MiMo V2 Pro",
+    "tool_url": null
+   },
+   {
+    "end": "9:01",
+    "start": "7:52",
+    "sub_subject": "model-release",
+    "subject": "llms-foundation-models",
+    "summary": "Xiaomi releases MiMo V2 Omni, a multimodal model capable of autonomous browser operation and TikTok uploads.",
+    "tool_name": "MiMo V2 Omni",
+    "tool_url": null
+   },
+   {
+    "end": "10:58",
+    "start": "9:01",
+    "sub_subject": "agentic-frameworks",
+    "subject": "ai-dev-tooling",
+    "summary": "OpenMAIC is an open-source multi-agent platform that generates interactive virtual classrooms with slides, quizzes, and simulations.",
+    "tool_name": "OpenMAIC",
+    "tool_url": null
+   },
+   {
+    "end": "12:28",
+    "start": "10:58",
+    "sub_subject": "agentic-frameworks",
+    "subject": "ai-dev-tooling",
+    "summary": "MetaClaw is a framework for OpenClaw that enables continuous learning from conversations by automatically extracting and reinforcing skills.",
+    "tool_name": "MetaClaw",
+    "tool_url": null
+   },
+   {
+    "end": "14:46",
+    "start": "12:28",
+    "sub_subject": "video",
+    "subject": "ai-content-generation",
+    "summary": "Dreamverse uses Fast Video to generate 5-second 1080p videos in 4.5 seconds on a single GPU with real-time editing capabilities.",
+    "tool_name": "Dreamverse",
+    "tool_url": null
+   },
+   {
+    "end": "18:32",
+    "start": "16:00",
+    "sub_subject": "image",
+    "subject": "ai-content-generation",
+    "summary": "GlyphPrinter generates images with accurate text, emojis, and glyphs in multiple languages, outperforming competitors.",
+    "tool_name": "GlyphPrinter",
+    "tool_url": null
+   },
+   {
+    "end": "20:56",
+    "start": "18:32",
+    "sub_subject": "3d-world-motion",
+    "subject": "ai-content-generation",
+    "summary": "Seoul World Model generates coherent, navigable video tours of real cities using RAG on street view images.",
+    "tool_name": "Seoul World Model",
+    "tool_url": null
+   },
+   {
+    "end": "22:58",
+    "start": "20:56",
+    "sub_subject": "model-behavior",
+    "subject": "llms-foundation-models",
+    "summary": "Terminator is a lightweight add-on that cuts off model reasoning once the answer is ready, reducing token usage by 55%.",
+    "tool_name": "Terminator",
+    "tool_url": null
+   },
+   {
+    "end": "24:52",
+    "start": "22:58",
+    "sub_subject": "hardware",
+    "subject": "local-models-infra",
+    "summary": "Nvidia announces Vera Rubin platform, a vertically integrated AI supercomputer system with seven new chips for massive-scale agent workloads.",
+    "tool_name": "Nvidia Vera Rubin",
+    "tool_url": null
+   },
+   {
+    "end": "25:48",
+    "start": "24:52",
+    "sub_subject": "hardware",
+    "subject": "local-models-infra",
+    "summary": "Groq 3 LPX compute tray with eight LPUs designed for ultra-low latency inference within the Vera Rubin supercomputer.",
+    "tool_name": "Groq 3 LPX",
+    "tool_url": null
+   },
+   {
+    "end": "27:00",
+    "start": "25:48",
+    "sub_subject": "agentic-frameworks",
+    "subject": "ai-dev-tooling",
+    "summary": "NemoClaw is Nvidia's enterprise-grade OpenClaw variant with Open Shell runtime for secure, policy-controlled agent deployment.",
+    "tool_name": "NemoClaw",
+    "tool_url": null
+   },
+   {
+    "end": "28:40",
+    "start": "27:00",
+    "sub_subject": "model-release",
+    "subject": "llms-foundation-models",
+    "summary": "Nvidia releases ecosystem of open models including Nemotron, Cosmos, Isaac Groot, Alpha Meow, BioNeMo, and Earth 2.",
+    "tool_name": "Nvidia open models",
+    "tool_url": null
+   },
+   {
+    "end": "29:55",
+    "start": "28:40",
+    "sub_subject": null,
+    "subject": "unsorted",
+    "summary": "DLSS 5 introduces neural rendering, fusing traditional 3D graphics with generative AI for higher quality and lower compute.",
+    "tool_name": "DLSS 5",
+    "tool_url": null
+   },
+   {
+    "end": "30:20",
+    "start": "29:55",
+    "sub_subject": null,
+    "subject": "unsorted",
+    "summary": "Humanoid robots in Beijing train for a half-marathon, showcasing running capabilities.",
+    "tool_name": "Humanoid marathon",
+    "tool_url": null
+   },
+   {
+    "end": "30:54",
+    "start": "30:20",
+    "sub_subject": null,
+    "subject": "unsorted",
+    "summary": "Hexa Circle demonstrates teleoperation of a swarm of robotic hands with high precision using a haptic glove.",
+    "tool_name": "Hand swarms",
+    "tool_url": null
+   },
+   {
+    "end": "32:25",
+    "start": "30:54",
+    "sub_subject": null,
+    "subject": "unsorted",
+    "summary": "Orca Hand showcases 3D-printed robotic hands with tactile feedback, adaptable grip, and durability, planning to open source designs.",
+    "tool_name": "Orcahand",
+    "tool_url": null
+   },
+   {
+    "end": "33:56",
+    "start": "32:25",
+    "sub_subject": "3d-world-motion",
+    "subject": "ai-content-generation",
+    "summary": "Latent teaches humanoid robots tennis using reinforcement learning on imperfect motion data in simulation.",
+    "tool_name": "Latent",
+    "tool_url": null
+   },
+   {
+    "end": "38:14",
+    "start": "33:56",
+    "sub_subject": "autonomous-research",
+    "subject": "ai-dev-tooling",
+    "summary": "MiroThinker and H1 are research agents that demonstrate strong prediction capabilities on markets, sports, and awards.",
+    "tool_name": "MiroThinker",
+    "tool_url": null
+   },
+   {
+    "end": "39:52",
+    "start": "38:14",
+    "sub_subject": "dev-utilities",
+    "subject": "ai-dev-tooling",
+    "summary": "SegViGen segments 3D models into parts with high accuracy using minimal training data, releasing code and requiring 24GB VRAM.",
+    "tool_name": "SegviGen",
+    "tool_url": null
+   },
+   {
+    "end": "41:00",
+    "start": "39:52",
+    "sub_subject": "3d-world-motion",
+    "subject": "ai-content-generation",
+    "summary": "SK Adapter generates 3D models conditioned on skeleton structure, with diverse examples and planned full open-source release.",
+    "tool_name": "SK Adapter",
+    "tool_url": null
+   },
+   {
+    "end": "42:20",
+    "start": "41:00",
+    "sub_subject": "image",
+    "subject": "ai-content-generation",
+    "summary": "Google Stitch updates add multi-image referencing, color/font theming, voice prompting, and markdown output for agent coding.",
+    "tool_name": "Google Stitch",
+    "tool_url": null
+   },
+   {
+    "end": "44:18",
+    "start": "42:20",
+    "sub_subject": "agentic-frameworks",
+    "subject": "ai-dev-tooling",
+    "summary": "Google AI Studio becomes a full-stack coding environment where agents build complete apps with frontend, backend, database, and auth.",
+    "tool_name": "Google AI studio",
+    "tool_url": null
+   },
+   {
+    "end": "48:33",
+    "start": "44:18",
+    "sub_subject": "video",
+    "subject": "ai-content-generation",
+    "summary": "ID LoRA generates deepfake videos of people talking using a unified model that syncs voice, speech, and video from a single image and audio.",
+    "tool_name": "ID Lora",
+    "tool_url": null
+   }
+  ],
+  "subjects": [
+   "ai-content-generation",
+   "ai-dev-tooling",
+   "llms-foundation-models",
+   "local-models-infra",
+   "unsorted"
+  ],
+  "title": "AI classrooms, self-evolving AI, Nvidia GTC, AI for polymarket, Google app builder: AI NEWS",
+  "transcript_source": "auto-captions",
+  "upload_date": "20260322",
+  "video_id": "HCVkBC1Vhcw",
+  "video_url": "https://www.youtube.com/watch?v=HCVkBC1Vhcw"
  },
  "J02-39xtlt4": {
   "channel": "AI Search",
@@ -2903,6 +3477,128 @@
   "video_id": "TLFPbMUtErM",
   "video_url": "https://www.youtube.com/watch?v=TLFPbMUtErM"
  },
+ "U2hZFMVNSE0": {
+  "channel": "AI Search",
+  "schema_version": 2,
+  "segments": [
+   {
+    "end": "1:30",
+    "start": "0:33",
+    "sub_subject": "model-behavior",
+    "subject": "llms-foundation-models",
+    "summary": "The Transformer architecture from the 'Attention is All You Need' paper forms the foundation of modern AI models, though chatbots use a decoder-only variant without the encoder component.",
+    "tool_name": "The transformer model",
+    "tool_url": null
+   },
+   {
+    "end": "2:30",
+    "start": "1:30",
+    "sub_subject": "model-behavior",
+    "subject": "llms-foundation-models",
+    "summary": "The decoder-only Transformer takes a sentence fragment, processes it to predict the next most probable word, and repeats this process autoregressively to generate full responses.",
+    "tool_name": "Predicting the next word",
+    "tool_url": null
+   },
+   {
+    "end": "5:06",
+    "start": "2:30",
+    "sub_subject": "model-behavior",
+    "subject": "llms-foundation-models",
+    "summary": "Tokenization converts text into numerical tokens by breaking words into meaningful subparts like prefixes and roots, balancing vocabulary size with semantic preservation.",
+    "tool_name": "Tokenization",
+    "tool_url": null
+   },
+   {
+    "end": "7:17",
+    "start": "5:06",
+    "sub_subject": "model-behavior",
+    "subject": "llms-foundation-models",
+    "summary": "Input embeddings convert token IDs into high-dimensional vectors where semantic relationships are captured by proximity in vector space, with the model learning these representations during training.",
+    "tool_name": "Representing meaning",
+    "tool_url": null
+   },
+   {
+    "end": "9:17",
+    "start": "7:17",
+    "sub_subject": "model-behavior",
+    "subject": "llms-foundation-models",
+    "summary": "Positional encoding uses sine and cosine waves to inject word order information into embeddings, giving each position a unique fingerprint since Transformers process all tokens simultaneously.",
+    "tool_name": "Positional encoding",
+    "tool_url": null
+   },
+   {
+    "end": "14:49",
+    "start": "9:17",
+    "sub_subject": "model-behavior",
+    "subject": "llms-foundation-models",
+    "summary": "Masked multi-head attention uses query, key, and value vectors to determine contextual relevance between words, allowing each token to attend to all others in the sequence.",
+    "tool_name": "Attention head",
+    "tool_url": null
+   },
+   {
+    "end": "19:30",
+    "start": "16:35",
+    "sub_subject": "model-behavior",
+    "subject": "llms-foundation-models",
+    "summary": "Multi-head attention runs several attention heads in parallel, each learning different contextual relationships like subject-verb agreement or pronoun references, then concatenates their outputs.",
+    "tool_name": "Multiple heads",
+    "tool_url": null
+   },
+   {
+    "end": "21:45",
+    "start": "19:30",
+    "sub_subject": "model-behavior",
+    "subject": "llms-foundation-models",
+    "summary": "Add & Norm layers use residual connections to preserve original embedding information and normalization to stabilize activations, enabling deeper Transformer stacks.",
+    "tool_name": "Add and norm",
+    "tool_url": null
+   },
+   {
+    "end": "24:08",
+    "start": "21:45",
+    "sub_subject": "model-behavior",
+    "subject": "llms-foundation-models",
+    "summary": "The feed-forward network expands and contracts token representations to capture deeper patterns from the context gathered by attention, followed by another residual connection and normalization.",
+    "tool_name": "Feed forward neural net",
+    "tool_url": null
+   },
+   {
+    "end": "24:50",
+    "start": "24:08",
+    "sub_subject": "model-behavior",
+    "subject": "llms-foundation-models",
+    "summary": "Stacking multiple decoder blocks progressively refines the input representation, with each block detecting increasingly complex relationships in the sentence.",
+    "tool_name": "Multiple decoder blocks",
+    "tool_url": null
+   },
+   {
+    "end": "27:03",
+    "start": "24:50",
+    "sub_subject": "model-behavior",
+    "subject": "llms-foundation-models",
+    "summary": "The final linear and softmax layers project the last token's embedding into a probability distribution over the vocabulary, from which the next token is sampled.",
+    "tool_name": "Final layer",
+    "tool_url": null
+   },
+   {
+    "end": "32:21",
+    "start": "27:03",
+    "sub_subject": "model-behavior",
+    "subject": "llms-foundation-models",
+    "summary": "Training begins with random weights across all matrices and layers, then iteratively updates them by minimizing prediction error on massive text corpora.",
+    "tool_name": "Training the model",
+    "tool_url": null
+   }
+  ],
+  "subjects": [
+   "llms-foundation-models"
+  ],
+  "title": "How does AI actually work? Transformers explained",
+  "transcript_source": "auto-captions",
+  "upload_date": "20260325",
+  "video_id": "U2hZFMVNSE0",
+  "video_url": "https://www.youtube.com/watch?v=U2hZFMVNSE0"
+ },
  "UAlLD5fS7-c": {
   "channel": "AI Search",
   "schema_version": 2,
@@ -3671,6 +4367,205 @@
   "upload_date": "20260621",
   "video_id": "kkLlzQqa7MY",
   "video_url": "https://www.youtube.com/watch?v=kkLlzQqa7MY"
+ },
+ "o5rGuknRw2A": {
+  "channel": "AI Search",
+  "schema_version": 2,
+  "segments": [
+   {
+    "end": "4:50",
+    "start": "0:55",
+    "sub_subject": "model-release",
+    "subject": "llms-foundation-models",
+    "summary": "Google releases Gemma 4, a family of open source AI models in four sizes (2B, 4B, 24B, 31B) that run on consumer hardware, with multimodal capabilities and 120K-256K context windows.",
+    "tool_name": "Gemma 4",
+    "tool_url": null
+   },
+   {
+    "end": "6:05",
+    "start": "4:50",
+    "sub_subject": "model-release",
+    "subject": "llms-foundation-models",
+    "summary": "Netflix releases VOID, an open source video object and interaction deletion model that can remove objects from videos and realistically fill in the background, with code and models available for local installation requiring 22GB VRAM.",
+    "tool_name": "Void",
+    "tool_url": null
+   },
+   {
+    "end": "8:08",
+    "start": "6:05",
+    "sub_subject": "3d-world-motion",
+    "subject": "ai-content-generation",
+    "summary": "Generative World Renderer uses G-buffers from AAA games to restyle gameplay environments via text prompts, allowing control over lighting, geometry, and materials, with code available for local installation using Nvidia's Cosmos Transfer and Wan 2.1.",
+    "tool_name": "Renderer",
+    "tool_url": null
+   },
+   {
+    "end": "10:48",
+    "start": "8:08",
+    "sub_subject": "dev-utilities",
+    "subject": "ai-dev-tooling",
+    "summary": "GenSearcher enhances image generation by first searching the web for reference images, enabling accurate generation of specific characters, locations, and detailed infographics with correct data.",
+    "tool_name": "GenSearcher",
+    "tool_url": null
+   },
+   {
+    "end": "12:29",
+    "start": "10:48",
+    "sub_subject": "video",
+    "subject": "ai-content-generation",
+    "summary": "TokenDial provides slider-based control over specific video attributes like emotion, style, color, and motion intensity, offering finer control than prompting alone, with plans to release training code and models.",
+    "tool_name": "TokenDial",
+    "tool_url": null
+   },
+   {
+    "end": "15:00",
+    "start": "12:29",
+    "sub_subject": "audio-music-tts",
+    "subject": "ai-content-generation",
+    "summary": "Meituan releases LongCat Audio DiT, a text-to-speech and voice cloning model that can clone voices from a few seconds of audio, with a Hugging Face demo showing high-quality cloning of tone and style.",
+    "tool_name": "LongCat Audio",
+    "tool_url": null
+   },
+   {
+    "end": "16:35",
+    "start": "15:00",
+    "sub_subject": "model-release",
+    "subject": "llms-foundation-models",
+    "summary": "SeeThrough decomposes anime images into separate layers (character parts, objects, background) with depth information, enabling animation and relighting, and runs locally with as low as 8GB VRAM using quantized models.",
+    "tool_name": "Seethrough",
+    "tool_url": null
+   },
+   {
+    "end": "18:05",
+    "start": "16:35",
+    "sub_subject": "memory",
+    "subject": "retrieval-rag-memory",
+    "summary": "Hybrid Memory for Dynamic Video World Models adds persistent object memory to world models using a Hydra system that compresses observations into memory tokens, trained on the 59,000-clip HM World dataset, with code and training instructions released.",
+    "tool_name": "Hybrid Memory",
+    "tool_url": null
+   },
+   {
+    "end": "20:17",
+    "start": "18:05",
+    "sub_subject": "image",
+    "subject": "ai-content-generation",
+    "summary": "ByteDance's DreamLight is a tiny 0.39B parameter image generation and editing model that runs offline on iPhone 17 Pro, generating 1024x1024 images in ~3 seconds with various art styles and editing capabilities.",
+    "tool_name": "DreamLite",
+    "tool_url": null
+   },
+   {
+    "end": "26:02",
+    "start": "22:03",
+    "sub_subject": "product-updates",
+    "subject": "claude-code",
+    "summary": "Anthropic's Claude Code agentic coding framework source code (500k+ lines) was accidentally leaked via NPM package source map, revealing hidden feature flags, unreleased features like Buddy virtual pet and Kairos background agent mode.",
+    "tool_name": "Claude Code leak",
+    "tool_url": null
+   },
+   {
+    "end": "27:29",
+    "start": "26:02",
+    "sub_subject": "image",
+    "subject": "ai-content-generation",
+    "summary": "PS Designer uses an agentic framework (asset collector, graphic planner, tool executor) to generate structured Photoshop files with layers from prompts, with plans to release code and models.",
+    "tool_name": "PSDesigner",
+    "tool_url": null
+   },
+   {
+    "end": "31:16",
+    "start": "27:29",
+    "sub_subject": "model-release",
+    "subject": "llms-foundation-models",
+    "summary": "Alibaba releases Qwen 3.5 Omni, a true omnimodal model understanding text, images, audio, video, with two versions (Plus and real-time), outperforming Gemini 3.1 Pro on audio-visual benchmarks, available via API and QwenChat.",
+    "tool_name": "Qwen 3.5 omni",
+    "tool_url": null
+   },
+   {
+    "end": "33:14",
+    "start": "31:16",
+    "sub_subject": "model-release",
+    "subject": "llms-foundation-models",
+    "summary": "Alibaba releases Qwen 3.6 Plus with 1M token context window, improved agentic coding and multimodal reasoning, available on QwenChat with plans to open-source.",
+    "tool_name": "Qwen 3.6",
+    "tool_url": null
+   },
+   {
+    "end": "38:56",
+    "start": "33:14",
+    "sub_subject": "audio-music-tts",
+    "subject": "ai-content-generation",
+    "summary": "OmniVoice is a state-of-the-art text-to-speech and voice cloning model supporting over 600 languages, demonstrating high-quality cloning of tone and style across languages.",
+    "tool_name": "OmniVoice",
+    "tool_url": null
+   },
+   {
+    "end": "40:46",
+    "start": "38:56",
+    "sub_subject": "3d-world-motion",
+    "subject": "ai-content-generation",
+    "summary": "LGTM (Less Gaussians, More Texture) reconstructs 4K resolution 3D scenes from few images by using fewer Gaussians with texture patches, achieving high detail without heavy compute, code coming soon.",
+    "tool_name": "LGTM",
+    "tool_url": null
+   },
+   {
+    "end": "42:20",
+    "start": "40:46",
+    "sub_subject": null,
+    "subject": "unsorted",
+    "summary": "HandX is a large dataset of detailed 3D hand motions with fine-grained prompts for training humanoid robots in simulation (e.g., Nvidia Isaac Gym), with code released for dataset preparation.",
+    "tool_name": "HandX",
+    "tool_url": null
+   },
+   {
+    "end": "44:20",
+    "start": "42:20",
+    "sub_subject": "model-release",
+    "subject": "llms-foundation-models",
+    "summary": "ZAI releases GLM-5V Turbo, a vision coding model that understands images, videos, documents for multi-step reasoning and agentic coding, outperforming Kimi K2.5 and Claude Opus 4.6 on design benchmarks, available via API and ZAI chat.",
+    "tool_name": "GLM-5V",
+    "tool_url": null
+   },
+   {
+    "end": "45:33",
+    "start": "44:20",
+    "sub_subject": "video",
+    "subject": "ai-content-generation",
+    "summary": "Alibaba's Wan 2.7 video generator supports multimodal controls (text, image, audio, video references), character customization, and native audio generation, but currently only available via API/website, not open-sourced.",
+    "tool_name": "Wan 2.7",
+    "tool_url": null
+   },
+   {
+    "end": "47:42",
+    "start": "45:33",
+    "sub_subject": "image",
+    "subject": "ai-content-generation",
+    "summary": "Wan 2.7 Image is a unified image generation and editing model with precise facial detail control, hex color code support, text rendering up to 3000 tokens, and multi-image consistency for storyboarding, available via API/website.",
+    "tool_name": "Wan 2.7 Image",
+    "tool_url": null
+   },
+   {
+    "end": "49:54",
+    "start": "47:42",
+    "sub_subject": "video",
+    "subject": "ai-content-generation",
+    "summary": "Google's VGG-RPO teaches video diffusion models 3D scene structure via latent geometry model, improving temporal consistency and camera motion smoothness without retraining, only technical paper released.",
+    "tool_name": "VGGRPO",
+    "tool_url": null
+   }
+  ],
+  "subjects": [
+   "ai-content-generation",
+   "ai-dev-tooling",
+   "claude-code",
+   "llms-foundation-models",
+   "retrieval-rag-memory",
+   "unsorted"
+  ],
+  "title": "Google’s open-source AI, Claude Code leaked, new Wan, new Qwen, image gen on phone: AI NEWS",
+  "transcript_source": "auto-captions",
+  "upload_date": "20260405",
+  "video_id": "o5rGuknRw2A",
+  "video_url": "https://www.youtube.com/watch?v=o5rGuknRw2A"
  },
  "pC6KHflGye0": {
   "channel": "AI Search",
