@@ -6,6 +6,55 @@
     <description>theAIsearch AI-news/tool roundups, segmented + subject-routed for Yuna's rss_aisearch_yt source. Segments ride in the sidecar.</description>
     <lastBuildDate>Sun, 28 Jun 2026 00:00:00 +0000</lastBuildDate>
     <item>
+      <title>GPT 5.6, Mythos ban lifted, realtime avatars, Seedance 2.5, brain ultrasound: AI NEWS</title>
+      <link>https://www.youtube.com/watch?v=7c_ieWfAbrw</link>
+      <guid isPermaLink="false">7c_ieWfAbrw</guid>
+      <pubDate>Sun, 28 Jun 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[GPT 5.6, Mythos ban lifted, realtime avatars, Seedance 2.5, brain ultrasound: AI NEWS — segmented AI-news roundup (21 segments).
+
+[ai-content-generation] Wan streamer: One Streamer is a real-time conversational avatar using a single transformer to interleave text, audio, and video at 25 FPS with ~200ms latency.
+
+[ai-content-generation] Domain Shuttle: Domain Shuttle generates videos with consistent characters and objects from multiple reference images across styles, outperforming competitors on consistency.
+
+[llms-foundation-models] Ornith: Ornith 1.0 releases open-source agentic coding models (9B-397B MoE) that outperform larger models on coding benchmarks by learning to generate their own training harnesses.
+
+[ai-content-generation] Arbor: Arbor by Stability AI enables precise 3D generation via spatial constraint meshes, integrating with Trellis models and Blender for controllable geometry.
+
+[local-models-infra] Jalapeno chips: OpenAI partners with Broadcom to develop 'Jalapeno', their first custom AI inference chip designed for full-stack optimization and better performance per watt.
+
+[local-models-infra] IBM sub nano chip: IBM demonstrates 0.7nm 'nano stack' 3D chip architecture achieving nearly 100B transistors per fingernail-sized chip, extending Moore's Law via vertical transistor stacking.
+
+[ai-content-generation] DanceOPD: ByteDance's DanceOPD framework trains a single image model to handle generation, editing, and style transfer by distilling from specialist teachers per training example.
+
+[ai-content-generation] Un-0: Unzero introduces a non-diffusion image generation architecture using coupled oscillators, releasing open-source weights and training code under MIT license.
+
+[unsorted] HIW 500: HIW500 releases 500 hours of whole-body humanoid robot teleoperation data in real home environments for robot training.
+
+[ai-content-generation] Seedance 2.5: Seedance 2.5 upgrades video generation with 30-second clips, 50 reference images, precise local editing via bounding boxes, and native 2K/4K resolution with audio.
+
+[llms-foundation-models] Seed 2.1: ByteDance releases Seed 2.1, a multimodal productivity agent matching top models on coding and reasoning, with strong visual analysis for charts, video, and front-end design.
+
+[ai-content-generation] Lift4D: Lift4D reconstructs dynamic 4D scenes from a single 2D video, inferring object shape, appearance, and motion including occluded regions.
+
+[llms-foundation-models] PerceptionDLM: PerceptionDM by ByteDance uses a diffusion language model to generate parallel region captions faster than sequential VLMs, fully open-sourced with training code.
+
+[ai-content-generation] Happy Horse 1.1: Alibaba's Happy Horse 1.1 improves motion realism and consistency for 1080p video generation with up to 9 references, though still trails Seedance.
+
+[ai-content-generation] Krea 2: Krea 2 releases as a fast, uncensored open-source image generator with strong prompt adherence and low VRAM requirements.
+
+[unsorted] Unitree R1: Unitree demos the R1 humanoid robot performing breakdancing moves with high torque control at a $4,900 price point.
+
+[llms-foundation-models] GPT 5.6: OpenAI announces GPT 5.6 model family with new 'Ultra' multi-agent reasoning mode, claiming SOTA on Terminal Bench but limited access.
+
+[llms-foundation-models] Mythos unbanned: US government partially lifts ban on Claude Mythos, granting access to ~100 trusted partners, mirroring GPT 5.6's restricted release.
+
+[unsorted] Aleph ultrasound: Olive demonstrates ultrasound brain imaging using microbubbles to achieve 100x CT scan resolution for blood flow mapping, though requiring injection.
+
+[ai-dev-tooling] Autodata: Meta's AutoData framework uses an agentic loop to autonomously generate, evaluate, and iteratively improve training datasets.
+
+[ai-dev-tooling] Sakana fugu: Sakana Fugu is a closed-source model orchestrator that routes prompts across models, claiming ensemble performance beats frontier models but lacking transparency.]]></description>
+    </item>
+    <item>
       <title>New top local AI image generator is here! Already uncensored</title>
       <link>https://www.youtube.com/watch?v=1U8dJ94QFNc</link>
       <guid isPermaLink="false">1U8dJ94QFNc</guid>

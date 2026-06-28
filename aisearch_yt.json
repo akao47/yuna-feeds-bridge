@@ -747,6 +747,213 @@
   "video_id": "6d__WOpZswY",
   "video_url": "https://www.youtube.com/watch?v=6d__WOpZswY"
  },
+ "7c_ieWfAbrw": {
+  "channel": "AI Search",
+  "schema_version": 2,
+  "segments": [
+   {
+    "end": "3:50",
+    "start": "1:07",
+    "sub_subject": "video",
+    "subject": "ai-content-generation",
+    "summary": "One Streamer is a real-time conversational avatar using a single transformer to interleave text, audio, and video at 25 FPS with ~200ms latency.",
+    "tool_name": "Wan streamer",
+    "tool_url": null
+   },
+   {
+    "end": "6:16",
+    "start": "3:50",
+    "sub_subject": "video",
+    "subject": "ai-content-generation",
+    "summary": "Domain Shuttle generates videos with consistent characters and objects from multiple reference images across styles, outperforming competitors on consistency.",
+    "tool_name": "Domain Shuttle",
+    "tool_url": null
+   },
+   {
+    "end": "8:28",
+    "start": "6:16",
+    "sub_subject": "model-release",
+    "subject": "llms-foundation-models",
+    "summary": "Ornith 1.0 releases open-source agentic coding models (9B-397B MoE) that outperform larger models on coding benchmarks by learning to generate their own training harnesses.",
+    "tool_name": "Ornith",
+    "tool_url": null
+   },
+   {
+    "end": "10:17",
+    "start": "8:28",
+    "sub_subject": "3d-world-motion",
+    "subject": "ai-content-generation",
+    "summary": "Arbor by Stability AI enables precise 3D generation via spatial constraint meshes, integrating with Trellis models and Blender for controllable geometry.",
+    "tool_name": "Arbor",
+    "tool_url": null
+   },
+   {
+    "end": "11:37",
+    "start": "10:17",
+    "sub_subject": "hardware",
+    "subject": "local-models-infra",
+    "summary": "OpenAI partners with Broadcom to develop 'Jalapeno', their first custom AI inference chip designed for full-stack optimization and better performance per watt.",
+    "tool_name": "Jalapeno chips",
+    "tool_url": null
+   },
+   {
+    "end": "13:01",
+    "start": "11:37",
+    "sub_subject": "hardware",
+    "subject": "local-models-infra",
+    "summary": "IBM demonstrates 0.7nm 'nano stack' 3D chip architecture achieving nearly 100B transistors per fingernail-sized chip, extending Moore's Law via vertical transistor stacking.",
+    "tool_name": "IBM sub nano chip",
+    "tool_url": null
+   },
+   {
+    "end": "15:05",
+    "start": "13:01",
+    "sub_subject": "image",
+    "subject": "ai-content-generation",
+    "summary": "ByteDance's DanceOPD framework trains a single image model to handle generation, editing, and style transfer by distilling from specialist teachers per training example.",
+    "tool_name": "DanceOPD",
+    "tool_url": null
+   },
+   {
+    "end": "18:30",
+    "start": "16:48",
+    "sub_subject": "image",
+    "subject": "ai-content-generation",
+    "summary": "Unzero introduces a non-diffusion image generation architecture using coupled oscillators, releasing open-source weights and training code under MIT license.",
+    "tool_name": "Un-0",
+    "tool_url": null
+   },
+   {
+    "end": "20:25",
+    "start": "18:30",
+    "sub_subject": null,
+    "subject": "unsorted",
+    "summary": "HIW500 releases 500 hours of whole-body humanoid robot teleoperation data in real home environments for robot training.",
+    "tool_name": "HIW 500",
+    "tool_url": null
+   },
+   {
+    "end": "22:30",
+    "start": "20:25",
+    "sub_subject": "video",
+    "subject": "ai-content-generation",
+    "summary": "Seedance 2.5 upgrades video generation with 30-second clips, 50 reference images, precise local editing via bounding boxes, and native 2K/4K resolution with audio.",
+    "tool_name": "Seedance 2.5",
+    "tool_url": null
+   },
+   {
+    "end": "24:32",
+    "start": "22:30",
+    "sub_subject": "model-release",
+    "subject": "llms-foundation-models",
+    "summary": "ByteDance releases Seed 2.1, a multimodal productivity agent matching top models on coding and reasoning, with strong visual analysis for charts, video, and front-end design.",
+    "tool_name": "Seed 2.1",
+    "tool_url": null
+   },
+   {
+    "end": "25:38",
+    "start": "24:32",
+    "sub_subject": "3d-world-motion",
+    "subject": "ai-content-generation",
+    "summary": "Lift4D reconstructs dynamic 4D scenes from a single 2D video, inferring object shape, appearance, and motion including occluded regions.",
+    "tool_name": "Lift4D",
+    "tool_url": null
+   },
+   {
+    "end": "26:58",
+    "start": "25:38",
+    "sub_subject": "model-release",
+    "subject": "llms-foundation-models",
+    "summary": "PerceptionDM by ByteDance uses a diffusion language model to generate parallel region captions faster than sequential VLMs, fully open-sourced with training code.",
+    "tool_name": "PerceptionDLM",
+    "tool_url": null
+   },
+   {
+    "end": "28:14",
+    "start": "26:58",
+    "sub_subject": "video",
+    "subject": "ai-content-generation",
+    "summary": "Alibaba's Happy Horse 1.1 improves motion realism and consistency for 1080p video generation with up to 9 references, though still trails Seedance.",
+    "tool_name": "Happy Horse 1.1",
+    "tool_url": null
+   },
+   {
+    "end": "29:05",
+    "start": "28:14",
+    "sub_subject": "image",
+    "subject": "ai-content-generation",
+    "summary": "Krea 2 releases as a fast, uncensored open-source image generator with strong prompt adherence and low VRAM requirements.",
+    "tool_name": "Krea 2",
+    "tool_url": null
+   },
+   {
+    "end": "30:26",
+    "start": "29:05",
+    "sub_subject": null,
+    "subject": "unsorted",
+    "summary": "Unitree demos the R1 humanoid robot performing breakdancing moves with high torque control at a $4,900 price point.",
+    "tool_name": "Unitree R1",
+    "tool_url": null
+   },
+   {
+    "end": "33:44",
+    "start": "30:26",
+    "sub_subject": "model-release",
+    "subject": "llms-foundation-models",
+    "summary": "OpenAI announces GPT 5.6 model family with new 'Ultra' multi-agent reasoning mode, claiming SOTA on Terminal Bench but limited access.",
+    "tool_name": "GPT 5.6",
+    "tool_url": null
+   },
+   {
+    "end": "35:53",
+    "start": "33:44",
+    "sub_subject": "model-release",
+    "subject": "llms-foundation-models",
+    "summary": "US government partially lifts ban on Claude Mythos, granting access to ~100 trusted partners, mirroring GPT 5.6's restricted release.",
+    "tool_name": "Mythos unbanned",
+    "tool_url": null
+   },
+   {
+    "end": "38:35",
+    "start": "35:53",
+    "sub_subject": null,
+    "subject": "unsorted",
+    "summary": "Olive demonstrates ultrasound brain imaging using microbubbles to achieve 100x CT scan resolution for blood flow mapping, though requiring injection.",
+    "tool_name": "Aleph ultrasound",
+    "tool_url": null
+   },
+   {
+    "end": "40:20",
+    "start": "38:35",
+    "sub_subject": "agentic-frameworks",
+    "subject": "ai-dev-tooling",
+    "summary": "Meta's AutoData framework uses an agentic loop to autonomously generate, evaluate, and iteratively improve training datasets.",
+    "tool_name": "Autodata",
+    "tool_url": null
+   },
+   {
+    "end": "42:43",
+    "start": "40:20",
+    "sub_subject": "agentic-frameworks",
+    "subject": "ai-dev-tooling",
+    "summary": "Sakana Fugu is a closed-source model orchestrator that routes prompts across models, claiming ensemble performance beats frontier models but lacking transparency.",
+    "tool_name": "Sakana fugu",
+    "tool_url": null
+   }
+  ],
+  "subjects": [
+   "ai-content-generation",
+   "ai-dev-tooling",
+   "llms-foundation-models",
+   "local-models-infra",
+   "unsorted"
+  ],
+  "title": "GPT 5.6, Mythos ban lifted, realtime avatars, Seedance 2.5, brain ultrasound: AI NEWS",
+  "transcript_source": "auto-captions",
+  "upload_date": "20260628",
+  "video_id": "7c_ieWfAbrw",
+  "video_url": "https://www.youtube.com/watch?v=7c_ieWfAbrw"
+ },
  "7r_WJ9xpne0": {
   "channel": "AI Search",
   "schema_version": 2,
