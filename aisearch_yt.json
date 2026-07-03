@@ -2482,6 +2482,120 @@
   "video_id": "J02-39xtlt4",
   "video_url": "https://www.youtube.com/watch?v=J02-39xtlt4"
  },
+ "J0D7qV3nl7w": {
+  "channel": "AI Search",
+  "schema_version": 2,
+  "segments": [
+   {
+    "end": "2:20",
+    "start": "1:05",
+    "sub_subject": "model-release",
+    "subject": "llms-foundation-models",
+    "summary": "DeepSeek is a resource-constrained Chinese lab that previously released the efficient open-source model DeepSeek V4, and they have now released a new system called DSpark that speeds up AI models by over 600% without quality loss.",
+    "tool_name": "Deepseek situation",
+    "tool_url": null
+   },
+   {
+    "end": "4:44",
+    "start": "2:20",
+    "sub_subject": "serving",
+    "subject": "local-models-infra",
+    "summary": "Current AI models generate text autoregressively, one word at a time, causing a bottleneck because each word requires fetching relationship values from memory for all previous words, which becomes slow for long contexts.",
+    "tool_name": "Why AI models are slow",
+    "tool_url": null
+   },
+   {
+    "end": "7:42",
+    "start": "4:44",
+    "sub_subject": "serving",
+    "subject": "local-models-infra",
+    "summary": "Speculative decoding speeds up generation by using a smaller draft model to guess multiple words ahead, which the large model then verifies in parallel, similar to an intern drafting text for a senior boss to approve.",
+    "tool_name": "Speculative decoding",
+    "tool_url": null
+   },
+   {
+    "end": "10:16",
+    "start": "7:42",
+    "sub_subject": "serving",
+    "subject": "local-models-infra",
+    "summary": "Two types of draft models exist: autoregressive drafters, which are accurate but slow, and parallel drafters, which are fast but suffer from suffix decay where later words may be inconsistent due to simultaneous prediction.",
+    "tool_name": "The dilemma",
+    "tool_url": null
+   },
+   {
+    "end": "11:05",
+    "start": "10:16",
+    "sub_subject": "serving",
+    "subject": "local-models-infra",
+    "summary": "DeepSeek's DSpark solves the drafter dilemma by adding a lightweight Markov head on top of a parallel drafter to iteratively correct predictions, with low-rank factorization keeping compute overhead minimal.",
+    "tool_name": "The fix",
+    "tool_url": null
+   },
+   {
+    "end": "14:50",
+    "start": "12:41",
+    "sub_subject": "serving",
+    "subject": "local-models-infra",
+    "summary": "DSpark uses a Markov head that only looks at the immediately preceding word to adjust next-word probabilities, and low-rank factorization makes this correction step extremely fast, allowing a shallow two-layer drafter to outperform deeper parallel drafters.",
+    "tool_name": "Markov loop",
+    "tool_url": null
+   },
+   {
+    "end": "16:29",
+    "start": "14:50",
+    "sub_subject": "serving",
+    "subject": "local-models-infra",
+    "summary": "In production serving with multiple users, long or error-prone drafts waste the boss model's batch capacity and GPU compute, so reducing bad drafts is crucial for overall system throughput.",
+    "tool_name": "Infra challenges",
+    "tool_url": null
+   },
+   {
+    "end": "19:33",
+    "start": "16:29",
+    "sub_subject": "serving",
+    "subject": "local-models-infra",
+    "summary": "DSpark adds a confidence head to the drafter that outputs a confidence score for each generated word, allowing early termination of low-confidence drafts to avoid wasting compute on likely rejections.",
+    "tool_name": "Confidence heads",
+    "tool_url": null
+   },
+   {
+    "end": "21:20",
+    "start": "19:33",
+    "sub_subject": "serving",
+    "subject": "local-models-infra",
+    "summary": "The system monitors real-time GPU load and uses an SPS curve to dynamically adjust draft length, enabling longer drafts during low load for faster responses and shorter drafts during high load to prevent crashes.",
+    "tool_name": "Hardware aware algo",
+    "tool_url": null
+   },
+   {
+    "end": "23:18",
+    "start": "21:20",
+    "sub_subject": "serving",
+    "subject": "local-models-infra",
+    "summary": "Compared to DeepSeek's previous MTP system, DSpark delivers 60-85% faster generation without quality loss and achieves nearly 700% higher total system output by dynamically optimizing draft length and GPU usage.",
+    "tool_name": "Results",
+    "tool_url": null
+   },
+   {
+    "end": "25:21",
+    "start": "23:18",
+    "sub_subject": "model-release",
+    "subject": "llms-foundation-models",
+    "summary": "DeepSeek has open-sourced DSpark under an MIT license with a GitHub repo containing deployment instructions, and the mechanism is already integrated into the latest DeepSeek V4 model on Hugging Face.",
+    "tool_name": "Open sourced",
+    "tool_url": null
+   }
+  ],
+  "subjects": [
+   "llms-foundation-models",
+   "local-models-infra"
+  ],
+  "title": "Deepseek drops another HUGE breakthrough",
+  "transcript_source": "auto-captions",
+  "upload_date": "20260703",
+  "video_id": "J0D7qV3nl7w",
+  "video_url": "https://www.youtube.com/watch?v=J0D7qV3nl7w"
+ },
  "NnsQj2nDkKA": {
   "channel": "AI Search",
   "schema_version": 2,
