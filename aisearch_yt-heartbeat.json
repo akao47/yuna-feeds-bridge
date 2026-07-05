@@ -1,10 +1,10 @@
 {
   "source": "rss_aisearch_yt",
   "status": "ok",
-  "last_run": "2026-07-05T04:23:01Z",
-  "last_success": "2026-07-05T04:23:01Z",
+  "last_run": "2026-07-05T08:23:02Z",
+  "last_success": "2026-07-05T08:23:02Z",
   "items_total": 33,
-  "items_new": 1,
+  "items_new": 0,
   "videos_listed": 30,
   "empty_videos": 0,
   "schema_version": 2,
