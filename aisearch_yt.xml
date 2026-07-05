@@ -6,6 +6,51 @@
     <description>theAIsearch AI-news/tool roundups, segmented + subject-routed for Yuna's rss_aisearch_yt source. Segments ride in the sidecar.</description>
     <lastBuildDate>Sun, 05 Jul 2026 00:00:00 +0000</lastBuildDate>
     <item>
+      <title>Full body waifus, Claude Fable is back, LongCat 2.0, mind-reading AI, live video editing: AI NEWS</title>
+      <link>https://www.youtube.com/watch?v=qtzzN8w2TvU</link>
+      <guid isPermaLink="false">qtzzN8w2TvU</guid>
+      <pubDate>Sun, 05 Jul 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[Full body waifus, Claude Fable is back, LongCat 2.0, mind-reading AI, live video editing: AI NEWS — segmented AI-news roundup (19 segments).
+
+[llms-foundation-models] MusViT: MusViT is a vision model trained on 9.7 million sheet music pages that recognizes musical notation, symbols, timing, pitch, and structure, released with instructions to run locally on consumer devices.
+
+[llms-foundation-models] LongCat 2.0: Chinese company Muan released LongCat 2.0, a 1.6T parameter mixture-of-experts model trained without Nvidia GPUs using domestic AI super pods, demonstrating stable frontier-scale training on alternative hardware.
+
+[ai-content-generation] LiveEdit: LiveEdit enables real-time video editing at 13 FPS using a causal chunk-wise streaming setup, allowing users to replace clothing, change weather, remove objects, or alter style via natural language prompts with local installation instructions provided.
+
+[ai-content-generation] VidiHand: VidiHand reconstructs accurate 3D hand movements from video, outperforming competitors on benchmarks and generating precise hand tracking data useful for humanoid robot training and VR, with code release planned.
+
+[llms-foundation-models] Agents A1: Agents A1 is a 35B parameter mixture-of-experts model optimized for agentic workflows that beats larger models like DeepSeek V4 Pro and GPT-5.5 on benchmarks, available open-source with quantized versions for consumer hardware.
+
+[unsorted] OmniContact: OmniContact teaches humanoid robots complex multi-step tasks like carrying boxes and pushing carts using a contact flow framework, achieving near 100% success rates and integrating with vision for semantic tasks, with code and dataset released.
+
+[llms-foundation-models] Claude Fable is back: Claude Fable 5 returns globally after a government ban with new safety classifiers, but usage is restricted to subscription plans until July 7th and limited to 50% of weekly limits.
+
+[llms-foundation-models] Claude Sonnet 5: Anthropic released Claude Sonnet 5, a smaller variant that underperforms Opus 4.8 and GPT-5.5 while costing more than double GPT-5.5, making it neither cost-effective nor performant.
+
+[ai-content-generation] PhysiFormer: PhysiFormer predicts physically realistic 3D object motion and deformation based on material properties, trained on 100k trajectories to simulate rigid and elastic interactions with code available for local use.
+
+[unsorted] Aspire: Nvidia's Aspire is a self-improving robotics system that writes control programs as code, learns from failures, and builds a reusable skill library for humanoid robots, with code coming soon.
+
+[ai-content-generation] New Google models: Google launched Nano Banana 2 Light for fast, cheap image generation and Gemini Omni Flash for flexible video editing, both lighter versions with benchmark claims the creator finds questionable.
+
+[unsorted] UBTech U1: UBTech unveiled ultra-realistic U1 humanoid companion robots with visible pores and emotional AI, available in torso-only ($18k) and full-body ($150k) versions with 13k pre-orders.
+
+[ai-dev-tooling] Comfy MCP: Comfy MCP bridges AI agents to ComfyUI, letting agents autonomously build, edit, and run workflows via natural language with auto-updated best practices, currently in free public beta.
+
+[unsorted] Brain2qwerty: Meta's Brain2qwerty decodes MEG brain signals into text with 78% word accuracy non-invasively, trained on 10x more data than v1 with code released for local installation.
+
+[ai-content-generation] RDM: RDM enables one-step image generation using representation distribution matching to learn general visual features, with code released for local use though quality lacks detail compared to multi-step models.
+
+[ai-content-generation] MrFlow: MrFlow accelerates image generation 10-20x by generating at low resolution then refining with one high-res step, training-free, model-agnostic, and available as a ComfyUI plugin.
+
+[ai-content-generation] SimFoundry: SimFoundry turns a single photo or video into a physically accurate 3D simulation for robot training, supporting scene variation generation for generalization, with only a technical paper released so far.
+
+[unsorted] CHORD: CHORD teaches robots dexterous manipulation by representing human demonstrations as forces and torques on objects, enabling transfer across different robot hands with code coming soon.
+
+[ai-content-generation] Luna: Luna animates realistic 3D human avatars from a few images driven by video, skeleton, or line art using Gaussian deformations for flexibility, though only a technical paper exists from Meta.]]></description>
+    </item>
+    <item>
       <title>Deepseek drops another HUGE breakthrough</title>
       <link>https://www.youtube.com/watch?v=J0D7qV3nl7w</link>
       <guid isPermaLink="false">J0D7qV3nl7w</guid>

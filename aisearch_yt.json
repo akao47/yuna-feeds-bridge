@@ -5094,6 +5094,194 @@
   "video_id": "pC6KHflGye0",
   "video_url": "https://www.youtube.com/watch?v=pC6KHflGye0"
  },
+ "qtzzN8w2TvU": {
+  "channel": "AI Search",
+  "schema_version": 2,
+  "segments": [
+   {
+    "end": "2:33",
+    "start": "0:51",
+    "sub_subject": "model-release",
+    "subject": "llms-foundation-models",
+    "summary": "MusViT is a vision model trained on 9.7 million sheet music pages that recognizes musical notation, symbols, timing, pitch, and structure, released with instructions to run locally on consumer devices.",
+    "tool_name": "MusViT",
+    "tool_url": null
+   },
+   {
+    "end": "6:20",
+    "start": "2:33",
+    "sub_subject": "model-release",
+    "subject": "llms-foundation-models",
+    "summary": "Chinese company Muan released LongCat 2.0, a 1.6T parameter mixture-of-experts model trained without Nvidia GPUs using domestic AI super pods, demonstrating stable frontier-scale training on alternative hardware.",
+    "tool_name": "LongCat 2.0",
+    "tool_url": null
+   },
+   {
+    "end": "7:37",
+    "start": "6:20",
+    "sub_subject": "video",
+    "subject": "ai-content-generation",
+    "summary": "LiveEdit enables real-time video editing at 13 FPS using a causal chunk-wise streaming setup, allowing users to replace clothing, change weather, remove objects, or alter style via natural language prompts with local installation instructions provided.",
+    "tool_name": "LiveEdit",
+    "tool_url": null
+   },
+   {
+    "end": "9:03",
+    "start": "7:37",
+    "sub_subject": "3d-world-motion",
+    "subject": "ai-content-generation",
+    "summary": "VidiHand reconstructs accurate 3D hand movements from video, outperforming competitors on benchmarks and generating precise hand tracking data useful for humanoid robot training and VR, with code release planned.",
+    "tool_name": "VidiHand",
+    "tool_url": null
+   },
+   {
+    "end": "10:46",
+    "start": "9:03",
+    "sub_subject": "model-release",
+    "subject": "llms-foundation-models",
+    "summary": "Agents A1 is a 35B parameter mixture-of-experts model optimized for agentic workflows that beats larger models like DeepSeek V4 Pro and GPT-5.5 on benchmarks, available open-source with quantized versions for consumer hardware.",
+    "tool_name": "Agents A1",
+    "tool_url": null
+   },
+   {
+    "end": "12:37",
+    "start": "10:46",
+    "sub_subject": null,
+    "subject": "unsorted",
+    "summary": "OmniContact teaches humanoid robots complex multi-step tasks like carrying boxes and pushing carts using a contact flow framework, achieving near 100% success rates and integrating with vision for semantic tasks, with code and dataset released.",
+    "tool_name": "OmniContact",
+    "tool_url": null
+   },
+   {
+    "end": "19:06",
+    "start": "15:00",
+    "sub_subject": "model-release",
+    "subject": "llms-foundation-models",
+    "summary": "Claude Fable 5 returns globally after a government ban with new safety classifiers, but usage is restricted to subscription plans until July 7th and limited to 50% of weekly limits.",
+    "tool_name": "Claude Fable is back",
+    "tool_url": null
+   },
+   {
+    "end": "20:51",
+    "start": "19:06",
+    "sub_subject": "model-release",
+    "subject": "llms-foundation-models",
+    "summary": "Anthropic released Claude Sonnet 5, a smaller variant that underperforms Opus 4.8 and GPT-5.5 while costing more than double GPT-5.5, making it neither cost-effective nor performant.",
+    "tool_name": "Claude Sonnet 5",
+    "tool_url": null
+   },
+   {
+    "end": "22:33",
+    "start": "20:51",
+    "sub_subject": "3d-world-motion",
+    "subject": "ai-content-generation",
+    "summary": "PhysiFormer predicts physically realistic 3D object motion and deformation based on material properties, trained on 100k trajectories to simulate rigid and elastic interactions with code available for local use.",
+    "tool_name": "PhysiFormer",
+    "tool_url": null
+   },
+   {
+    "end": "24:06",
+    "start": "22:33",
+    "sub_subject": null,
+    "subject": "unsorted",
+    "summary": "Nvidia's Aspire is a self-improving robotics system that writes control programs as code, learns from failures, and builds a reusable skill library for humanoid robots, with code coming soon.",
+    "tool_name": "Aspire",
+    "tool_url": null
+   },
+   {
+    "end": "26:42",
+    "start": "24:06",
+    "sub_subject": "image",
+    "subject": "ai-content-generation",
+    "summary": "Google launched Nano Banana 2 Light for fast, cheap image generation and Gemini Omni Flash for flexible video editing, both lighter versions with benchmark claims the creator finds questionable.",
+    "tool_name": "New Google models",
+    "tool_url": null
+   },
+   {
+    "end": "28:43",
+    "start": "26:42",
+    "sub_subject": null,
+    "subject": "unsorted",
+    "summary": "UBTech unveiled ultra-realistic U1 humanoid companion robots with visible pores and emotional AI, available in torso-only ($18k) and full-body ($150k) versions with 13k pre-orders.",
+    "tool_name": "UBTech U1",
+    "tool_url": null
+   },
+   {
+    "end": "30:15",
+    "start": "28:43",
+    "sub_subject": "dev-utilities",
+    "subject": "ai-dev-tooling",
+    "summary": "Comfy MCP bridges AI agents to ComfyUI, letting agents autonomously build, edit, and run workflows via natural language with auto-updated best practices, currently in free public beta.",
+    "tool_name": "Comfy MCP",
+    "tool_url": null
+   },
+   {
+    "end": "31:38",
+    "start": "30:15",
+    "sub_subject": null,
+    "subject": "unsorted",
+    "summary": "Meta's Brain2qwerty decodes MEG brain signals into text with 78% word accuracy non-invasively, trained on 10x more data than v1 with code released for local installation.",
+    "tool_name": "Brain2qwerty",
+    "tool_url": null
+   },
+   {
+    "end": "33:08",
+    "start": "31:38",
+    "sub_subject": "image",
+    "subject": "ai-content-generation",
+    "summary": "RDM enables one-step image generation using representation distribution matching to learn general visual features, with code released for local use though quality lacks detail compared to multi-step models.",
+    "tool_name": "RDM",
+    "tool_url": null
+   },
+   {
+    "end": "34:47",
+    "start": "33:08",
+    "sub_subject": "generation-setup",
+    "subject": "ai-content-generation",
+    "summary": "MrFlow accelerates image generation 10-20x by generating at low resolution then refining with one high-res step, training-free, model-agnostic, and available as a ComfyUI plugin.",
+    "tool_name": "MrFlow",
+    "tool_url": null
+   },
+   {
+    "end": "36:06",
+    "start": "34:47",
+    "sub_subject": "3d-world-motion",
+    "subject": "ai-content-generation",
+    "summary": "SimFoundry turns a single photo or video into a physically accurate 3D simulation for robot training, supporting scene variation generation for generalization, with only a technical paper released so far.",
+    "tool_name": "SimFoundry",
+    "tool_url": null
+   },
+   {
+    "end": "37:20",
+    "start": "36:06",
+    "sub_subject": null,
+    "subject": "unsorted",
+    "summary": "CHORD teaches robots dexterous manipulation by representing human demonstrations as forces and torques on objects, enabling transfer across different robot hands with code coming soon.",
+    "tool_name": "CHORD",
+    "tool_url": null
+   },
+   {
+    "end": "39:27",
+    "start": "37:20",
+    "sub_subject": "3d-world-motion",
+    "subject": "ai-content-generation",
+    "summary": "Luna animates realistic 3D human avatars from a few images driven by video, skeleton, or line art using Gaussian deformations for flexibility, though only a technical paper exists from Meta.",
+    "tool_name": "Luna",
+    "tool_url": null
+   }
+  ],
+  "subjects": [
+   "ai-content-generation",
+   "ai-dev-tooling",
+   "llms-foundation-models",
+   "unsorted"
+  ],
+  "title": "Full body waifus, Claude Fable is back, LongCat 2.0, mind-reading AI, live video editing: AI NEWS",
+  "transcript_source": "auto-captions",
+  "upload_date": "20260705",
+  "video_id": "qtzzN8w2TvU",
+  "video_url": "https://www.youtube.com/watch?v=qtzzN8w2TvU"
+ },
  "quxnhOeRz7I": {
   "channel": "AI Search",
   "schema_version": 2,
