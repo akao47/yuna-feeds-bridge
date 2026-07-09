@@ -4,66 +4,66 @@
     <title>Anthropic News (yuna-feeds-bridge)</title>
     <link>https://www.anthropic.com/news</link>
     <description>RSS bridge for anthropic.com/news, scraped 4-hourly by GitHub Actions.</description>
-    <lastBuildDate>Thu, 09 Jul 2026 11:19:58 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 09 Jul 2026 15:34:42 +0000</lastBuildDate>
     <item>
       <title>Announcements Jun 30, 2026 Redeploying Fable 5 Fable 5 returns globally July 1. We're also proposing an industry-wide framework for scoring jailbreak severity, together with Amazon, Microsoft, Google, and other Glasswing partners.</title>
       <link>https://www.anthropic.com/news/redeploying-fable-5</link>
       <guid isPermaLink="false">redeploying-fable-5</guid>
-      <pubDate>Thu, 09 Jul 2026 11:19:58 +0000</pubDate>
+      <pubDate>Thu, 09 Jul 2026 15:34:42 +0000</pubDate>
     </item>
     <item>
       <title>Product Jun 30, 2026 Introducing Claude Sonnet 5 Sonnet 5 delivers frontier performance across coding, agents, and professional work at scale.</title>
       <link>https://www.anthropic.com/news/claude-sonnet-5</link>
       <guid isPermaLink="false">claude-sonnet-5</guid>
-      <pubDate>Thu, 09 Jul 2026 11:19:58 +0000</pubDate>
+      <pubDate>Thu, 09 Jul 2026 15:34:42 +0000</pubDate>
     </item>
     <item>
       <title>Announcements Jun 30, 2026 Claude Science, an AI workbench for scientists, is now available Claude Science is a customizable app that integrates the tools and packages researchers most often use, produces auditable artifacts, and provides f</title>
       <link>https://www.anthropic.com/news/claude-science-ai-workbench</link>
       <guid isPermaLink="false">claude-science-ai-workbench</guid>
-      <pubDate>Thu, 09 Jul 2026 11:19:58 +0000</pubDate>
+      <pubDate>Thu, 09 Jul 2026 15:34:42 +0000</pubDate>
     </item>
     <item>
       <title>Product Jun 23, 2026 Introducing Claude Tag Claude Tag is a new way for teams to work with Claude.</title>
       <link>https://www.anthropic.com/news/introducing-claude-tag</link>
       <guid isPermaLink="false">introducing-claude-tag</guid>
-      <pubDate>Thu, 09 Jul 2026 11:19:58 +0000</pubDate>
+      <pubDate>Thu, 09 Jul 2026 15:34:42 +0000</pubDate>
+    </item>
+    <item>
+      <title>Jul 9, 2026 Announcements Introducing a way to reflect on how you use Claude</title>
+      <link>https://www.anthropic.com/news/reflect-with-claude</link>
+      <guid isPermaLink="false">reflect-with-claude</guid>
+      <pubDate>Thu, 09 Jul 2026 15:34:42 +0000</pubDate>
     </item>
     <item>
       <title>Jul 6, 2026 Case Study Government of Alberta uses Claude to find and fix cybersecurity vulnerabilities across government systems</title>
       <link>https://www.anthropic.com/news/alberta-government-claude-cybersecurity</link>
       <guid isPermaLink="false">alberta-government-claude-cybersecurity</guid>
-      <pubDate>Thu, 09 Jul 2026 11:19:58 +0000</pubDate>
+      <pubDate>Thu, 09 Jul 2026 15:34:42 +0000</pubDate>
     </item>
     <item>
       <title>Jul 2, 2026 Announcements More details on Fable 5’s cyber safeguards and our jailbreak framework</title>
       <link>https://www.anthropic.com/news/fable-safeguards-jailbreak-framework</link>
       <guid isPermaLink="false">fable-safeguards-jailbreak-framework</guid>
-      <pubDate>Thu, 09 Jul 2026 11:19:58 +0000</pubDate>
+      <pubDate>Thu, 09 Jul 2026 15:34:42 +0000</pubDate>
     </item>
     <item>
       <title>Jun 17, 2026 Announcements Anthropic opens Seoul office and announces new partnerships across the Korean AI ecosystem</title>
       <link>https://www.anthropic.com/news/seoul-office-partnerships-korean-ai-ecosystem</link>
       <guid isPermaLink="false">seoul-office-partnerships-korean-ai-ecosystem</guid>
-      <pubDate>Thu, 09 Jul 2026 11:19:58 +0000</pubDate>
+      <pubDate>Thu, 09 Jul 2026 15:34:42 +0000</pubDate>
     </item>
     <item>
       <title>Jun 12, 2026 Announcements Statement on the US government directive to suspend access to Fable 5 and Mythos 5</title>
       <link>https://www.anthropic.com/news/fable-mythos-access</link>
       <guid isPermaLink="false">fable-mythos-access</guid>
-      <pubDate>Thu, 09 Jul 2026 11:19:58 +0000</pubDate>
+      <pubDate>Thu, 09 Jul 2026 15:34:42 +0000</pubDate>
     </item>
     <item>
       <title>Jun 12, 2026 Announcements Results from the first Anthropic Public Record</title>
       <link>https://www.anthropic.com/news/anthropic-public-record</link>
       <guid isPermaLink="false">anthropic-public-record</guid>
-      <pubDate>Thu, 09 Jul 2026 11:19:58 +0000</pubDate>
-    </item>
-    <item>
-      <title>Jun 12, 2026 Announcements TCS and Anthropic partner to bring Claude to regulated industries</title>
-      <link>https://www.anthropic.com/news/tcs-anthropic-partnership</link>
-      <guid isPermaLink="false">tcs-anthropic-partnership</guid>
-      <pubDate>Thu, 09 Jul 2026 11:19:58 +0000</pubDate>
+      <pubDate>Thu, 09 Jul 2026 15:34:42 +0000</pubDate>
     </item>
   </channel>
 </rss>
