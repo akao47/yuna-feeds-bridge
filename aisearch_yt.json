@@ -3316,6 +3316,148 @@
   "video_id": "RdqYvdT74i0",
   "video_url": "https://www.youtube.com/watch?v=RdqYvdT74i0"
  },
+ "SettwwX2cCI": {
+  "channel": "AI Search",
+  "schema_version": 2,
+  "segments": [
+   {
+    "end": "1:00",
+    "start": "0:00",
+    "sub_subject": "model-release",
+    "subject": "llms-foundation-models",
+    "summary": "Introduces GPT 5.6 model family with three variants (Soul, Terra, Luna) and outlines plans to test advanced capabilities beyond basic tasks.",
+    "tool_name": "GPT 5.6 models",
+    "tool_url": null
+   },
+   {
+    "end": "1:43",
+    "start": "1:00",
+    "sub_subject": "agentic-frameworks",
+    "subject": "ai-dev-tooling",
+    "summary": "Recommends using GPT 5.6 via the Codex desktop app (rebranded as ChatGPT desktop app) for agentic multi-file workflows, reusable skills, and scheduled automations.",
+    "tool_name": "Codex vs ChatGPT",
+    "tool_url": null
+   },
+   {
+    "end": "3:37",
+    "start": "1:43",
+    "sub_subject": "coding-build-demo",
+    "subject": "llms-foundation-models",
+    "summary": "Demonstrates building a real-time anime girl web app with voice chat using GPT 5.6 Soul Ultra, GPT Image for avatar animations, and Gemini realtime voice model.",
+    "tool_name": "Realtime anime girl",
+    "tool_url": null
+   },
+   {
+    "end": "5:12",
+    "start": "3:37",
+    "sub_subject": "coding-build-demo",
+    "subject": "llms-foundation-models",
+    "summary": "Shows GPT 5.6 Soul Ultra creating a liquid splash simulation with adjustable physics and hand-tracking control, coded from scratch without external libraries.",
+    "tool_name": "Liquid simulation",
+    "tool_url": null
+   },
+   {
+    "end": "7:55",
+    "start": "5:12",
+    "sub_subject": "coding-build-demo",
+    "subject": "llms-foundation-models",
+    "summary": "Tests GPT 5.6's agentic workflow by having it create a promo video for an image model using Gemini TTS and Hyperframes, requiring autonomous tool setup and rendering.",
+    "tool_name": "Promo video creation",
+    "tool_url": null
+   },
+   {
+    "end": "11:36",
+    "start": "9:07",
+    "sub_subject": "coding-build-demo",
+    "subject": "llms-foundation-models",
+    "summary": "Demonstrates GPT 5.6 Soul Ultra building a browser-based DAW interface with piano roll, multiple tracks, effects, and a 32-bar song with variations.",
+    "tool_name": "Music composition",
+    "tool_url": null
+   },
+   {
+    "end": "12:33",
+    "start": "11:36",
+    "sub_subject": "coding-build-demo",
+    "subject": "llms-foundation-models",
+    "summary": "Tests GPT 5.6's ability to render a complex 3D animated scene from a reference image in a single HTML file, noting object coherence but placement inaccuracies.",
+    "tool_name": "3D model",
+    "tool_url": null
+   },
+   {
+    "end": "13:54",
+    "start": "12:33",
+    "sub_subject": "coding-build-demo",
+    "subject": "llms-foundation-models",
+    "summary": "Shows GPT 5.6 Soul installing Manim and generating a complex butterfly epicycle animation, comparing favorably to GLM 5.2 on visual quality.",
+    "tool_name": "Math animation",
+    "tool_url": null
+   },
+   {
+    "end": "14:57",
+    "start": "13:54",
+    "sub_subject": "multimodal-demo",
+    "subject": "llms-foundation-models",
+    "summary": "Tests GPT 5.6 Pro's vision on medical scans to identify tumor types; model fails to correctly identify tumors and misclassifies hemorrhages.",
+    "tool_name": "Identifying cancer",
+    "tool_url": null
+   },
+   {
+    "end": "16:22",
+    "start": "14:57",
+    "sub_subject": "multimodal-demo",
+    "subject": "llms-foundation-models",
+    "summary": "Attempts the 'find the frog' hidden animal test with GPT 5.6 Pro; model fails first attempt, partially succeeds on second but misidentifies toad.",
+    "tool_name": "Finding the frog",
+    "tool_url": null
+   },
+   {
+    "end": "17:40",
+    "start": "16:22",
+    "sub_subject": "reasoning-demo",
+    "subject": "llms-foundation-models",
+    "summary": "Demonstrates GPT 5.6's deep research capability generating a comprehensive medical report on leukemia molecular drivers with tables, flowcharts, and citations.",
+    "tool_name": "Deep research",
+    "tool_url": null
+   },
+   {
+    "end": "19:20",
+    "start": "17:40",
+    "sub_subject": "coding-build-demo",
+    "subject": "llms-foundation-models",
+    "summary": "Uses ChatGPT's new 'Work' tab with GPT 5.6 Soul Ultra to autonomously fetch Q1 2026 earnings reports and create a comparative financial presentation.",
+    "tool_name": "Financial presentation",
+    "tool_url": null
+   },
+   {
+    "end": "21:24",
+    "start": "19:20",
+    "sub_subject": "benchmarks",
+    "subject": "eval-model-quality",
+    "summary": "Reviews GPT 5.6 Soul benchmark performance on Agent's Last Exam, agentic coding, and Genebench, highlighting superior scores and cost-efficiency vs Claude models.",
+    "tool_name": "Specs and performance",
+    "tool_url": null
+   },
+   {
+    "end": "25:59",
+    "start": "21:24",
+    "sub_subject": "benchmarks",
+    "subject": "eval-model-quality",
+    "summary": "Compares GPT 5.6 Soul Max on Artificial Analysis, Deep Sweet, and ARC AGI2 leaderboards, noting tradeoffs in hallucination rates, cost, and performance vs competitors.",
+    "tool_name": "Leaderboards and where to use GPT 5.6",
+    "tool_url": null
+   }
+  ],
+  "subjects": [
+   "ai-dev-tooling",
+   "eval-model-quality",
+   "llms-foundation-models"
+  ],
+  "title": "GPT 5.6 is here!",
+  "transcript_source": "auto-captions",
+  "upload_date": "20260710",
+  "video_id": "SettwwX2cCI",
+  "video_url": "https://www.youtube.com/watch?v=SettwwX2cCI"
+ },
  "SxiRANj0xLs": {
   "channel": "AI Search",
   "schema_version": 2,
