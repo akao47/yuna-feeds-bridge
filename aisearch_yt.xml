@@ -6,6 +6,49 @@
     <description>theAIsearch AI-news/tool roundups, segmented + subject-routed for Yuna's rss_aisearch_yt source. Segments ride in the sidecar.</description>
     <lastBuildDate>Sun, 12 Jul 2026 00:00:00 +0000</lastBuildDate>
     <item>
+      <title>Girlfriend simulators, GPT 5.6, Grok 4.5, Seedream 5.0, Muse Spark, robot surgery: AI NEWS</title>
+      <link>https://www.youtube.com/watch?v=Ti1V7OI2Rro</link>
+      <guid isPermaLink="false">Ti1V7OI2Rro</guid>
+      <pubDate>Sun, 12 Jul 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[Girlfriend simulators, GPT 5.6, Grok 4.5, Seedream 5.0, Muse Spark, robot surgery: AI NEWS — segmented AI-news roundup (18 segments).
+
+[ai-content-generation] ABot World: ABot World is an open-source, neverending interactive world generator that runs in real-time on consumer GPUs (RTX 5090/4090), producing 720p at 16 FPS with ~1s latency, released under Apache 2 license.
+
+[ai-dev-tooling] ProxyPose: ProxyPose is a released open-source system that tracks full 3D position and rotation of objects in video by replacing target regions with proxy shapes, handling transparent/reflective surfaces and occlusion, with quantized versions for consumer GPUs.
+
+[ai-content-generation] SeFi image: CFI Image is a released open-source image generator with 1B-5B parameter variants, featuring separated layout/texture streams for photorealistic, text, and anime generation, outperforming similar-sized open models but trailing top models like Crea 2.
+
+[llms-foundation-models] GPT Live: OpenAI released GPT Live, a real-time voice model enabling natural, interruptible conversations with delegation to stronger models for reasoning, live translation, and visual responses.
+
+[ai-content-generation] PixWorld: PixWorld is a 3D scene generator that reconstructs scenes directly in pixel space from text or images, achieving 1000x speedup over diffusion-based generators, with plans for full open-source release.
+
+[ai-content-generation] Wan Streamer 0.2: W Streamer 0.2 is a real-time video generation system for interactive character conversation (girlfriend simulator), achieving 640px at 25 FPS with 200ms latency, currently only a technical paper with future open-source plans.
+
+[ai-content-generation] Mira: Mirror is a real-time multiplayer world model that generates gameplay video on-the-fly from a 5B parameter diffusion model, responding to player inputs at 20 FPS on a single GPU, offering a glimpse of generative AI-driven games.
+
+[ai-content-generation] LingBot World 2: LingBot World 2 is a released open-ended world simulator that generates 720p60 video in real-time reacting to user inputs, allowing control of any character/object, with fast inference model available (86GB total).
+
+[llms-foundation-models] Grok 4.5: xAI released Grok 4.5, a 500K-context agentic coding model trained with Cursor data, benchmarked near top-tier on coding/reasoning but with half the context window of competitors, emphasizing efficiency (80 tok/s, lower token usage).
+
+[llms-foundation-models] Muse Spark 1.1: Meta released Muse Spark 1.1, a multimodal agentic model capable of autonomous browser actions, coding with visual verification, and multi-step task execution like event planning and code migration.
+
+[llms-foundation-models] GPT 5.6: OpenAI released GPT 5.6, a highly performant agentic coding model capable of long-horizon multi-step tasks with minimal handholding, with a full review video available separately.
+
+[unsorted] Humanoid surgery: Researchers at UC San Diego demonstrated teleoperated surgery using a Unitree G1 humanoid robot controlled via MetaQuest, showcasing general-purpose humanoid performing precise surgical tasks.
+
+[unsorted] Booster T2: Booster Robotics released Booster T2, an acrobatic humanoid robot with 75 DOF and 2+ hour battery, demonstrating advanced flips and jumps, alongside an open-source ecosystem (Booster Gym/Train) for sim-to-real development.
+
+[ai-content-generation] Alaya World: Alaya World is a real-time interactive world generator that maintains persistent memory and allows prompt-based editing during generation, planning full open-source release of model, training code, and data.
+
+[ai-content-generation] Seedream 5 Pro: ByteDance released Seedream 5 Pro, a capable image model supporting generation, editing, referencing, and transparent layers for infographics/UI/comics, with multilingual support, available on DreamLab platform.
+
+[llms-foundation-models] Hy3: Tencent released Hy3, a 295B MoE model with 21B active parameters, excelling at agentic coding, reasoning, and UI/game generation despite being 4-5x smaller than competitors, though requiring high-end multi-GPU for local inference.
+
+[ai-content-generation] Muse Image Muse Video: Meta released Muse Image and Muse Video; Muse Image operates as an agent that plans and reasons before generation, enabling web search, reference handling, and room redesign with marketplace items, while also generating photos of public Instagram profiles by default.
+
+[ai-content-generation] Reve 2.1: Reve 2.1 is a closed, paid image model ranking #2 on leaderboards behind GPT Image 2, offering strong visual reasoning, text rendering, 16MP output, and microediting via bounding boxes at a lower cost.]]></description>
+    </item>
+    <item>
       <title>GPT 5.6 is here!</title>
       <link>https://www.youtube.com/watch?v=SettwwX2cCI</link>
       <guid isPermaLink="false">SettwwX2cCI</guid>

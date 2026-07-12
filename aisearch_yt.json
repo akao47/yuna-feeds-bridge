@@ -3940,6 +3940,185 @@
   "video_id": "TLFPbMUtErM",
   "video_url": "https://www.youtube.com/watch?v=TLFPbMUtErM"
  },
+ "Ti1V7OI2Rro": {
+  "channel": "AI Search",
+  "schema_version": 2,
+  "segments": [
+   {
+    "end": "2:28",
+    "start": "1:06",
+    "sub_subject": "3d-world-motion",
+    "subject": "ai-content-generation",
+    "summary": "ABot World is an open-source, neverending interactive world generator that runs in real-time on consumer GPUs (RTX 5090/4090), producing 720p at 16 FPS with ~1s latency, released under Apache 2 license.",
+    "tool_name": "ABot World",
+    "tool_url": null
+   },
+   {
+    "end": "4:16",
+    "start": "2:28",
+    "sub_subject": "dev-utilities",
+    "subject": "ai-dev-tooling",
+    "summary": "ProxyPose is a released open-source system that tracks full 3D position and rotation of objects in video by replacing target regions with proxy shapes, handling transparent/reflective surfaces and occlusion, with quantized versions for consumer GPUs.",
+    "tool_name": "ProxyPose",
+    "tool_url": null
+   },
+   {
+    "end": "6:17",
+    "start": "4:16",
+    "sub_subject": "image",
+    "subject": "ai-content-generation",
+    "summary": "CFI Image is a released open-source image generator with 1B-5B parameter variants, featuring separated layout/texture streams for photorealistic, text, and anime generation, outperforming similar-sized open models but trailing top models like Crea 2.",
+    "tool_name": "SeFi image",
+    "tool_url": null
+   },
+   {
+    "end": "11:57",
+    "start": "6:17",
+    "sub_subject": "model-release",
+    "subject": "llms-foundation-models",
+    "summary": "OpenAI released GPT Live, a real-time voice model enabling natural, interruptible conversations with delegation to stronger models for reasoning, live translation, and visual responses.",
+    "tool_name": "GPT Live",
+    "tool_url": null
+   },
+   {
+    "end": "13:43",
+    "start": "11:57",
+    "sub_subject": "3d-world-motion",
+    "subject": "ai-content-generation",
+    "summary": "PixWorld is a 3D scene generator that reconstructs scenes directly in pixel space from text or images, achieving 1000x speedup over diffusion-based generators, with plans for full open-source release.",
+    "tool_name": "PixWorld",
+    "tool_url": null
+   },
+   {
+    "end": "17:02",
+    "start": "15:29",
+    "sub_subject": "video",
+    "subject": "ai-content-generation",
+    "summary": "W Streamer 0.2 is a real-time video generation system for interactive character conversation (girlfriend simulator), achieving 640px at 25 FPS with 200ms latency, currently only a technical paper with future open-source plans.",
+    "tool_name": "Wan Streamer 0.2",
+    "tool_url": null
+   },
+   {
+    "end": "18:12",
+    "start": "17:02",
+    "sub_subject": "3d-world-motion",
+    "subject": "ai-content-generation",
+    "summary": "Mirror is a real-time multiplayer world model that generates gameplay video on-the-fly from a 5B parameter diffusion model, responding to player inputs at 20 FPS on a single GPU, offering a glimpse of generative AI-driven games.",
+    "tool_name": "Mira",
+    "tool_url": null
+   },
+   {
+    "end": "19:46",
+    "start": "18:12",
+    "sub_subject": "3d-world-motion",
+    "subject": "ai-content-generation",
+    "summary": "LingBot World 2 is a released open-ended world simulator that generates 720p60 video in real-time reacting to user inputs, allowing control of any character/object, with fast inference model available (86GB total).",
+    "tool_name": "LingBot World 2",
+    "tool_url": null
+   },
+   {
+    "end": "23:25",
+    "start": "19:46",
+    "sub_subject": "model-release",
+    "subject": "llms-foundation-models",
+    "summary": "xAI released Grok 4.5, a 500K-context agentic coding model trained with Cursor data, benchmarked near top-tier on coding/reasoning but with half the context window of competitors, emphasizing efficiency (80 tok/s, lower token usage).",
+    "tool_name": "Grok 4.5",
+    "tool_url": null
+   },
+   {
+    "end": "26:16",
+    "start": "23:25",
+    "sub_subject": "model-release",
+    "subject": "llms-foundation-models",
+    "summary": "Meta released Muse Spark 1.1, a multimodal agentic model capable of autonomous browser actions, coding with visual verification, and multi-step task execution like event planning and code migration.",
+    "tool_name": "Muse Spark 1.1",
+    "tool_url": null
+   },
+   {
+    "end": "26:56",
+    "start": "26:16",
+    "sub_subject": "model-release",
+    "subject": "llms-foundation-models",
+    "summary": "OpenAI released GPT 5.6, a highly performant agentic coding model capable of long-horizon multi-step tasks with minimal handholding, with a full review video available separately.",
+    "tool_name": "GPT 5.6",
+    "tool_url": null
+   },
+   {
+    "end": "28:25",
+    "start": "26:56",
+    "sub_subject": null,
+    "subject": "unsorted",
+    "summary": "Researchers at UC San Diego demonstrated teleoperated surgery using a Unitree G1 humanoid robot controlled via MetaQuest, showcasing general-purpose humanoid performing precise surgical tasks.",
+    "tool_name": "Humanoid surgery",
+    "tool_url": null
+   },
+   {
+    "end": "29:48",
+    "start": "28:25",
+    "sub_subject": null,
+    "subject": "unsorted",
+    "summary": "Booster Robotics released Booster T2, an acrobatic humanoid robot with 75 DOF and 2+ hour battery, demonstrating advanced flips and jumps, alongside an open-source ecosystem (Booster Gym/Train) for sim-to-real development.",
+    "tool_name": "Booster T2",
+    "tool_url": null
+   },
+   {
+    "end": "31:20",
+    "start": "29:48",
+    "sub_subject": "3d-world-motion",
+    "subject": "ai-content-generation",
+    "summary": "Alaya World is a real-time interactive world generator that maintains persistent memory and allows prompt-based editing during generation, planning full open-source release of model, training code, and data.",
+    "tool_name": "Alaya World",
+    "tool_url": null
+   },
+   {
+    "end": "33:14",
+    "start": "31:20",
+    "sub_subject": "image",
+    "subject": "ai-content-generation",
+    "summary": "ByteDance released Seedream 5 Pro, a capable image model supporting generation, editing, referencing, and transparent layers for infographics/UI/comics, with multilingual support, available on DreamLab platform.",
+    "tool_name": "Seedream 5 Pro",
+    "tool_url": null
+   },
+   {
+    "end": "34:59",
+    "start": "33:14",
+    "sub_subject": "model-release",
+    "subject": "llms-foundation-models",
+    "summary": "Tencent released Hy3, a 295B MoE model with 21B active parameters, excelling at agentic coding, reasoning, and UI/game generation despite being 4-5x smaller than competitors, though requiring high-end multi-GPU for local inference.",
+    "tool_name": "Hy3",
+    "tool_url": null
+   },
+   {
+    "end": "37:40",
+    "start": "34:59",
+    "sub_subject": "image",
+    "subject": "ai-content-generation",
+    "summary": "Meta released Muse Image and Muse Video; Muse Image operates as an agent that plans and reasons before generation, enabling web search, reference handling, and room redesign with marketplace items, while also generating photos of public Instagram profiles by default.",
+    "tool_name": "Muse Image Muse Video",
+    "tool_url": null
+   },
+   {
+    "end": "39:37",
+    "start": "37:40",
+    "sub_subject": "image",
+    "subject": "ai-content-generation",
+    "summary": "Reve 2.1 is a closed, paid image model ranking #2 on leaderboards behind GPT Image 2, offering strong visual reasoning, text rendering, 16MP output, and microediting via bounding boxes at a lower cost.",
+    "tool_name": "Reve 2.1",
+    "tool_url": null
+   }
+  ],
+  "subjects": [
+   "ai-content-generation",
+   "ai-dev-tooling",
+   "llms-foundation-models",
+   "unsorted"
+  ],
+  "title": "Girlfriend simulators, GPT 5.6, Grok 4.5, Seedream 5.0, Muse Spark, robot surgery: AI NEWS",
+  "transcript_source": "auto-captions",
+  "upload_date": "20260712",
+  "video_id": "Ti1V7OI2Rro",
+  "video_url": "https://www.youtube.com/watch?v=Ti1V7OI2Rro"
+ },
  "U2hZFMVNSE0": {
   "channel": "AI Search",
   "schema_version": 2,
