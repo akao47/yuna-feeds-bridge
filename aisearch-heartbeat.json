@@ -1,12 +1,12 @@
 {
   "source": "rss_aisearch",
-  "status": "error",
-  "last_run": "2026-07-16T16:17:02Z",
-  "last_success": null,
+  "status": "ok",
+  "last_run": "2026-07-16T20:17:02Z",
+  "last_success": "2026-07-16T20:17:02Z",
   "items_total": 106,
   "items_new": 0,
-  "pages_walked": 0,
-  "stop_reason": null,
+  "pages_walked": 1,
+  "stop_reason": "caught_up",
   "pending_overflow": false,
-  "error": "shape: page 1 returned no __NEXT_DATA__ / initialpapers"
+  "error": null
 }
