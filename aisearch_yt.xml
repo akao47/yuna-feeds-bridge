@@ -6,6 +6,39 @@
     <description>theAIsearch AI-news/tool roundups, segmented + subject-routed for Yuna's rss_aisearch_yt source. Segments ride in the sidecar.</description>
     <lastBuildDate>Fri, 17 Jul 2026 00:00:00 +0000</lastBuildDate>
     <item>
+      <title>New #1 open source AI model is here! FABLE LEVEL</title>
+      <link>https://www.youtube.com/watch?v=bEnE5pbpe_Q</link>
+      <guid isPermaLink="false">bEnE5pbpe_Q</guid>
+      <pubDate>Fri, 17 Jul 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[New #1 open source AI model is here! FABLE LEVEL — segmented AI-news roundup (13 segments).
+
+[llms-foundation-models] Kimi K3 intro: Moonshot AI releases Kimi K3, a massive open-source model claimed to rival top closed models like GPT-5.6 and Claude Fable.
+
+[ai-dev-tooling] Kimi code: Demonstrates installing and using Kimi Code, a native agentic harness for Kimi K3, via VS Code extension for multi-project agent workflows.
+
+[llms-foundation-models] Liquid physics test: Kimi K3 (via Kimi Code) builds a liquid splash simulator with adjustable gravity and hand-tracking in a standalone HTML file, coding physics from scratch.
+
+[llms-foundation-models] Blender v8 engine: Kimi K3 (via Kimi Code) creates a fully animated V8 engine in Blender using MCP, modeling components and animation in a single prompt.
+
+[llms-foundation-models] Financial explainer video: Kimi K3 (via Kimi Code) produces a financial explainer video by fetching Nvidia's report, generating charts with Hyperframes, and adding voiceover via Gemini TTS.
+
+[llms-foundation-models] 3D model test: Kimi K3 (via Kimi Code) generates an interactive 3D grand piano in a single HTML file with exploded view, playable keys, and Fur Elise demo.
+
+[llms-foundation-models] Mecha shooter: Kimi K3 (via Kimi Code) codes a 3D mecha shooter game using Three.js and public 3D assets, implementing combat and movement controls.
+
+[llms-foundation-models] Music composition: Kimi K3 (via Kimi Code) builds a browser-based DAW with multiple instruments, piano rolls, automation, and masters a 32-bar song in two prompts.
+
+[llms-foundation-models] Cancer detection: Kimi K3 analyzes six medical scans for tumors via native chat, correctly identifying one of six, outperforming GPT-5.6 and Claude Fable on this task.
+
+[llms-foundation-models] Find the frog: Kimi K3 fails the 'find the frog' visual reasoning test, unable to locate the hidden frog despite using enhancement techniques and deep zooming.
+
+[llms-foundation-models] Deep research: Kimi K3 (with Deep Research) generates a comprehensive, cited report on Alzheimer's disease mechanisms and antibody therapies with tables and figures.
+
+[llms-foundation-models] Specs and benchmarks: Details Kimi K3 specs: 2.8T parameters, 1M context window, Delta architecture; shows benchmark leads on DeepSuite, Terminal Bench, and agentic coding tasks.
+
+[llms-foundation-models] Open source: Explains access points: kimi.com chat, Kimi Work desktop app, VS Code extension, API; notes full weights releasing July 27th.]]></description>
+    </item>
+    <item>
       <title>Girlfriend simulators, GPT 5.6, Grok 4.5, Seedream 5.0, Muse Spark, robot surgery: AI NEWS</title>
       <link>https://www.youtube.com/watch?v=Ti1V7OI2Rro</link>
       <guid isPermaLink="false">Ti1V7OI2Rro</guid>

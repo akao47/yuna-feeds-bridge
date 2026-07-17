@@ -4772,6 +4772,138 @@
   "video_id": "ZKfd9S9lOtc",
   "video_url": "https://www.youtube.com/watch?v=ZKfd9S9lOtc"
  },
+ "bEnE5pbpe_Q": {
+  "channel": "AI Search",
+  "schema_version": 2,
+  "segments": [
+   {
+    "end": "0:40",
+    "start": "0:00",
+    "sub_subject": "model-release",
+    "subject": "llms-foundation-models",
+    "summary": "Moonshot AI releases Kimi K3, a massive open-source model claimed to rival top closed models like GPT-5.6 and Claude Fable.",
+    "tool_name": "Kimi K3 intro",
+    "tool_url": null
+   },
+   {
+    "end": "2:37",
+    "start": "0:40",
+    "sub_subject": "agentic-frameworks",
+    "subject": "ai-dev-tooling",
+    "summary": "Demonstrates installing and using Kimi Code, a native agentic harness for Kimi K3, via VS Code extension for multi-project agent workflows.",
+    "tool_name": "Kimi code",
+    "tool_url": null
+   },
+   {
+    "end": "5:20",
+    "start": "2:37",
+    "sub_subject": "coding-build-demo",
+    "subject": "llms-foundation-models",
+    "summary": "Kimi K3 (via Kimi Code) builds a liquid splash simulator with adjustable gravity and hand-tracking in a standalone HTML file, coding physics from scratch.",
+    "tool_name": "Liquid physics test",
+    "tool_url": null
+   },
+   {
+    "end": "7:26",
+    "start": "5:20",
+    "sub_subject": "coding-build-demo",
+    "subject": "llms-foundation-models",
+    "summary": "Kimi K3 (via Kimi Code) creates a fully animated V8 engine in Blender using MCP, modeling components and animation in a single prompt.",
+    "tool_name": "Blender v8 engine",
+    "tool_url": null
+   },
+   {
+    "end": "10:10",
+    "start": "7:26",
+    "sub_subject": "coding-build-demo",
+    "subject": "llms-foundation-models",
+    "summary": "Kimi K3 (via Kimi Code) produces a financial explainer video by fetching Nvidia's report, generating charts with Hyperframes, and adding voiceover via Gemini TTS.",
+    "tool_name": "Financial explainer video",
+    "tool_url": null
+   },
+   {
+    "end": "12:25",
+    "start": "10:10",
+    "sub_subject": "coding-build-demo",
+    "subject": "llms-foundation-models",
+    "summary": "Kimi K3 (via Kimi Code) generates an interactive 3D grand piano in a single HTML file with exploded view, playable keys, and Fur Elise demo.",
+    "tool_name": "3D model test",
+    "tool_url": null
+   },
+   {
+    "end": "16:13",
+    "start": "14:31",
+    "sub_subject": "coding-build-demo",
+    "subject": "llms-foundation-models",
+    "summary": "Kimi K3 (via Kimi Code) codes a 3D mecha shooter game using Three.js and public 3D assets, implementing combat and movement controls.",
+    "tool_name": "Mecha shooter",
+    "tool_url": null
+   },
+   {
+    "end": "19:11",
+    "start": "16:13",
+    "sub_subject": "coding-build-demo",
+    "subject": "llms-foundation-models",
+    "summary": "Kimi K3 (via Kimi Code) builds a browser-based DAW with multiple instruments, piano rolls, automation, and masters a 32-bar song in two prompts.",
+    "tool_name": "Music composition",
+    "tool_url": null
+   },
+   {
+    "end": "20:43",
+    "start": "19:11",
+    "sub_subject": "multimodal-demo",
+    "subject": "llms-foundation-models",
+    "summary": "Kimi K3 analyzes six medical scans for tumors via native chat, correctly identifying one of six, outperforming GPT-5.6 and Claude Fable on this task.",
+    "tool_name": "Cancer detection",
+    "tool_url": null
+   },
+   {
+    "end": "21:42",
+    "start": "20:43",
+    "sub_subject": "multimodal-demo",
+    "subject": "llms-foundation-models",
+    "summary": "Kimi K3 fails the 'find the frog' visual reasoning test, unable to locate the hidden frog despite using enhancement techniques and deep zooming.",
+    "tool_name": "Find the frog",
+    "tool_url": null
+   },
+   {
+    "end": "24:25",
+    "start": "21:42",
+    "sub_subject": "reasoning-demo",
+    "subject": "llms-foundation-models",
+    "summary": "Kimi K3 (with Deep Research) generates a comprehensive, cited report on Alzheimer's disease mechanisms and antibody therapies with tables and figures.",
+    "tool_name": "Deep research",
+    "tool_url": null
+   },
+   {
+    "end": "28:31",
+    "start": "24:25",
+    "sub_subject": "model-release",
+    "subject": "llms-foundation-models",
+    "summary": "Details Kimi K3 specs: 2.8T parameters, 1M context window, Delta architecture; shows benchmark leads on DeepSuite, Terminal Bench, and agentic coding tasks.",
+    "tool_name": "Specs and benchmarks",
+    "tool_url": null
+   },
+   {
+    "end": "30:11",
+    "start": "28:31",
+    "sub_subject": "model-release",
+    "subject": "llms-foundation-models",
+    "summary": "Explains access points: kimi.com chat, Kimi Work desktop app, VS Code extension, API; notes full weights releasing July 27th.",
+    "tool_name": "Open source",
+    "tool_url": null
+   }
+  ],
+  "subjects": [
+   "ai-dev-tooling",
+   "llms-foundation-models"
+  ],
+  "title": "New #1 open source AI model is here! FABLE LEVEL",
+  "transcript_source": "auto-captions",
+  "upload_date": "20260717",
+  "video_id": "bEnE5pbpe_Q",
+  "video_url": "https://www.youtube.com/watch?v=bEnE5pbpe_Q"
+ },
  "j9LoyiUlv9I": {
   "channel": "AI Search",
   "schema_version": 2,
