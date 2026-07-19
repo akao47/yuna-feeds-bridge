@@ -6093,5 +6093,194 @@
   "upload_date": "20260514",
   "video_id": "s3rNDndvav0",
   "video_url": "https://www.youtube.com/watch?v=s3rNDndvav0"
+ },
+ "uQ2Hqg5MZ-8": {
+  "channel": "AI Search",
+  "schema_version": 2,
+  "segments": [
+   {
+    "end": "2:44",
+    "start": "1:00",
+    "sub_subject": "3d-world-motion",
+    "subject": "ai-content-generation",
+    "summary": "Nvidia releases RD, an AI that generates realistic 3D human motion in real-time from text or control signals and can drive a simulated Unitree G1 robot.",
+    "tool_name": "Ardy",
+    "tool_url": null
+   },
+   {
+    "end": "4:23",
+    "start": "2:44",
+    "sub_subject": "video",
+    "subject": "ai-content-generation",
+    "summary": "MobileWan enables running Alibaba's Wan 2.1 video generation locally on a smartphone, producing 5-second 480p videos in about 20 seconds.",
+    "tool_name": "MobileWan",
+    "tool_url": null
+   },
+   {
+    "end": "5:38",
+    "start": "4:23",
+    "sub_subject": "image",
+    "subject": "ai-content-generation",
+    "summary": "Nvidia updates PID upscaler to v1.5 with better detail and color fidelity, compatible with models like Flux and Qwen-Image, and provides local install instructions.",
+    "tool_name": "PiD v1.5",
+    "tool_url": null
+   },
+   {
+    "end": "8:24",
+    "start": "5:38",
+    "sub_subject": "audio-music-tts",
+    "subject": "ai-content-generation",
+    "summary": "Audio to MIDI by Mirell separates a full song into per-instrument MIDI tracks, is open-source, and can be run locally after signing up for free.",
+    "tool_name": "Audio to MIDI",
+    "tool_url": null
+   },
+   {
+    "end": "10:22",
+    "start": "8:24",
+    "sub_subject": "video",
+    "subject": "ai-content-generation",
+    "summary": "WanDancer from Alibaba generates long, consistent videos of any character dancing to input music, with keyframe control, but requires 85 GB and high-end GPU.",
+    "tool_name": "WanDancer",
+    "tool_url": null
+   },
+   {
+    "end": "12:12",
+    "start": "10:22",
+    "sub_subject": "3d-world-motion",
+    "subject": "ai-content-generation",
+    "summary": "Google's GNM generates dense 3D head meshes with precise control over identity, expression, and internal structures, released under Apache 2.0.",
+    "tool_name": "GNM",
+    "tool_url": null
+   },
+   {
+    "end": "14:14",
+    "start": "12:12",
+    "sub_subject": "dev-utilities",
+    "subject": "ai-dev-tooling",
+    "summary": "Lucida is an open-source background remover that handles glass, camouflage, text, hair, and transparency, released under MIT and under 900 MB.",
+    "tool_name": "Lucida",
+    "tool_url": null
+   },
+   {
+    "end": "15:29",
+    "start": "14:14",
+    "sub_subject": "video",
+    "subject": "ai-content-generation",
+    "summary": "Motion for Motion transfers motion between videos with different characters and proportions using point tracking, but only a technical paper is available.",
+    "tool_name": "Motion4motion",
+    "tool_url": null
+   },
+   {
+    "end": "20:40",
+    "start": "17:17",
+    "sub_subject": "model-release",
+    "subject": "llms-foundation-models",
+    "summary": "Bonsai 27B compresses Qwen 3.6 27B to 1-bit (3.9 GB) and ternary (5.9 GB) variants, enabling a 27B parameter model to run on a smartphone.",
+    "tool_name": "Bonsai 27B",
+    "tool_url": null
+   },
+   {
+    "end": "24:39",
+    "start": "20:40",
+    "sub_subject": "model-release",
+    "subject": "llms-foundation-models",
+    "summary": "Kimi K3 tops open-source leaderboards, nearing frontier performance on debate and kernel optimization benchmarks, with details on access and pricing.",
+    "tool_name": "Kimi K3",
+    "tool_url": null
+   },
+   {
+    "end": "26:12",
+    "start": "24:39",
+    "sub_subject": null,
+    "subject": "unsorted",
+    "summary": "First humanoid robot MMA event in China features teleoperated Engine AI T800 robots fighting in a cage, with commentary on future autonomy.",
+    "tool_name": "Robot MMA",
+    "tool_url": null
+   },
+   {
+    "end": "26:48",
+    "start": "26:12",
+    "sub_subject": null,
+    "subject": "unsorted",
+    "summary": "Coolfly Urban eVTOL hoverboard demonstrated transporting humanoid robots to the MMA arena, designed for future human transport.",
+    "tool_name": "Coolfly eVTOL",
+    "tool_url": null
+   },
+   {
+    "end": "27:56",
+    "start": "26:48",
+    "sub_subject": null,
+    "subject": "unsorted",
+    "summary": "Run Robotics unveils a centaur-style hybrid robot with humanoid upper body and four wheeled legs for industrial settings, carrying 210 kg.",
+    "tool_name": "Robot centaur",
+    "tool_url": null
+   },
+   {
+    "end": "29:13",
+    "start": "27:56",
+    "sub_subject": "autonomous-research",
+    "subject": "ai-dev-tooling",
+    "summary": "Sunday Robotics' Act 2 offline robotics model achieves 99% zero-shot success on household tasks like laundry folding across unseen clothes and situations.",
+    "tool_name": "Act 2",
+    "tool_url": null
+   },
+   {
+    "end": "30:42",
+    "start": "29:13",
+    "sub_subject": "dev-utilities",
+    "subject": "ai-dev-tooling",
+    "summary": "Google DeepMind's GenCeption turns a video model into a unified vision system predicting depth, pose, segmentation, and 3D keypoints from a single video.",
+    "tool_name": "GenCeption",
+    "tool_url": null
+   },
+   {
+    "end": "33:28",
+    "start": "30:42",
+    "sub_subject": "model-release",
+    "subject": "llms-foundation-models",
+    "summary": "OpenAI's GPT Red is an automated red-teaming model that self-improves by attacking other models to find prompt injection vulnerabilities.",
+    "tool_name": "GPT Red",
+    "tool_url": null
+   },
+   {
+    "end": "35:07",
+    "start": "33:28",
+    "sub_subject": "video",
+    "subject": "ai-content-generation",
+    "summary": "Wan Streamer v0.3 upgrades a real-time character interaction system with full-body movement and environment consistency, but only a paper is released.",
+    "tool_name": "Wan Streamer v0.3",
+    "tool_url": null
+   },
+   {
+    "end": "38:08",
+    "start": "35:07",
+    "sub_subject": "model-release",
+    "subject": "llms-foundation-models",
+    "summary": "Thinking Machines releases Inkling, a 1T parameter MoE multimodal model with 41B active parameters, strong reasoning, coding, and audio/vision understanding.",
+    "tool_name": "Inkling",
+    "tool_url": null
+   },
+   {
+    "end": "40:46",
+    "start": "38:08",
+    "sub_subject": "rag",
+    "subject": "retrieval-rag-memory",
+    "summary": "Nvidia's Nemotron 3 Embed provides cost-efficient embedding models (8B and 1B) for retrieval and RAG, outperforming similar-sized models on benchmarks.",
+    "tool_name": "Nemotron Embed",
+    "tool_url": null
+   }
+  ],
+  "subjects": [
+   "ai-content-generation",
+   "ai-dev-tooling",
+   "llms-foundation-models",
+   "retrieval-rag-memory",
+   "unsorted"
+  ],
+  "title": "Kimi K3, realtime full-body waifus, robot UFC, song to MIDI, GPT Red, hoverboards: AI NEWS",
+  "transcript_source": "auto-captions",
+  "upload_date": "20260719",
+  "video_id": "uQ2Hqg5MZ-8",
+  "video_url": "https://www.youtube.com/watch?v=uQ2Hqg5MZ-8"
  }
 }

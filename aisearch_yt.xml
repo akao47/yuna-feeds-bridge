@@ -6,6 +6,51 @@
     <description>theAIsearch AI-news/tool roundups, segmented + subject-routed for Yuna's rss_aisearch_yt source. Segments ride in the sidecar.</description>
     <lastBuildDate>Sun, 19 Jul 2026 00:00:00 +0000</lastBuildDate>
     <item>
+      <title>Kimi K3, realtime full-body waifus, robot UFC, song to MIDI, GPT Red, hoverboards: AI NEWS</title>
+      <link>https://www.youtube.com/watch?v=uQ2Hqg5MZ-8</link>
+      <guid isPermaLink="false">uQ2Hqg5MZ-8</guid>
+      <pubDate>Sun, 19 Jul 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[Kimi K3, realtime full-body waifus, robot UFC, song to MIDI, GPT Red, hoverboards: AI NEWS — segmented AI-news roundup (19 segments).
+
+[ai-content-generation] Ardy: Nvidia releases RD, an AI that generates realistic 3D human motion in real-time from text or control signals and can drive a simulated Unitree G1 robot.
+
+[ai-content-generation] MobileWan: MobileWan enables running Alibaba's Wan 2.1 video generation locally on a smartphone, producing 5-second 480p videos in about 20 seconds.
+
+[ai-content-generation] PiD v1.5: Nvidia updates PID upscaler to v1.5 with better detail and color fidelity, compatible with models like Flux and Qwen-Image, and provides local install instructions.
+
+[ai-content-generation] Audio to MIDI: Audio to MIDI by Mirell separates a full song into per-instrument MIDI tracks, is open-source, and can be run locally after signing up for free.
+
+[ai-content-generation] WanDancer: WanDancer from Alibaba generates long, consistent videos of any character dancing to input music, with keyframe control, but requires 85 GB and high-end GPU.
+
+[ai-content-generation] GNM: Google's GNM generates dense 3D head meshes with precise control over identity, expression, and internal structures, released under Apache 2.0.
+
+[ai-dev-tooling] Lucida: Lucida is an open-source background remover that handles glass, camouflage, text, hair, and transparency, released under MIT and under 900 MB.
+
+[ai-content-generation] Motion4motion: Motion for Motion transfers motion between videos with different characters and proportions using point tracking, but only a technical paper is available.
+
+[llms-foundation-models] Bonsai 27B: Bonsai 27B compresses Qwen 3.6 27B to 1-bit (3.9 GB) and ternary (5.9 GB) variants, enabling a 27B parameter model to run on a smartphone.
+
+[llms-foundation-models] Kimi K3: Kimi K3 tops open-source leaderboards, nearing frontier performance on debate and kernel optimization benchmarks, with details on access and pricing.
+
+[unsorted] Robot MMA: First humanoid robot MMA event in China features teleoperated Engine AI T800 robots fighting in a cage, with commentary on future autonomy.
+
+[unsorted] Coolfly eVTOL: Coolfly Urban eVTOL hoverboard demonstrated transporting humanoid robots to the MMA arena, designed for future human transport.
+
+[unsorted] Robot centaur: Run Robotics unveils a centaur-style hybrid robot with humanoid upper body and four wheeled legs for industrial settings, carrying 210 kg.
+
+[ai-dev-tooling] Act 2: Sunday Robotics' Act 2 offline robotics model achieves 99% zero-shot success on household tasks like laundry folding across unseen clothes and situations.
+
+[ai-dev-tooling] GenCeption: Google DeepMind's GenCeption turns a video model into a unified vision system predicting depth, pose, segmentation, and 3D keypoints from a single video.
+
+[llms-foundation-models] GPT Red: OpenAI's GPT Red is an automated red-teaming model that self-improves by attacking other models to find prompt injection vulnerabilities.
+
+[ai-content-generation] Wan Streamer v0.3: Wan Streamer v0.3 upgrades a real-time character interaction system with full-body movement and environment consistency, but only a paper is released.
+
+[llms-foundation-models] Inkling: Thinking Machines releases Inkling, a 1T parameter MoE multimodal model with 41B active parameters, strong reasoning, coding, and audio/vision understanding.
+
+[retrieval-rag-memory] Nemotron Embed: Nvidia's Nemotron 3 Embed provides cost-efficient embedding models (8B and 1B) for retrieval and RAG, outperforming similar-sized models on benchmarks.]]></description>
+    </item>
+    <item>
       <title>New #1 open source AI model is here! FABLE LEVEL</title>
       <link>https://www.youtube.com/watch?v=bEnE5pbpe_Q</link>
       <guid isPermaLink="false">bEnE5pbpe_Q</guid>
