@@ -4,78 +4,78 @@
     <title>Anthropic News (yuna-feeds-bridge)</title>
     <link>https://www.anthropic.com/news</link>
     <description>RSS bridge for anthropic.com/news, scraped 4-hourly by GitHub Actions.</description>
-    <lastBuildDate>Tue, 21 Jul 2026 03:47:26 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 21 Jul 2026 06:42:21 +0000</lastBuildDate>
     <item>
       <title>Inviting hard questions Announcements Jul 9, 2026 We’re asking the public for their hardest questions about AI, and committing to show our work as we address them.</title>
       <link>https://www.anthropic.com/news/hard-questions</link>
       <guid isPermaLink="false">hard-questions</guid>
-      <pubDate>Tue, 21 Jul 2026 03:47:26 +0000</pubDate>
+      <pubDate>Tue, 21 Jul 2026 06:42:21 +0000</pubDate>
     </item>
     <item>
       <title>Announcements Jun 30, 2026 Redeploying Fable 5 Fable 5 returns globally July 1. We're also proposing an industry-wide framework for scoring jailbreak severity, together with Amazon, Microsoft, Google, and other Glasswing partners.</title>
       <link>https://www.anthropic.com/news/redeploying-fable-5</link>
       <guid isPermaLink="false">redeploying-fable-5</guid>
-      <pubDate>Tue, 21 Jul 2026 03:47:26 +0000</pubDate>
+      <pubDate>Tue, 21 Jul 2026 06:42:21 +0000</pubDate>
     </item>
     <item>
       <title>Product Jun 30, 2026 Introducing Claude Sonnet 5 Sonnet 5 delivers frontier performance across coding, agents, and professional work at scale.</title>
       <link>https://www.anthropic.com/news/claude-sonnet-5</link>
       <guid isPermaLink="false">claude-sonnet-5</guid>
-      <pubDate>Tue, 21 Jul 2026 03:47:26 +0000</pubDate>
+      <pubDate>Tue, 21 Jul 2026 06:42:21 +0000</pubDate>
     </item>
     <item>
       <title>Announcements Jun 30, 2026 Claude Science, an AI workbench for scientists, is now available Claude Science is a customizable app that integrates the tools and packages researchers most often use, produces auditable artifacts, and provides f</title>
       <link>https://www.anthropic.com/news/claude-science-ai-workbench</link>
       <guid isPermaLink="false">claude-science-ai-workbench</guid>
-      <pubDate>Tue, 21 Jul 2026 03:47:26 +0000</pubDate>
+      <pubDate>Tue, 21 Jul 2026 06:42:21 +0000</pubDate>
     </item>
     <item>
       <title>Jul 20, 2026 Announcements Apply for Anthropic’s AI for Science rare disease research grants</title>
       <link>https://www.anthropic.com/news/rare-disease-research-grants</link>
       <guid isPermaLink="false">rare-disease-research-grants</guid>
-      <pubDate>Tue, 21 Jul 2026 03:47:26 +0000</pubDate>
+      <pubDate>Tue, 21 Jul 2026 06:42:21 +0000</pubDate>
     </item>
     <item>
       <title>Jul 14, 2026 Product Introducing Claude for Teachers</title>
       <link>https://www.anthropic.com/news/claude-for-teachers</link>
       <guid isPermaLink="false">claude-for-teachers</guid>
-      <pubDate>Tue, 21 Jul 2026 03:47:26 +0000</pubDate>
+      <pubDate>Tue, 21 Jul 2026 06:42:21 +0000</pubDate>
     </item>
     <item>
       <title>Jul 14, 2026 Announcements Anthropic commits $10 million to Canadian AI research</title>
       <link>https://www.anthropic.com/news/canadian-ai-research</link>
       <guid isPermaLink="false">canadian-ai-research</guid>
-      <pubDate>Tue, 21 Jul 2026 03:47:26 +0000</pubDate>
+      <pubDate>Tue, 21 Jul 2026 06:42:21 +0000</pubDate>
     </item>
     <item>
       <title>Jul 9, 2026 Case Study UST is bringing Claude to physical AI</title>
       <link>https://www.anthropic.com/news/ust-claude</link>
       <guid isPermaLink="false">ust-claude</guid>
-      <pubDate>Tue, 21 Jul 2026 03:47:26 +0000</pubDate>
+      <pubDate>Tue, 21 Jul 2026 06:42:21 +0000</pubDate>
     </item>
     <item>
       <title>Jul 9, 2026 Announcements Ben Bernanke appointed to Anthropic’s Long-Term Benefit Trust</title>
       <link>https://www.anthropic.com/news/ben-bernanke</link>
       <guid isPermaLink="false">ben-bernanke</guid>
-      <pubDate>Tue, 21 Jul 2026 03:47:26 +0000</pubDate>
+      <pubDate>Tue, 21 Jul 2026 06:42:21 +0000</pubDate>
     </item>
     <item>
       <title>Jul 9, 2026 Announcements Introducing a way to reflect on how you use Claude</title>
       <link>https://www.anthropic.com/news/reflect-with-claude</link>
       <guid isPermaLink="false">reflect-with-claude</guid>
-      <pubDate>Tue, 21 Jul 2026 03:47:26 +0000</pubDate>
+      <pubDate>Tue, 21 Jul 2026 06:42:21 +0000</pubDate>
     </item>
     <item>
       <title>Jul 6, 2026 Case Study Government of Alberta uses Claude to find and fix cybersecurity vulnerabilities across government systems</title>
       <link>https://www.anthropic.com/news/alberta-government-claude-cybersecurity</link>
       <guid isPermaLink="false">alberta-government-claude-cybersecurity</guid>
-      <pubDate>Tue, 21 Jul 2026 03:47:26 +0000</pubDate>
+      <pubDate>Tue, 21 Jul 2026 06:42:21 +0000</pubDate>
     </item>
     <item>
       <title>Jul 2, 2026 Announcements More details on Fable 5’s cyber safeguards and our jailbreak framework</title>
       <link>https://www.anthropic.com/news/fable-safeguards-jailbreak-framework</link>
       <guid isPermaLink="false">fable-safeguards-jailbreak-framework</guid>
-      <pubDate>Tue, 21 Jul 2026 03:47:26 +0000</pubDate>
+      <pubDate>Tue, 21 Jul 2026 06:42:21 +0000</pubDate>
     </item>
   </channel>
 </rss>
