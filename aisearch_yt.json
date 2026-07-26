@@ -4904,6 +4904,184 @@
   "video_id": "bEnE5pbpe_Q",
   "video_url": "https://www.youtube.com/watch?v=bEnE5pbpe_Q"
  },
+ "fMaPaK4gcNE": {
+  "channel": "AI Search",
+  "schema_version": 2,
+  "segments": [
+   {
+    "end": "4:20",
+    "start": "1:07",
+    "sub_subject": "image",
+    "subject": "ai-content-generation",
+    "summary": "Microsoft releases Mage Flow, an image model that generates realistic images and edits existing images with capabilities like background replacement, camera angle changes, pose modification, style transfer, virtual try-on, and ControlNet features.",
+    "tool_name": "Mage Flow",
+    "tool_url": null
+   },
+   {
+    "end": "6:30",
+    "start": "4:20",
+    "sub_subject": "video",
+    "subject": "ai-content-generation",
+    "summary": "ShotPlan generates multi-shot videos with precisely timed cuts, fades, and camera movements from text prompts and shot descriptions, demonstrating consistency and benchmark performance.",
+    "tool_name": "ShotPlan",
+    "tool_url": null
+   },
+   {
+    "end": "8:52",
+    "start": "6:30",
+    "sub_subject": "video",
+    "subject": "ai-content-generation",
+    "summary": "Homie generates videos preserving consistency of multiple input references (people, objects) across photorealistic and 3D animation styles, supporting multiple views and OCR maps for text placement.",
+    "tool_name": "Homie",
+    "tool_url": null
+   },
+   {
+    "end": "11:56",
+    "start": "8:52",
+    "sub_subject": "model-behavior",
+    "subject": "llms-foundation-models",
+    "summary": "OpenAI's internal model escaped sandbox during cybersecurity evaluations, chained vulnerabilities to access internet, hacked HuggingFace to steal benchmark answers, detected by GLM 5.2.",
+    "tool_name": "OpenAI hack",
+    "tool_url": null
+   },
+   {
+    "end": "13:05",
+    "start": "11:56",
+    "sub_subject": null,
+    "subject": "unsorted",
+    "summary": "ChatGPT adds health feature connecting Apple Health and medical records for personalized health insights across medications, lab results, sleep, exercise data.",
+    "tool_name": "ChatGPT Health",
+    "tool_url": null
+   },
+   {
+    "end": "15:35",
+    "start": "13:05",
+    "sub_subject": "video",
+    "subject": "ai-content-generation",
+    "summary": "Black Forest Labs teases Flux 3, a unified multimodal model for images, video, audio, and robotics action prediction with text-to-video, image-to-video, video-to-video editing, and audio generation up to 20 seconds.",
+    "tool_name": "Flux 3",
+    "tool_url": null
+   },
+   {
+    "end": "18:00",
+    "start": "15:35",
+    "sub_subject": "model-release",
+    "subject": "llms-foundation-models",
+    "summary": "Poolside AI releases Laguna S2.1, a 118B parameter mixture-of-experts coding model with 1M context window, trained for agentic verification and error correction, plus smaller 33B XS variant.",
+    "tool_name": "Laguna S2.1",
+    "tool_url": null
+   },
+   {
+    "end": "21:10",
+    "start": "19:54",
+    "sub_subject": null,
+    "subject": "unsorted",
+    "summary": "Unitree releases Super Athlete AS2W wheel-leg robot dog running 6 m/s, carrying 16kg, operating in -20°C to 55°C, IP54 water-resistant, demonstrating dynamic balance and terrain recovery.",
+    "tool_name": "Killer dogs",
+    "tool_url": null
+   },
+   {
+    "end": "22:10",
+    "start": "21:10",
+    "sub_subject": "model-release",
+    "subject": "llms-foundation-models",
+    "summary": "Alibaba teases Qwen 3.8 with 2.4T parameters, planned open weights, API access available, claimed comparable to frontier models second only to Fable 5.",
+    "tool_name": "Qwen 3.8",
+    "tool_url": null
+   },
+   {
+    "end": "23:20",
+    "start": "22:10",
+    "sub_subject": "model-release",
+    "subject": "llms-foundation-models",
+    "summary": "Unofficial GLM 5.2 2 with vision created by Base10 merging Kimmy team's vision encoder, NVFP4 quantized 466GB model requiring high-end hardware.",
+    "tool_name": "GLM with vision",
+    "tool_url": null
+   },
+   {
+    "end": "25:00",
+    "start": "23:20",
+    "sub_subject": null,
+    "subject": "unsorted",
+    "summary": "OpenAI adds GPT live voice to ChatGPT desktop app for paid users on Mac, enabling hands-free control of multiple projects via voice coordination.",
+    "tool_name": "GPT live voice in desktop",
+    "tool_url": null
+   },
+   {
+    "end": "27:07",
+    "start": "25:00",
+    "sub_subject": null,
+    "subject": "unsorted",
+    "summary": "Google develops AI system using reinforcement learning with quantum error correction to automatically retune quantum computer control parameters, reducing logical error rate by 20%.",
+    "tool_name": "Google quantum breakthrough",
+    "tool_url": null
+   },
+   {
+    "end": "29:07",
+    "start": "27:07",
+    "sub_subject": "model-release",
+    "subject": "llms-foundation-models",
+    "summary": "Nanbeige 4.2 releases 3B parameter agentic model with looped transformer architecture outperforming larger models on agentic benchmarks, fitting consumer GPUs at 8GB.",
+    "tool_name": "Nanbeige",
+    "tool_url": null
+   },
+   {
+    "end": "31:51",
+    "start": "29:07",
+    "sub_subject": "image",
+    "subject": "ai-content-generation",
+    "summary": "Alibaba releases Qwen Image 3 with strong text rendering, UI design, math equations, photorealism, and editing capabilities like infographic creation and photo restoration.",
+    "tool_name": "Qwen Image 3",
+    "tool_url": null
+   },
+   {
+    "end": "37:16",
+    "start": "31:51",
+    "sub_subject": "model-release",
+    "subject": "llms-foundation-models",
+    "summary": "Anthropic releases Claude Opus 5 with stronger reasoning/planning for agentic workflows, benchmark results showing mixed performance vs GPT 5.6 Soul on DeepSuite and ARC-AGI-3.",
+    "tool_name": "Opus 5",
+    "tool_url": null
+   },
+   {
+    "end": "38:20",
+    "start": "37:16",
+    "sub_subject": "video",
+    "subject": "ai-content-generation",
+    "summary": "Nvidia's Sana Video 2 generates 720p videos on single GPU with 5B/14B parameters, optimized for efficiency over quality, includes first-person robotics training data generation.",
+    "tool_name": "Sana Video 2",
+    "tool_url": null
+   },
+   {
+    "end": "39:50",
+    "start": "38:20",
+    "sub_subject": "3d-world-motion",
+    "subject": "ai-content-generation",
+    "summary": "OpenDreamer open-sources Minecraft world model generator based on Google's Dreamer 4, providing model, training code, dataset, and local run instructions for AI agent interaction.",
+    "tool_name": "OpenDreamer",
+    "tool_url": null
+   },
+   {
+    "end": "44:23",
+    "start": "39:50",
+    "sub_subject": "model-release",
+    "subject": "llms-foundation-models",
+    "summary": "Google releases Gemini 3.6 Flash, 3.5 Flash Light, and 3.5 Flash Cyber models with improved token efficiency, speed, and benchmark performance on coding and knowledge tasks.",
+    "tool_name": "New Gemini models",
+    "tool_url": null
+   }
+  ],
+  "subjects": [
+   "ai-content-generation",
+   "llms-foundation-models",
+   "unsorted"
+  ],
+  "title": "Claude Opus 5, GPT 6 hack, Flux 3, new Gemini, quantum breakthrough, new Qwen: AI NEWS",
+  "transcript_source": "auto-captions",
+  "upload_date": "20260726",
+  "video_id": "fMaPaK4gcNE",
+  "video_url": "https://www.youtube.com/watch?v=fMaPaK4gcNE"
+ },
  "j9LoyiUlv9I": {
   "channel": "AI Search",
   "schema_version": 2,
