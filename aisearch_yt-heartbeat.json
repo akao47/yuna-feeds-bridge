@@ -1,12 +1,12 @@
 {
   "source": "rss_aisearch_yt",
-  "status": "ok",
-  "last_run": "2026-07-27T00:23:01Z",
-  "last_success": "2026-07-27T00:23:01Z",
+  "status": "error",
+  "last_run": "2026-07-27T04:23:01Z",
+  "last_success": null,
   "items_total": 38,
   "items_new": 0,
   "videos_listed": 30,
-  "empty_videos": 0,
+  "empty_videos": 1,
   "schema_version": 2,
-  "error": null
+  "error": "drift: 1/1 new videos yielded no segments"
 }
