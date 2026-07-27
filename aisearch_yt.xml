@@ -6,6 +6,35 @@
     <description>theAIsearch AI-news/tool roundups, segmented + subject-routed for Yuna's rss_aisearch_yt source. Segments ride in the sidecar.</description>
     <lastBuildDate>Mon, 27 Jul 2026 00:00:00 +0000</lastBuildDate>
     <item>
+      <title>Claude Opus 5 is a freak</title>
+      <link>https://www.youtube.com/watch?v=RCsBJz4W4bA</link>
+      <guid isPermaLink="false">RCsBJz4W4bA</guid>
+      <pubDate>Mon, 27 Jul 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[Claude Opus 5 is a freak — segmented AI-news roundup (11 segments).
+
+[llms-foundation-models] Opus 5 intro: Introduces Claude Opus 5, covering its specs, cost, performance compared to other models, and the use of Claw Code for agentic coding demos.
+
+[claude-code] Windows on browser: Uses Ultra Code to build a browser-based Windows 11 replica with working apps like Office and Discord, automatically detecting and fixing errors.
+
+[llms-foundation-models] Image to 3D: Tests Opus 5's ability to generate a faithful 3D animated scene from a reference geometric office image using a single HTML file.
+
+[claude-code] Financial presentation video: Uses Ultra Code to autonomously find Q4 financial reports, analyze data, install Hyperframes, generate Gemini TTS voiceover, and render a presentation video.
+
+[claude-code] Blender X wing fighter: Uses Ultra Code with Blender MCP to model an X-wing fighter with realistic textures, hinged wings, and R2-D2 slot, verifying via screenshots.
+
+[claude-code] Music composition: Uses Ultra Code to compose a cinematic melodic techno song by downloading VST plugins, loading into Waveform DAW, and arranging tracks with automation.
+
+[llms-foundation-models] FROG TEST: Tests Opus 5's visual reasoning by asking it to find a hidden frog in an image; model splits image into grid but fails to detect the frog.
+
+[llms-foundation-models] Identifying cancer: Tests Opus 5's medical image analysis by asking it to identify tumors in six scans; model incorrectly identifies all six cases.
+
+[llms-foundation-models] Deep research: Tests Opus 5's deep research capability on atherosclerosis pathophysiology; model generates flowchart, diagrams, tables, and graphs but user finds output less organized than competitors.
+
+[eval-model-quality] Specs cost benchmarks: Presents Opus 5 specs including 1M token context and benchmark results on Deep Suite v1.1 and ARC-AGI-3, noting Opus 5 scores 30% on ARC-AGI-3.
+
+[llms-foundation-models] Guardrails: Describes Opus 5 guardrails: sometimes rejects cyber/biology prompts and falls back to Opus 4.8, but is less restrictive than Fable 5; requires paid plan.]]></description>
+    </item>
+    <item>
       <title>Claude Opus 5, GPT 6 hack, Flux 3, new Gemini, quantum breakthrough, new Qwen: AI NEWS</title>
       <link>https://www.youtube.com/watch?v=fMaPaK4gcNE</link>
       <guid isPermaLink="false">fMaPaK4gcNE</guid>

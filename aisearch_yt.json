@@ -3091,6 +3091,121 @@
   "video_id": "QvN6Tu6dHYM",
   "video_url": "https://www.youtube.com/watch?v=QvN6Tu6dHYM"
  },
+ "RCsBJz4W4bA": {
+  "channel": "AI Search",
+  "schema_version": 2,
+  "segments": [
+   {
+    "end": "1:02",
+    "start": "0:00",
+    "sub_subject": "model-release",
+    "subject": "llms-foundation-models",
+    "summary": "Introduces Claude Opus 5, covering its specs, cost, performance compared to other models, and the use of Claw Code for agentic coding demos.",
+    "tool_name": "Opus 5 intro",
+    "tool_url": null
+   },
+   {
+    "end": "7:16",
+    "start": "1:02",
+    "sub_subject": "build-demo",
+    "subject": "claude-code",
+    "summary": "Uses Ultra Code to build a browser-based Windows 11 replica with working apps like Office and Discord, automatically detecting and fixing errors.",
+    "tool_name": "Windows on browser",
+    "tool_url": null
+   },
+   {
+    "end": "9:08",
+    "start": "7:16",
+    "sub_subject": "multimodal-demo",
+    "subject": "llms-foundation-models",
+    "summary": "Tests Opus 5's ability to generate a faithful 3D animated scene from a reference geometric office image using a single HTML file.",
+    "tool_name": "Image to 3D",
+    "tool_url": null
+   },
+   {
+    "end": "11:56",
+    "start": "9:08",
+    "sub_subject": "build-demo",
+    "subject": "claude-code",
+    "summary": "Uses Ultra Code to autonomously find Q4 financial reports, analyze data, install Hyperframes, generate Gemini TTS voiceover, and render a presentation video.",
+    "tool_name": "Financial presentation video",
+    "tool_url": null
+   },
+   {
+    "end": "15:38",
+    "start": "13:54",
+    "sub_subject": "build-demo",
+    "subject": "claude-code",
+    "summary": "Uses Ultra Code with Blender MCP to model an X-wing fighter with realistic textures, hinged wings, and R2-D2 slot, verifying via screenshots.",
+    "tool_name": "Blender X wing fighter",
+    "tool_url": null
+   },
+   {
+    "end": "20:55",
+    "start": "15:38",
+    "sub_subject": "build-demo",
+    "subject": "claude-code",
+    "summary": "Uses Ultra Code to compose a cinematic melodic techno song by downloading VST plugins, loading into Waveform DAW, and arranging tracks with automation.",
+    "tool_name": "Music composition",
+    "tool_url": null
+   },
+   {
+    "end": "22:02",
+    "start": "20:55",
+    "sub_subject": "multimodal-demo",
+    "subject": "llms-foundation-models",
+    "summary": "Tests Opus 5's visual reasoning by asking it to find a hidden frog in an image; model splits image into grid but fails to detect the frog.",
+    "tool_name": "FROG TEST",
+    "tool_url": null
+   },
+   {
+    "end": "23:09",
+    "start": "22:02",
+    "sub_subject": "multimodal-demo",
+    "subject": "llms-foundation-models",
+    "summary": "Tests Opus 5's medical image analysis by asking it to identify tumors in six scans; model incorrectly identifies all six cases.",
+    "tool_name": "Identifying cancer",
+    "tool_url": null
+   },
+   {
+    "end": "24:43",
+    "start": "23:09",
+    "sub_subject": "reasoning-demo",
+    "subject": "llms-foundation-models",
+    "summary": "Tests Opus 5's deep research capability on atherosclerosis pathophysiology; model generates flowchart, diagrams, tables, and graphs but user finds output less organized than competitors.",
+    "tool_name": "Deep research",
+    "tool_url": null
+   },
+   {
+    "end": "29:50",
+    "start": "24:43",
+    "sub_subject": "benchmarks",
+    "subject": "eval-model-quality",
+    "summary": "Presents Opus 5 specs including 1M token context and benchmark results on Deep Suite v1.1 and ARC-AGI-3, noting Opus 5 scores 30% on ARC-AGI-3.",
+    "tool_name": "Specs cost benchmarks",
+    "tool_url": null
+   },
+   {
+    "end": "30:52",
+    "start": "29:50",
+    "sub_subject": "model-behavior",
+    "subject": "llms-foundation-models",
+    "summary": "Describes Opus 5 guardrails: sometimes rejects cyber/biology prompts and falls back to Opus 4.8, but is less restrictive than Fable 5; requires paid plan.",
+    "tool_name": "Guardrails",
+    "tool_url": null
+   }
+  ],
+  "subjects": [
+   "claude-code",
+   "eval-model-quality",
+   "llms-foundation-models"
+  ],
+  "title": "Claude Opus 5 is a freak",
+  "transcript_source": "auto-captions",
+  "upload_date": "20260727",
+  "video_id": "RCsBJz4W4bA",
+  "video_url": "https://www.youtube.com/watch?v=RCsBJz4W4bA"
+ },
  "RdqYvdT74i0": {
   "channel": "AI Search",
   "schema_version": 2,
