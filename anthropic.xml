@@ -4,72 +4,72 @@
     <title>Anthropic News (yuna-feeds-bridge)</title>
     <link>https://www.anthropic.com/news</link>
     <description>RSS bridge for anthropic.com/news, scraped 4-hourly by GitHub Actions.</description>
-    <lastBuildDate>Mon, 31 Aug 2026 16:10:42 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 31 Aug 2026 21:29:02 +0000</lastBuildDate>
     <item>
       <title>Previewing the Model Hardware Standard Announcements Aug 27, 2026 We’re opening a research preview of the Model Hardware Standard (MHS), a shared specification for AI agents to safely operate physical devices, to a first group of scientific</title>
       <link>https://www.anthropic.com/news/model-hardware-standard-research-preview</link>
       <guid isPermaLink="false">model-hardware-standard-research-preview</guid>
-      <pubDate>Mon, 31 Aug 2026 16:10:42 +0000</pubDate>
+      <pubDate>Mon, 31 Aug 2026 21:29:02 +0000</pubDate>
     </item>
     <item>
       <title>Announcements Aug 14, 2026 How Claude’s text watermark works In this article, we share answers to some of the questions we’ve received about how our chosen watermarking method works, whether it affects Claude’s outputs, and why we’re making</title>
       <link>https://www.anthropic.com/news/claude-text-watermark</link>
       <guid isPermaLink="false">claude-text-watermark</guid>
-      <pubDate>Mon, 31 Aug 2026 16:10:42 +0000</pubDate>
+      <pubDate>Mon, 31 Aug 2026 21:29:02 +0000</pubDate>
     </item>
     <item>
       <title>Product Jul 24, 2026 Introducing Claude Opus 5 Opus 5 is a step change improvement for the Opus tier powering long-running agents while delivering improvements in coding and professional work.</title>
       <link>https://www.anthropic.com/news/claude-opus-5</link>
       <guid isPermaLink="false">claude-opus-5</guid>
-      <pubDate>Mon, 31 Aug 2026 16:10:42 +0000</pubDate>
+      <pubDate>Mon, 31 Aug 2026 21:29:02 +0000</pubDate>
     </item>
     <item>
       <title>Product Jun 30, 2026 Introducing Claude Sonnet 5 Sonnet 5 delivers frontier performance across coding, agents, and professional work at scale.</title>
       <link>https://www.anthropic.com/news/claude-sonnet-5</link>
       <guid isPermaLink="false">claude-sonnet-5</guid>
-      <pubDate>Mon, 31 Aug 2026 16:10:42 +0000</pubDate>
+      <pubDate>Mon, 31 Aug 2026 21:29:02 +0000</pubDate>
     </item>
     <item>
       <title>Aug 27, 2026 Announcements Expanding our support for scientists</title>
       <link>https://www.anthropic.com/news/expanding-support-for-scientists</link>
       <guid isPermaLink="false">expanding-support-for-scientists</guid>
-      <pubDate>Mon, 31 Aug 2026 16:10:42 +0000</pubDate>
+      <pubDate>Mon, 31 Aug 2026 21:29:02 +0000</pubDate>
     </item>
     <item>
       <title>Aug 25, 2026 Announcements Funding better evaluations of AI’s impact on wellbeing</title>
       <link>https://www.anthropic.com/news/wellbeing-research-grants</link>
       <guid isPermaLink="false">wellbeing-research-grants</guid>
-      <pubDate>Mon, 31 Aug 2026 16:10:42 +0000</pubDate>
+      <pubDate>Mon, 31 Aug 2026 21:29:02 +0000</pubDate>
     </item>
     <item>
       <title>Aug 7, 2026 Product Improving Fable 5's biology safeguards</title>
       <link>https://www.anthropic.com/news/improving-fable-5-s-biology-safeguards</link>
       <guid isPermaLink="false">improving-fable-5-s-biology-safeguards</guid>
-      <pubDate>Mon, 31 Aug 2026 16:10:42 +0000</pubDate>
+      <pubDate>Mon, 31 Aug 2026 21:29:02 +0000</pubDate>
     </item>
     <item>
       <title>Aug 4, 2026 Announcements Mariano-Florentino (Tino) Cuéllar to join Anthropic as Chief Global Affairs Officer</title>
       <link>https://www.anthropic.com/news/tino-cuellar</link>
       <guid isPermaLink="false">tino-cuellar</guid>
-      <pubDate>Mon, 31 Aug 2026 16:10:42 +0000</pubDate>
+      <pubDate>Mon, 31 Aug 2026 21:29:02 +0000</pubDate>
     </item>
     <item>
       <title>Jul 30, 2026 Investigating three real-world incidents in our cybersecurity evaluations</title>
       <link>https://www.anthropic.com/news/investigating-incidents-cybersecurity-evals</link>
       <guid isPermaLink="false">investigating-incidents-cybersecurity-evals</guid>
-      <pubDate>Mon, 31 Aug 2026 16:10:42 +0000</pubDate>
+      <pubDate>Mon, 31 Aug 2026 21:29:02 +0000</pubDate>
     </item>
     <item>
       <title>Jul 27, 2026 Announcements Our position on open-weights models</title>
       <link>https://www.anthropic.com/news/position-open-weights-models</link>
       <guid isPermaLink="false">position-open-weights-models</guid>
-      <pubDate>Mon, 31 Aug 2026 16:10:42 +0000</pubDate>
+      <pubDate>Mon, 31 Aug 2026 21:29:02 +0000</pubDate>
     </item>
     <item>
       <title>Jul 27, 2026 Announcements Cognizant and Anthropic expand their partnership to bring Claude to enterprise clients</title>
       <link>https://www.anthropic.com/news/cognizant-anthropic</link>
       <guid isPermaLink="false">cognizant-anthropic</guid>
-      <pubDate>Mon, 31 Aug 2026 16:10:42 +0000</pubDate>
+      <pubDate>Mon, 31 Aug 2026 21:29:02 +0000</pubDate>
     </item>
   </channel>
 </rss>
