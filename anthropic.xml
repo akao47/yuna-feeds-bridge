@@ -4,66 +4,66 @@
     <title>Anthropic News (yuna-feeds-bridge)</title>
     <link>https://www.anthropic.com/news</link>
     <description>RSS bridge for anthropic.com/news, scraped 4-hourly by GitHub Actions.</description>
-    <lastBuildDate>Wed, 23 Sep 2026 04:48:02 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 23 Sep 2026 13:39:55 +0000</lastBuildDate>
     <item>
       <title>Announcements Aug 31, 2026 Improving our alignment and security efforts On July 30, we reported three incidents in which Claude models gained unauthorized access to real computer systems. We are conducting an in-depth analysis of both incid</title>
       <link>https://www.anthropic.com/news/improving-alignment-security-efforts</link>
       <guid isPermaLink="false">improving-alignment-security-efforts</guid>
-      <pubDate>Wed, 23 Sep 2026 04:48:02 +0000</pubDate>
+      <pubDate>Wed, 23 Sep 2026 13:39:55 +0000</pubDate>
     </item>
     <item>
       <title>Announcements Aug 27, 2026 Previewing the Model Hardware Standard We’re opening a research preview of the Model Hardware Standard (MHS), a shared specification for AI agents to safely operate physical devices, to a first group of scientific</title>
       <link>https://www.anthropic.com/news/model-hardware-standard-research-preview</link>
       <guid isPermaLink="false">model-hardware-standard-research-preview</guid>
-      <pubDate>Wed, 23 Sep 2026 04:48:02 +0000</pubDate>
+      <pubDate>Wed, 23 Sep 2026 13:39:55 +0000</pubDate>
     </item>
     <item>
       <title>Sep 18, 2026 Announcements Partnering with Accenture on embedded evaluation</title>
       <link>https://www.anthropic.com/news/accenture-embedded-evaluation</link>
       <guid isPermaLink="false">accenture-embedded-evaluation</guid>
-      <pubDate>Wed, 23 Sep 2026 04:48:02 +0000</pubDate>
+      <pubDate>Wed, 23 Sep 2026 13:39:55 +0000</pubDate>
     </item>
     <item>
       <title>Sep 17, 2026 Announcements Introducing the Life Sciences Verification Program</title>
       <link>https://www.anthropic.com/news/life-sciences-verification-program</link>
       <guid isPermaLink="false">life-sciences-verification-program</guid>
-      <pubDate>Wed, 23 Sep 2026 04:48:02 +0000</pubDate>
+      <pubDate>Wed, 23 Sep 2026 13:39:55 +0000</pubDate>
     </item>
     <item>
       <title>Sep 1, 2026 Announcements Developing Enterprise Frontier Safeguards with our customers</title>
       <link>https://www.anthropic.com/news/enterprise-frontier-safeguards</link>
       <guid isPermaLink="false">enterprise-frontier-safeguards</guid>
-      <pubDate>Wed, 23 Sep 2026 04:48:02 +0000</pubDate>
+      <pubDate>Wed, 23 Sep 2026 13:39:55 +0000</pubDate>
     </item>
     <item>
       <title>Aug 27, 2026 Announcements Expanding our support for scientists</title>
       <link>https://www.anthropic.com/news/expanding-support-for-scientists</link>
       <guid isPermaLink="false">expanding-support-for-scientists</guid>
-      <pubDate>Wed, 23 Sep 2026 04:48:02 +0000</pubDate>
+      <pubDate>Wed, 23 Sep 2026 13:39:55 +0000</pubDate>
     </item>
     <item>
       <title>Aug 25, 2026 Announcements Funding better evaluations of AI’s impact on wellbeing</title>
       <link>https://www.anthropic.com/news/wellbeing-research-grants</link>
       <guid isPermaLink="false">wellbeing-research-grants</guid>
-      <pubDate>Wed, 23 Sep 2026 04:48:02 +0000</pubDate>
+      <pubDate>Wed, 23 Sep 2026 13:39:55 +0000</pubDate>
     </item>
     <item>
       <title>Aug 14, 2026 Announcements How Claude’s text watermark works</title>
       <link>https://www.anthropic.com/news/claude-text-watermark</link>
       <guid isPermaLink="false">claude-text-watermark</guid>
-      <pubDate>Wed, 23 Sep 2026 04:48:02 +0000</pubDate>
+      <pubDate>Wed, 23 Sep 2026 13:39:55 +0000</pubDate>
     </item>
     <item>
       <title>Aug 7, 2026 Product Improving Fable 5's biology safeguards</title>
       <link>https://www.anthropic.com/news/improving-fable-5-s-biology-safeguards</link>
       <guid isPermaLink="false">improving-fable-5-s-biology-safeguards</guid>
-      <pubDate>Wed, 23 Sep 2026 04:48:02 +0000</pubDate>
+      <pubDate>Wed, 23 Sep 2026 13:39:55 +0000</pubDate>
     </item>
     <item>
       <title>Aug 4, 2026 Announcements Mariano-Florentino (Tino) Cuéllar to join Anthropic as Chief Global Affairs Officer</title>
       <link>https://www.anthropic.com/news/tino-cuellar</link>
       <guid isPermaLink="false">tino-cuellar</guid>
-      <pubDate>Wed, 23 Sep 2026 04:48:02 +0000</pubDate>
+      <pubDate>Wed, 23 Sep 2026 13:39:55 +0000</pubDate>
     </item>
   </channel>
 </rss>
